@@ -1,5 +1,0 @@
-<view class="container">
-    <view class="protocol-box">
-        <protocol-pop-up bind:__l="__l" bind:closeProtocolPopup="__e" bind:handleAgreed="__e" data-event-opts="{{[ [ '^closeProtocolPopup',[ ['doNotAgree'] ] ],[ '^handleAgreed',[ ['agreeWith'] ] ] ]}}" showProtocolPopUp="{{true}}" vueId="1"></protocol-pop-up>
-    </view>
-</view>

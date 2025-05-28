@@ -1,8 +1,0 @@
-<view class="navbar data-v-52b2bf54">
-    <view class="item data-v-52b2bf54" wx:for="{{tabs}}" wx:key="index">
-        <view bindtap="__e" class="{{['cont data-v-52b2bf54',activeIndex===index?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'tabClick',[index] ] ] ] ]}}" id="{{index}}">
-            <view class="title data-v-52b2bf54">{{''+(item.title||item)+''}}</view>
-        </view>
-    </view>
-    <view class="line data-v-52b2bf54" style="{{'width:'+barLineWidth+'px'+';'+'transform:'+'translateX('+sliderOffset+'px)'+';'}}"></view>
-</view>

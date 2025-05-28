@@ -1,3 +1,0 @@
-<view class="identify-certificate data-v-0c92ae31" wx:if="{{isReady}}">
-    <painter bind:__l="__l" bind:imgErr="__e" bind:imgOK="__e" class="data-v-0c92ae31" customStyle="{{customStyle}}" data-com-type="wx" data-event-opts="{{[ [ '^imgOK',[ ['onImgOk'] ] ],[ '^imgErr',[ ['onImgErr'] ] ] ]}}" palette="{{template}}" vueId="1" widthPixels="900" wx:if="{{painterShow&&wxCode}}"></painter>
-</view>

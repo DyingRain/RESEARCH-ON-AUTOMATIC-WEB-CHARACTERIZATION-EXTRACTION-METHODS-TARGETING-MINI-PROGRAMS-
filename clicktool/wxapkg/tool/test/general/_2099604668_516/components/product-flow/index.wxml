@@ -1,6 +1,0 @@
-<view class="product-flow data-v-34e2eedf">
-    <slot wx:if="{{isDefaultSlot}}"></slot>
-    <block wx:else>
-        <product-item bind:__l="__l" bindtap="__e" class="product-item data-v-34e2eedf" data-event-opts="{{[ [ 'tap',[ [ '$emit',[ 'product-click',[ 'o',['item',item],['index',index] ] ] ] ] ] ]}}" data-index="{{index}}" detail="{{item}}" index="{{index}}" vueId="{{'1-'+index}}" wx:for="{{list}}" wx:key="index"></product-item>
-    </block>
-</view>

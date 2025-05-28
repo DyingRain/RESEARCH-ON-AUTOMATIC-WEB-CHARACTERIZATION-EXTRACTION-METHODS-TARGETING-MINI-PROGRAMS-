@@ -1,7 +1,0 @@
-<view catchtouchend="__e" catchtouchmove="__e" class="download-pop data-v-c48eea62" data-event-opts="{{[ [ 'touchmove',[ [ '',['$event'] ] ] ],[ 'touchend',[ [ '',['$event'] ] ] ] ]}}" wx:if="{{show}}">
-    <view class="download-content data-v-c48eea62">
-        <image class="download-img data-v-c48eea62" src="https://h5static.dewucdn.com/node-common/JUU1JUJDJUI5JUU3JUFBJTk3QDN4.png"></image>
-        <view catchtap="__e" class="close-btn data-v-c48eea62" data-event-opts="{{[ [ 'tap',[ [ 'closeDownLoad',['$event'] ] ] ] ]}}"></view>
-        <view catchtap="__e" class="download-btn data-v-c48eea62" data-event-opts="{{[ [ 'tap',[ [ 'down',['$event'] ] ] ] ]}}"></view>
-    </view>
-</view>

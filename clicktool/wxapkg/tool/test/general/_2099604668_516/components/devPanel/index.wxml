@@ -1,4 +1,0 @@
-<view class="wrap data-v-3b4a42c2">
-    <view bindtap="__e" bindtouchend="__e" bindtouchstart="__e" catchtouchmove="__e" class="button _div data-v-3b4a42c2" data-event-opts="{{[ [ 'touchstart',[ [ 'onTouchStart',['$event'] ] ] ],[ 'touchmove',[ [ 'onTouchMove',['$event'] ] ] ],[ 'touchend',[ [ 'onTouchEnd',['$event'] ] ] ],[ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" style="{{'top:'+(moving?movingY+'px':pos.y+'px')+';'+'left:'+(moving?movingX+'px':pos.x+'px')+';'}}">DEV</view>
-    <modal bind:__l="__l" bind:close="__e" class="data-v-3b4a42c2" data-event-opts="{{[ [ '^close',[ ['e1'] ] ] ]}}" vueId="1" wx:if="{{showModal}}"></modal>
-</view>

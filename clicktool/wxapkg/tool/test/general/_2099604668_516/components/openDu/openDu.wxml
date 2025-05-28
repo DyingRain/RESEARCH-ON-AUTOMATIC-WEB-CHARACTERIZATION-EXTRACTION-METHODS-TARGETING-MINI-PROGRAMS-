@@ -1,4 +1,0 @@
-<button appParameter="{{appParameter}}" binderror="__e" class="openDu" data-event-opts="{{[ [ 'error',[ [ 'launchAppError',['$event'] ] ] ] ]}}" openType="launchApp" wx:if="{{show}}">
-    <view class="content">打开得物App</view>
-    <image class="icon" src="https://h5static.dewucdn.com/node-common/d2l0aGVBcnJvd0AyeDE1OTM3NTU2NjY2NjM=.png"></image>
-</button>

@@ -1,6 +1,0 @@
-<view hidden="{{!popShow}}">
-    <view bindtap="__e" catchtouchmove="__e" class="popup-layer" data-event-opts="{{[ [ 'tap',[ [ 'ableClose',['$event'] ] ] ],[ 'touchmove',[ [ 'moveHandle',['$event'] ] ] ] ]}}" hidden="{{!(popShow&&showPop)}}"></view>
-    <view catchtap="__e" class="{{['popup-content vue-ref',borderRadius?'borderRadius':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'stopEvent',['$event'] ] ] ] ]}}" data-ref="popRef" style="{{_location}}">
-        <slot></slot>
-    </view>
-</view>

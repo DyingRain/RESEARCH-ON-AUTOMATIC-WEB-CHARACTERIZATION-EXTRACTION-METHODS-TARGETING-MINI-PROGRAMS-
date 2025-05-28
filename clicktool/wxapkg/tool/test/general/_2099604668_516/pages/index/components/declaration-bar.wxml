@@ -1,3 +1,0 @@
-<view bindtap="__e" class="declaration data-v-45b79bb0" data-event-opts="{{[ [ 'tap',[ [ 'goDeclaration',['$event'] ] ] ] ]}}" hidden="{{!(type===0)}}">
-    <image class="img data-v-45b79bb0" src="https://webimg.dewucdn.com/node-common/11440277-cd5d-fe3f-d4b5-4008dac38505-1065-102.png"></image>
-</view>
