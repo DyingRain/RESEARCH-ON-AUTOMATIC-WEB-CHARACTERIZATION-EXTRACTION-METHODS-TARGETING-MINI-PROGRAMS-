@@ -1,0 +1,30 @@
+<view bindtap="__e" class="qa data-v-6225a526" data-event-opts="{{[ [ 'tap',[ [ 'identifyTrack',['$event'] ] ] ] ]}}">
+    <view class="titlet data-v-6225a526">鉴别答疑<text bindtap="__e" class="check data-v-6225a526" data-event-opts="{{[ [ 'tap',[ [ 'handleqa',['$event'] ] ] ] ]}}" mark:track="{{$root.g0}}">查看更多<text class="icons data-v-6225a526"></text>
+        </text>
+    </view>
+    <view class="contain data-v-6225a526">
+        <view bindtap="__e" class="item data-v-6225a526" data-event-opts="{{[ [ 'tap',[ [ 'handleqa',['$event'] ] ] ] ]}}" mark:track="{{item.g1}}" wx:for="{{$root.l0}}" wx:key="index">
+            <view class="title data-v-6225a526">{{item[$orig].title}}</view>
+            <view class="data-v-6225a526" wx:if="{{item[$orig].show}}">
+                <view class="data-v-6225a526" wx:for="{{item[$orig].answer}}" wx:for-item="answer" wx:key="index">
+                    <view class="identifyer data-v-6225a526" wx:if="{{identifyer[answer.identifyer]}}">
+                        <image class="icon data-v-6225a526" src="{{identifyer[answer.identifyer].icon}}"></image>
+                        <text class="text1 data-v-6225a526">{{identifyer[answer.identifyer].name}}</text>
+                        <text class="text2 data-v-6225a526">{{identifyer[answer.identifyer].type}}</text>
+                    </view>
+                    <view class="answer data-v-6225a526">{{answer.text}}</view>
+                </view>
+            </view>
+            <view class="data-v-6225a526" wx:else>
+                <view class="identifyer data-v-6225a526" wx:if="{{identifyer[item[$orig].answer[0].identifyer]}}">
+                    <image class="icon data-v-6225a526" src="{{identifyer[item[$orig].answer[0].identifyer].icon}}"></image>
+                    <text class="text1 data-v-6225a526">{{identifyer[item[$orig].answer[0].identifyer].name}}</text>
+                    <text class="text2 data-v-6225a526">{{identifyer[item[$orig].answer[0].identifyer].type}}</text>
+                </view>
+                <view class="answer data-v-6225a526">{{item[$orig].answer[0].text}}</view>
+            </view>
+            <view bindtap="__e" class="showAll data-v-6225a526" data-event-opts="{{[ [ 'tap',[ [ 'handleqa',['$event'] ] ] ] ]}}" mark:track="{{$root.g2}}" wx:if="{{!item[$orig].show&&item[$orig].answer.length>1}}">查看更多<text class="icon data-v-6225a526"></text>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,3 @@
+<view class="wrapper data-v-79bf903c">
+    <image class="img_preload data-v-79bf903c" mode="heightFix" src="{{url}}" wx:for="{{imgUrls}}" wx:for-index="i" wx:for-item="url" wx:key="i"></image>
+</view>

@@ -1,0 +1,11 @@
+<view catchtouchmove="__e" class="download-modal _div data-v-1e698bbb" data-event-opts="{{[ [ 'touchmove',[ [ '',['$event'] ] ] ] ]}}">
+    <view class="download-content _div data-v-1e698bbb">
+        <image bindtap="__e" class="download-close data-v-1e698bbb" data-event-opts="{{[ [ 'tap',[ [ 'close',['$event'] ] ] ] ]}}" src="https://webimg.dewucdn.com/node-common/aWMtY2xvc2U=.png"></image>
+        <image alt class="download-img _img data-v-1e698bbb" src="https://h5static.dewucdn.com/node-common/test/66125b8c-958d-7b0b-d7d6-8937982495a6"></image>
+        <view class="download-title _div data-v-1e698bbb">
+            <rich-text nodes="{{text}}"></rich-text>
+        </view>
+        <view class="download-tip _div data-v-1e698bbb">还可获得更多福利~</view>
+        <button bindtap="__e" class="gokefubtn download-btn data-v-1e698bbb" data-event-opts="{{[ [ 'tap',[ [ 'goDownload',['$event'] ] ] ] ]}}" openType="contact" sendMessageImg="https://h5static.dewucdn.com/node-common/TGFyazIwMjAwMzIzLTE1MzczOA==.jpeg" sendMessageTitle="{{messageTitle}}" showMessageCard="true">立即前往</button>
+    </view>
+</view>

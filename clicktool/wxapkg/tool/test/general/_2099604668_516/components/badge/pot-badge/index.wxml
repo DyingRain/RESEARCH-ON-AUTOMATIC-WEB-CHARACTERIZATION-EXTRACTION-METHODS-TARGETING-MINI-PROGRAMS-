@@ -1,0 +1,3 @@
+<view class="pot-badge data-v-3f3ecca2">
+    <view class="amount _p data-v-3f3ecca2">{{''+amount+''}}</view>
+</view>

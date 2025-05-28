@@ -1,0 +1,3 @@
+<view class="promotionContainer data-v-2dffa80b" wx:if="{{info.imageUrl}}">
+    <image bindtap="__e" class="PromotionContent data-v-2dffa80b" data-event-opts="{{[ [ 'tap',[ [ 'goPromotion',['$event'] ] ] ] ]}}" src="{{info.imageUrl}}" wx:if="{{info.imageUrl}}"></image>
+</view>

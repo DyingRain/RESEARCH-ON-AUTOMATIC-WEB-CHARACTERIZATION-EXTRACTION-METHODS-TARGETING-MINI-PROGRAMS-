@@ -1,0 +1,21 @@
+.identify-certificate.data-v-0c92ae31 {
+    width: 600rpx;
+}
+
+.identify-certificate .detail-result.data-v-0c92ae31 {
+    width: 600rpx;
+    height: 886rpx;
+}
+
+.identify-certificate .detail-result-container.data-v-0c92ae31 {
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.identify-certificate .imageResult.data-v-0c92ae31 {
+    width: 53.333vw;
+    height: 53.333vw;
+}

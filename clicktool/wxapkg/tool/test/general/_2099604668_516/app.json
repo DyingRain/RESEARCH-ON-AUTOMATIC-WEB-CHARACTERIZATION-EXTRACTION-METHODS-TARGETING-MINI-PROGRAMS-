@@ -1,0 +1,228 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/tabmine/tabmine",
+        "pages/login/login/login",
+        "pages/login/duLogin/login",
+        "pages/protocol/protocol",
+        "pages/product/newest/newest",
+        "pages/product/related/related",
+        "pages/clear/index",
+        "pages/identify/index",
+        "packageSecond/pages/activity/registerGift/registerGift",
+        "packageSecond/pages/web/web",
+        "packageSecond/pages/web/customerService",
+        "packageSecond/pages/web/activityWeb",
+        "packageSecond/pages/yuntucap/yuntucap",
+        "account/MyCouponPage",
+        "account/HistoryCoupon",
+        "account/CashExtractDetailListPage",
+        "account/MyCashPage",
+        "account/MyCouponExplain",
+        "account/ShippingAddressPage",
+        "account/AddressEditPage",
+        "account/PrivacySettingPage",
+        "home/HomePage",
+        "product/searchProductByPic/index",
+        "product/productDetailV5/index",
+        "product/mySubscription/mySubscription",
+        "product/myCollect/myCollect",
+        "product/exhibition/index",
+        "product/ProductDetail",
+        "product/SaleCalendar/index",
+        "product/SaleCalendar/CalendarPage",
+        "product/SaleCalendar/CalenderAlarm/index",
+        "product/ProductCategoryPageV2",
+        "product/DiscountRule",
+        "product/BoutiqueRecommendListPageV2",
+        "product/BoutiqueRecommendDetailPage",
+        "product/search/ProductSearchResult",
+        "product/BrandDetailPage",
+        "product/artist/ArtistPersonalPage",
+        "product/artist/DispalyNews",
+        "product/artist/Introduction",
+        "product/newShoesSeries/index",
+        "product/expiredProduct/index",
+        "product/ThirdLevelCategoryPage/index",
+        "order/OrderConfirmPage",
+        "order/BuyPaySuccessPageV2",
+        "order/buyer/OrderDetail",
+        "order/CancelOrder",
+        "order/ShippingDetailPage",
+        "order/identifyResult/index",
+        "order/SoldListPage",
+        "order/buyer/orderList",
+        "order/buyer/CancelSuccessful",
+        "order/wxpay/cashier",
+        "order/mdwxpay/index",
+        "order/wxpay/result",
+        "order/payForOther/oversea",
+        "notice/NoticeListPage",
+        "notice/noticeMessageDetail",
+        "clear/pages/home/home",
+        "clear/pages/goodsDetail/goodsDetail",
+        "clear/pages/orderConfirm/orderConfirm",
+        "clear/pages/paySuccess/paySuccess",
+        "clear/pages/paySuccess/freePaySuccess",
+        "clear/pages/orderDetail/orderDetail",
+        "clear/pages/orderTrace/orderTrace",
+        "clear/pages/clearTrace/clearTrace",
+        "clear/pages/orderHistory/orderHistory",
+        "clear/pages/clearScope/clearScope",
+        "clear/pages/buyerList/buyerList",
+        "clear/pages/attachTutorials/attachTutorials",
+        "clear/pages/qaList/index",
+        "clear/pages/qaList/detail",
+        "clear/pages/serviceList/index",
+        "clear/pages/shipment/index",
+        "clear/pages/washProgress/index",
+        "clear/pages/detailConfirm/index",
+        "activity/shareCoupon/index",
+        "activity/shareCoupon/newIndex",
+        "activity/shareCouponFission/index",
+        "activity/luckyMoneyRainShare/index",
+        "activity/friendsHelp/index",
+        "activity/puzzleCollectionShare/index",
+        "activity/wish/loading",
+        "activity/wish/advert",
+        "activity/wish/choice",
+        "activity/wish/done",
+        "activity/wishingGift/loading",
+        "activity/wishingGift/advert",
+        "activity/wishingGift/choice",
+        "activity/wishingGift/done",
+        "activity/getMoneyEveryDay/home",
+        "activity/getMoneyEveryDay/share",
+        "activity/getMoneyEveryDay/middlePage",
+        "activity/zeroYuanLottery/index",
+        "activity/zeroYuanLottery/helpingDetail/index",
+        "activity/zeroYuanLottery/waitforDraw/index",
+        "activity/zeroYuanLottery/lotteryRecord/index",
+        "activity/zeroYuanLottery/activityList",
+        "activity/appGamePage/index",
+        "activity/studentCorner/index",
+        "activity/newStudentInvite/index",
+        "activity/newStudentInviteB/index",
+        "activity/studentsSummer/index",
+        "activity/studentInvite/index",
+        "games/brain-speed/home/index",
+        "games/brain-speed/play/index",
+        "games/trend-brainSpeed/home/index",
+        "games/trend-brainSpeed/brain-speed/index",
+        "games/trend-brainSpeed/score-board/index",
+        "games/trend-brainSpeed/rule/index",
+        "growth/gifts/index",
+        "sociality/pages/code/code",
+        "sociality/test/index",
+        "sociality/pages/fallback/fallbackpage",
+        "sociality/communityManagement/index",
+        "identify/pages/classification/index",
+        "identify/pages/classificationV2/index",
+        "identify/pages/searchV2/index",
+        "identify/pages/goodsDelivery/index",
+        "identify/pages/logisticsTrack/index",
+        "identify/pages/search/index",
+        "identify/pages/seachmeke/index",
+        "identify/pages/identifylist/index",
+        "identify/pages/identifyerlist/index",
+        "identify/pages/qa/index",
+        "identify/pages/makeupseries/index",
+        "identify/pages/series/index",
+        "identify/pages/publish/index",
+        "identify/pages/photograph/index",
+        "identify/pages/detail/index",
+        "identify/pages/web/web",
+        "identify/pages/scancode/index",
+        "identify/pages/scanfail/index",
+        "identify/pages/success/index",
+        "identify/pages/offlinedetail/index",
+        "identify/pages/offlinepublish/index",
+        "identify/pages/order/index"
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "得物App",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "position": "bottom",
+        "borderStyle": "black",
+        "color": "#666666",
+        "selectedColor": "#000000",
+        "backgroundColor": "#f8f9fb",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "购买",
+                "iconPath": "static/images/ic_tab_mall_nor.png",
+                "selectedIconPath": "static/images/ic_tab_mall_selected.png"
+            },
+            {
+                "pagePath": "pages/identify/index",
+                "text": " 鉴别",
+                "iconPath": "static/images/ic_tab_service_gray.png",
+                "selectedIconPath": "static/images/ic_tab_service_selected.png"
+            },
+            {
+                "pagePath": "pages/tabmine/tabmine",
+                "text": "我",
+                "iconPath": "static/images/ic_tab_user_nor.png",
+                "selectedIconPath": "static/images/ic_tab_user_sel.png"
+            }
+        ]
+    },
+    "subPackages": [
+        {
+            "root": "packageSecond/",
+            "pages": []
+        },
+        {
+            "root": "account/",
+            "pages": []
+        },
+        {
+            "root": "home/",
+            "pages": []
+        },
+        {
+            "root": "product/",
+            "pages": []
+        },
+        {
+            "root": "order/",
+            "pages": []
+        },
+        {
+            "root": "notice/",
+            "pages": []
+        },
+        {
+            "root": "clear/",
+            "pages": []
+        },
+        {
+            "root": "activity/",
+            "pages": []
+        },
+        {
+            "root": "games/",
+            "pages": []
+        },
+        {
+            "root": "growth/",
+            "pages": []
+        },
+        {
+            "root": "sociality/",
+            "pages": []
+        },
+        {
+            "root": "identify/",
+            "pages": []
+        }
+    ],
+    "navigateToMiniProgramAppIdList": [
+        "wx28663c8197012671"
+    ]
+}

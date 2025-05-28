@@ -1,0 +1,118 @@
+.mine-order.data-v-003a10c4 {
+    overflow: hidden;
+}
+
+.header.data-v-003a10c4 {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 5.333vw;
+    margin: 4.533vw 0;
+    padding-left: 5.333vw;
+    padding-right: 5.333vw;
+}
+
+.header.data-v-003a10c4,.title-wrapper.data-v-003a10c4 {
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.title-wrapper.data-v-003a10c4 {
+    height: 5.6vw;
+}
+
+.order-icon.data-v-003a10c4 {
+    width: 6.4vw;
+    height: 6.4vw;
+}
+
+.title.data-v-003a10c4 {
+    margin-left: 3.2vw;
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    line-height: 5.6vw;
+}
+
+.all-order-entry.data-v-003a10c4 {
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 4.533vw;
+}
+
+.all-order.data-v-003a10c4 {
+    color: #14151a;
+    font-size: 3.2vw;
+    font-family: PingFangSC-Light;
+}
+
+.right-icon.data-v-003a10c4 {
+    width: 3.733vw;
+    height: 3.733vw;
+    margin-left: 1.333vw;
+}
+
+.content.data-v-003a10c4 {
+    padding: 0 15.467vw;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: .8vw;
+    box-sizing: border-box;
+}
+
+.content.data-v-003a10c4,.item.data-v-003a10c4 {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.item.data-v-003a10c4 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 18.667vw;
+}
+
+.icon-wrapper.data-v-003a10c4 {
+    position: relative;
+    margin-top: 2.133vw;
+    width: 6.4vw;
+    height: 6.4vw;
+}
+
+.icon-wrapper .icon-inner.data-v-003a10c4,.icon-wrapper .icon-inner image.data-v-003a10c4 {
+    width: 6.4vw;
+    height: 6.4vw;
+}
+
+.iconfont.data-v-003a10c4 {
+    font-size: 6.4vw;
+}
+
+.pot-badge.data-v-003a10c4 {
+    position: absolute;
+    top: -.533vw;
+    left: 3.733vw;
+}
+
+.text.data-v-003a10c4 {
+    margin-top: 1.6vw;
+    font-size: 3.2vw;
+    font-family: PingFangSC-Regular;
+    line-height: 4.267vw;
+}
+
+.right-text.data-v-003a10c4 {
+    font-family: PingFangSC-Thin;
+    font-size: 3.2vw;
+    color: #000;
+    margin-left: 1.333vw;
+}

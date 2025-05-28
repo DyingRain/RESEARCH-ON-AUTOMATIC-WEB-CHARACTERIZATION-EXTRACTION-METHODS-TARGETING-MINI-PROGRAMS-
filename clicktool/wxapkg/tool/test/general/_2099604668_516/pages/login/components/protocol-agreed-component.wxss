@@ -1,0 +1,46 @@
+.login-tips.data-v-40399624 {
+    font-family: PingFang SC;
+    font-size: 2.933vw;
+    color: #7f7f8e;
+    letter-spacing: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 6.4vw;
+}
+
+.login-tips .check-box-wrap.data-v-40399624 {
+    height: 4.533vw;
+}
+
+.login-tips .check-box.data-v-40399624 {
+    width: 3.2vw;
+    height: 3.2vw;
+    border-radius: 50%;
+    border: .267vw solid #c7c7d7;
+    box-sizing: border-box;
+    margin-right: 1.333vw;
+    margin-top: .667vw;
+    background: url("https://h5static.dewucdn.com/node-common/10a911fe-619f-e4c6-166e-824f0a9e9047.png") no-repeat;
+    background-size: 3.2vw;
+    background-position: 5.333vw;
+}
+
+.login-tips .check-box.checked.data-v-40399624 {
+    background-position: 0;
+    border: none;
+}
+
+.login-tips .blank.data-v-40399624 {
+    width: .533vw;
+    display: inline-block;
+}
+
+.login-tips .login-tips-protocol.data-v-40399624 {
+    color: #14151a;
+}

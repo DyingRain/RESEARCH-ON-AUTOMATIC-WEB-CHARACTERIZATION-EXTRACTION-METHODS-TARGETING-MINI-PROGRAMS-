@@ -1,0 +1,6 @@
+<view hidden="{{!show}}">
+    <view bindtap="__e" catchtouchmove="__e" class="uni-mask" data-event-opts="{{[ [ 'tap',[ [ 'hide',['$event'] ] ] ],[ 'touchmove',[ [ '',['$event'] ] ] ] ]}}" style="{{'top:'+offsetTop+'px'+';'+'background:'+maskBack+';'}}"></view>
+    <view class="{{['uni-popup',customClass]}}">{{''+msg+''}}<slot></slot>
+        <view bindtap="__e" class="{{[' uni-icon uni-icon-close',buttonMode==='bottom'?'uni-close-bottom':'',buttonMode==='right'?'uni-close-right':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'closeMask',['$event'] ] ] ] ]}}" wx:if="{{position==='middle'&&mode==='insert'}}"></view>
+    </view>
+</view>

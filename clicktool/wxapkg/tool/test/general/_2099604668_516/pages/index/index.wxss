@@ -1,0 +1,23 @@
+.main.data-v-1badc801 {
+    height: 100%;
+}
+
+.main.grey.data-v-1badc801 {
+    filter: grayscale(100%);
+}
+
+.fix-header.data-v-1badc801 {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    height: 23.467vw;
+    width: 100%;
+}
+
+.content.data-v-1badc801 {
+    position: relative;
+    padding-top: 23.467vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+}

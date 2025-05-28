@@ -1,0 +1,20 @@
+<view bindtap="__e" class="main data-v-6f275286" data-event-opts="{{[ [ 'tap',[ [ 'go',['$event'] ] ] ] ]}}">
+    <view class="content data-v-6f275286">
+        <view class="top data-v-6f275286">
+            <image class="large data-v-6f275286" src="{{topImage}}"></image>
+            <view class="small data-v-6f275286">
+                <view class="box data-v-6f275286" wx:for="{{list}}" wx:for-index="__i0__" wx:key="*this">
+                    <image class="img data-v-6f275286" src="{{item}}"></image>
+                </view>
+            </view>
+        </view>
+        <view class="bottom data-v-6f275286">
+            <view class="title data-v-6f275286">发售日历</view>
+            <view class="date data-v-6f275286">
+                <view class="modal data-v-6f275286"></view>
+                <view class="day data-v-6f275286">{{''+day+''}}</view>
+                <view class="month data-v-6f275286">{{''+month+''}}</view>
+            </view>
+        </view>
+    </view>
+</view>

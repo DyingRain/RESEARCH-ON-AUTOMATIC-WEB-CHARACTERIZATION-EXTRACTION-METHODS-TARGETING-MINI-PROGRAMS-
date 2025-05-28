@@ -1,0 +1,1 @@
+<image alt="{{alt}}" class="defaultImageCls data-v-a848b446" lazyLoad="{{isLazy?'true':'false'}}" mode="{{mode}}" src="{{imageSrc}}" webp="{{webp}}"></image>

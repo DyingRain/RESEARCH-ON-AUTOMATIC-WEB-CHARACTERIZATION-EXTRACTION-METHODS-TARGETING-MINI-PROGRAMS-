@@ -1,0 +1,13 @@
+{
+    "navigationStyle": "custom",
+    "usingComponents": {
+        "custom-navigation": "/components/customNavigation/customNavigation",
+        "protocol-agreed": "/pages/login/components/protocol-agreed-component",
+        "fast-image": "/components/product/fast-image/index",
+        "painter": "/wxcomponents/painter/painter",
+        "zan-badge": "/components/badge/badge/index",
+        "uni-popup": "/components/uni-popup/uni-popup",
+        "dev-panel": "/components/devPanel/index",
+        "protocol-pop-up": "/pages/login/components/protocol-popup"
+    }
+}

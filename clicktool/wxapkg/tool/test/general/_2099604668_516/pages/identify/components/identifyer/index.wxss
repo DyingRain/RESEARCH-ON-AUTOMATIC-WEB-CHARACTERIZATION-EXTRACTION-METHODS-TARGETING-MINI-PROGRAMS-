@@ -1,0 +1,128 @@
+.identifyer.data-v-b7ffb254 {
+    margin-top: 1.6vw;
+    background-color: #fff;
+    padding-top: 4.267vw;
+    border-radius: .533vw;
+}
+
+.identifyer .title.data-v-b7ffb254 {
+    font-weight: 500;
+    font-size: 4.267vw;
+    line-height: 5.867vw;
+    padding: 0 32rpx;
+    color: #14151a;
+}
+
+.identifyer .title .check.data-v-b7ffb254 {
+    font-size: 3.2vw;
+    color: #2b2c3c;
+    font-weight: 400;
+    float: right;
+}
+
+.identifyer .title .icons.data-v-b7ffb254 {
+    width: 12rpx;
+    height: 20rpx;
+    display: inline-block;
+    background: url("https://h5static.dewucdn.com/node-common/5a40ae70a4b22e944cf2eb33a8aa217e.png") no-repeat 50%;
+    background-size: 100% 100%;
+    margin-left: 20rpx;
+    margin-top: -2rpx;
+    vertical-align: middle;
+}
+
+.identifyer .contain.data-v-b7ffb254 {
+    margin: 24rpx 0 12rpx;
+    padding: 0 32rpx;
+}
+
+.identifyer .contain .item.data-v-b7ffb254 {
+    width: 26.133vw;
+    height: 34.4vw;
+    background: -webkit-gradient(linear,left top,left bottom,from(#f4f3f8),to(hsla(0,0%,100%,0)));
+    background: -o-linear-gradient(top,#f4f3f8 0,hsla(0,0%,100%,0) 100%);
+    background: linear-gradient(180deg,#f4f3f8,hsla(0,0%,100%,0));
+    border-radius: .533vw;
+    margin-right: 16rpx;
+    display: inline-block;
+}
+
+.identifyer .contain .item .userimg.data-v-b7ffb254 {
+    width: 76rpx;
+    height: 76rpx;
+    position: relative;
+    display: inline-block;
+    margin: 34rpx 70rpx 22rpx;
+}
+
+.identifyer .contain .item .userimg .img.data-v-b7ffb254 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.identifyer .contain .item .userimg .icon.data-v-b7ffb254 {
+    width: 21rpx;
+    height: 24rpx;
+    position: absolute;
+    bottom: 0;
+    right: -4rpx;
+}
+
+.identifyer .contain .item .userName.data-v-b7ffb254 {
+    font-weight: 500;
+    font-size: 22rpx;
+    line-height: 30rpx;
+}
+
+.identifyer .contain .item .userName.data-v-b7ffb254,.identifyer .contain .item .userType.data-v-b7ffb254 {
+    color: #2b2c3c;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.identifyer .contain .item .userType.data-v-b7ffb254 {
+    font-weight: 400;
+    font-size: 20rpx;
+    line-height: 28rpx;
+    line-height: 30rpx;
+}
+
+.identifyer .contain .item .userceter.data-v-b7ffb254 {
+    font-size: 18rpx;
+    line-height: 26rpx;
+    height: 26rpx;
+    line-height: 30rpx;
+}
+
+.identifyer .contain .item .userceter.data-v-b7ffb254,.identifyer .contain .item .userNum.data-v-b7ffb254 {
+    font-weight: 400;
+    color: #7f7f8e;
+    width: 90%;
+    margin: 8rpx auto 0;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.identifyer .contain .item .userNum.data-v-b7ffb254 {
+    font-size: 20rpx;
+    line-height: 28rpx;
+}
+
+.identifyer .contain .item .userNum .num.data-v-b7ffb254 {
+    line-height: 34rpx;
+    font-weight: 700;
+    color: #2b2c3c;
+    margin-left: 8rpx;
+}
+
+.identifyer .contain .itemList.data-v-b7ffb254 {
+    white-space: nowrap;
+    height: 37.067vw;
+}

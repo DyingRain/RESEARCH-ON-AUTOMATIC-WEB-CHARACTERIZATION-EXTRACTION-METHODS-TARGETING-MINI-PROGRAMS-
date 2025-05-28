@@ -1,0 +1,38 @@
+.openDu {
+    z-index: 100;
+    position: fixed;
+    bottom: 41.333vw;
+    right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    height: 9.067vw;
+    box-shadow: 0 .8vw 1.6vw 0 rgba(0,0,0,.1);
+    border-radius: 6vw 0 0 6vw;
+    background: #01c2c3;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: PingFangSC-Medium;
+}
+
+.content {
+    padding-left: 4vw;
+    font-size: 3.2vw;
+    color: #fff;
+}
+
+.openDu::after {
+    border: none;
+}
+
+.icon {
+    padding-right: 1.867vw;
+    margin-left: 1.6vw;
+    width: 1.867vw;
+    height: 3.2vw;
+}

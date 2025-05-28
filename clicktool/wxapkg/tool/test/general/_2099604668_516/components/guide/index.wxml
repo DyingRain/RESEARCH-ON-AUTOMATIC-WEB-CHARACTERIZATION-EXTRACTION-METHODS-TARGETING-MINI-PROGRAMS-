@@ -1,0 +1,4 @@
+<view class="dialog-bg data-v-67ef2ac2" wx:if="{{showGuide}}">
+    <image webp bindtap="__e" class="dialog-img data-v-67ef2ac2" data-event-opts="{{[ [ 'tap',[ [ 'pushCustomerService',['$event'] ] ] ] ]}}" src="{{guideImg}}"></image>
+    <image webp bindtap="__e" class="dialog-close data-v-67ef2ac2" data-event-opts="{{[ [ 'tap',[ [ 'closeGuide',['$event'] ] ] ] ]}}" mode="aspectFit" src="https://webimg.dewucdn.com/node-common/5234ed03-1d92-4ba0-11db-016db254d28d-120-120.png"></image>
+</view>

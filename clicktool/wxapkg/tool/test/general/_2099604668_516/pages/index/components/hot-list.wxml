@@ -1,0 +1,35 @@
+<view class="hot-list data-v-4504cd66">
+    <block wx:for="{{$root.l0}}" wx:key="index">
+        <view class="item exposure-item data-v-4504cd66" data-id="{{index}}" wx:if="{{item.m0&&item[$orig].product}}">
+            <view catchtap="__e" class="item-container data-v-4504cd66" data-event-opts="{{[ [ 'tap',[ [ 'goProductDetail',['$0',index],[ [ ['list','',index] ] ] ] ] ] ]}}">
+                <view class="image-container data-v-4504cd66">
+                    <fast-image needSquare bind:__l="__l" class="productImage data-v-4504cd66" isLazy="{{true}}" src="{{item[$orig].product&&item[$orig].product.logoUrl||''}}" uiWidth="{{130}}" vueId="{{'1-'+index}}"></fast-image>
+                    <fast-image bind:__l="__l" class="deposit-image data-v-4504cd66" isLazy="{{true}}" src="{{item[$orig].product.productTagVo.imageUrl}}" uiWidth="{{130}}" vueId="{{'2-'+index}}" wx:if="{{item[$orig].product&&item[$orig].product.productTagVo&&item[$orig].product.productTagVo.imageUrl}}"></fast-image>
+                </view>
+                <view class="productTitle data-v-4504cd66">{{''+(item[$orig].product?item[$orig].product.title:'')+''}}</view>
+                <view class="priceInfo data-v-4504cd66">
+                    <view class="unit-price-view data-v-4504cd66">
+                        <view class="unit data-v-4504cd66">¥</view>
+                        <view class="price data-v-4504cd66">{{''+item.g0+''}}</view>
+                        <view class="deposit-title data-v-4504cd66" wx:if="{{item[$orig].product&&item[$orig].product.maxSalePrice&&item[$orig].product.maxSalePrice>item[$orig].product.price}}">起</view>
+                    </view>
+                    <view class="soldNum data-v-4504cd66" wx:if="{{item[$orig].product&&item[$orig].product.soldCountText}}">{{''+item[$orig].product.soldCountText+''}}</view>
+                </view>
+            </view>
+        </view>
+        <view class="item exposure-item data-v-4504cd66" data-id="{{index}}" wx:if="{{item.m1}}">
+            <view bindtap="__e" class="product-gather data-v-4504cd66" data-event-opts="{{[ [ 'tap',[ [ 'goRecommend',['$0',index],[ [ ['list','',index] ] ] ] ] ] ]}}">
+                <view class="image-gather data-v-4504cd66">
+                    <fast-image bind:__l="__l" class="{{['data-v-4504cd66',key===0?'image0':'image']}}" isLazy="{{true}}" src="{{image}}" vueId="{{'3-'+index+'-'+key}}" wx:for="{{item[$orig].boutique.images}}" wx:for-index="key" wx:for-item="image" wx:key="key"></fast-image>
+                </view>
+                <view class="desc-gather data-v-4504cd66">
+                    <view class="desc-title data-v-4504cd66">{{''+(item[$orig].boutique?item[$orig].boutique.detail.title:'')+''}}</view>
+                    <view class="desc-content data-v-4504cd66">{{''+(item[$orig].boutique?item[$orig].boutique.detail.subTitle:'')+''}}</view>
+                </view>
+            </view>
+        </view>
+        <view class="exposure-item data-v-4504cd66" data-id="{{index}}" wx:if="{{item.m2&&showCalendar}}">
+            <calendar bind:__l="__l" class="data-v-4504cd66" data="{{item[$orig]}}" vueId="{{'4-'+index}}"></calendar>
+        </view>
+    </block>
+</view>

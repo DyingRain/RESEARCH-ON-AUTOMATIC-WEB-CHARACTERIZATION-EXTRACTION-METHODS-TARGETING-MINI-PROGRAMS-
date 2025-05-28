@@ -1,0 +1,24 @@
+<view class="{{['data-v-1540f19a','wukongcountdown',className]}}" style="{{'font-size:'+fontSize+';'}}">
+    <text class="wukongcountdownText data-v-1540f19a" wx:if="{{!!prefixText}}">{{''+prefixText+''}}</text>
+    <block wx:if="{{isShowDay}}">
+        <view class="count-down-number-box data-v-1540f19a">
+            <text class="count-down-number-wrapper data-v-1540f19a">{{''+$root.m0[0]+''}}</text>
+            <text class="count-down-number-wrapper data-v-1540f19a">{{''+$root.m1[1]+''}}</text>
+        </view>
+        <text class="data-v-1540f19a">天</text>
+    </block>
+    <view class="count-down-number-box data-v-1540f19a">
+        <text class="count-down-number-wrapper data-v-1540f19a">{{''+$root.m2[0]+''}}</text>
+        <text class="count-down-number-wrapper data-v-1540f19a">{{''+$root.m3[1]+''}}</text>
+    </view>
+    <text class="data-v-1540f19a">:</text>
+    <view class="count-down-number-box data-v-1540f19a">
+        <text class="count-down-number-wrapper data-v-1540f19a">{{''+$root.m4[0]+''}}</text>
+        <text class="count-down-number-wrapper data-v-1540f19a">{{''+$root.m5[1]+''}}</text>
+    </view>
+    <text class="data-v-1540f19a">:</text>
+    <view class="count-down-number-box data-v-1540f19a">
+        <text class="count-down-number-wrapper data-v-1540f19a">{{''+$root.m6[0]+''}}</text>
+        <text class="count-down-number-wrapper data-v-1540f19a">{{''+$root.m7[1]+''}}</text>
+    </view>
+</view>

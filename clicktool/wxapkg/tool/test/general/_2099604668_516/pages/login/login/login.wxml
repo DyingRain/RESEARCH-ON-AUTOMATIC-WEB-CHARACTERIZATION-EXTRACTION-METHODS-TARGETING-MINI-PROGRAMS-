@@ -1,0 +1,22 @@
+<view class="container">
+    <custom-navigation bind:__l="__l" title="登录" vueId="1"></custom-navigation>
+    <image class="logo" src="{{isIdentifyMP?'https://h5static.dewucdn.com/node-common/5a443490-6066-d3d1-cd92-42859e65725f-150-150.png':'https://h5static.dewucdn.com/node-common/JUU1JUJFJTk3JUU3JTg5JUE5bG9nb0AzeDE1NzYxMzIyMTAyOTM=.png'}}"></image>
+    <image class="desc" src="{{isIdentifyMP?'https://h5static.dewucdn.com/node-common/ca57c8a5-c302-bea2-fd53-c1166a946452-337-40.png':'https://h5static.dewucdn.com/node-common/f912c510-f47b-d8b3-4db2-8310dc85fae2-1366-162.png'}}"></image>
+    <block wx:if="{{protocolAgreed}}">
+        <block wx:if="{{!initFetching}}">
+            <button bindtap="__e" class="login button-common" data-event-opts="{{[ [ 'tap',[ [ 'onBindUserLogin',['$event'] ] ] ] ]}}" wx:if="{{bindInfo.bind}}">一键登录</button>
+            <button bindgetphonenumber="__e" class="login button-common" data-event-opts="{{[ [ 'getphonenumber',[ [ 'getPhoneNumber',['$event'] ] ] ] ]}}" openType="getPhoneNumber" wx:else>一键登录</button>
+        </block>
+    </block>
+    <button bindtap="__e" class="login button-common" data-event-opts="{{[ [ 'tap',[ [ 'onClickWithoutProtocolAgreed',['$event'] ] ] ] ]}}" wx:else>一键登录</button>
+    <button bindtap="__e" class="duLogin button-common" data-event-opts="{{[ [ 'tap',[ [ 'goDuLogin',['$event'] ] ] ] ]}}">手机号登录/注册</button>
+    <view bindtap="__e" class="notLogin" data-event-opts="{{[ [ 'tap',[ [ 'notLogin',['$event'] ] ] ] ]}}">
+        <text>暂不登录</text>
+        <view catchtap="__e" data-event-opts="{{[ [ 'tap',[ [ 'notLoginIcon',['$event'] ] ] ] ]}}">
+            <fast-image bind:__l="__l" class="ques-icon" src="https://webimg.dewucdn.com/node-common/ae419c60-3c4c-6e66-eb95-3cc03c6140fb-36-36.png" vueId="2"></fast-image>
+        </view>
+    </view>
+    <protocol-agreed agreed="{{protocolAgreed}}" bind:__l="__l" bind:toggleCheck="__e" data-event-opts="{{[ [ '^toggleCheck',[ ['toggleCheck'] ] ] ]}}" vueId="3"></protocol-agreed>
+    <view class="identify-login-tip" wx:if="{{isIdentifyMP}}">若您的手机号未注册，将为您直接注册得物账号</view>
+    <protocol-pop-up bind:__l="__l" bind:closeProtocolPopup="__e" bind:handleAgreed="__e" data-event-opts="{{[ [ '^closeProtocolPopup',[ ['closeProtocolPopup'] ] ],[ '^handleAgreed',[ ['handleAgreed'] ] ] ]}}" showProtocolPopUp="{{showProtocolPopUp}}" vueId="4"></protocol-pop-up>
+</view>

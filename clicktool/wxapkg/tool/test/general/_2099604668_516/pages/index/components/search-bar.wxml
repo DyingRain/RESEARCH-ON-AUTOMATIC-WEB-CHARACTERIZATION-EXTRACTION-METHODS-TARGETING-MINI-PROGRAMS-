@@ -1,0 +1,12 @@
+<view class="search-view data-v-15f855b6">
+    <view bindtap="__e" class="search-background-view data-v-15f855b6" data-event-opts="{{[ [ 'tap',[ [ 'showInput',['$event'] ] ] ] ]}}">
+        <view class="search-icon data-v-15f855b6">
+            <image class="data-v-15f855b6" src="https://webimg.dewucdn.com/node-common/8b814adf-f29a-6aff-f7cf-3f983a3e42c5-72-72.png"></image>
+        </view>
+        <view class="search-title data-v-15f855b6">搜索单品</view>
+        <view catchtap="__e" class="camera-icon data-v-15f855b6" data-event-opts="{{[ [ 'tap',[ [ 'handleCameraClick',['$event'] ] ] ] ]}}">
+            <image class="data-v-15f855b6" src="https://webimg.dewucdn.com/node-common/5ac07100-80c4-faab-bdad-4d9a8203a8ff-54-54.png	"></image>
+        </view>
+    </view>
+    <image bindtap="__e" class="index-series data-v-15f855b6" data-event-opts="{{[ [ 'tap',[ [ 'seriesTap',['$event'] ] ] ] ]}}" src="https://webimg.dewucdn.com/node-common/017a5166-34ad-4d20-7c64-01c25669481b-63-87.png"></image>
+</view>

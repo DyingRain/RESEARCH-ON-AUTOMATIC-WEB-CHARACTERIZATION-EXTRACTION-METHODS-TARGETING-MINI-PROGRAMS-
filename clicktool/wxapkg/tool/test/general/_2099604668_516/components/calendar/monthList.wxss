@@ -1,0 +1,106 @@
+.month-list.data-v-6163ed86 {
+    box-sizing: border-box;
+    height: 12.8vw;
+    width: 100%;
+    white-space: nowrap;
+    background: #fff;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.month-list .scroll-inner.data-v-6163ed86 {
+    padding: 0 2.933vw;
+}
+
+.month-list .month-item.data-v-6163ed86 {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: calc(100% / 6.3);
+    height: 12.8vw;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.month-list .month-item.data-v-6163ed86:last-child {
+    margin-right: 17.867vw;
+}
+
+.month-list .month-item.active.data-v-6163ed86 {
+    position: relative;
+}
+
+.month-list .month-item.active.data-v-6163ed86::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    background: hsla(0,0%,100%,.1);
+    z-index: 2;
+}
+
+.month-list .month-item.active .inner.data-v-6163ed86 {
+    position: relative;
+    box-sizing: content-box;
+    padding: .267vw .8vw;
+    background: #2b2c3c;
+    border-radius: .533vw;
+}
+
+.month-list .month-item.active .inner .num.data-v-6163ed86,.month-list .month-item.active .inner .yue.data-v-6163ed86 {
+    color: #fff;
+}
+
+.month-list .month-item .inner.data-v-6163ed86 {
+    position: relative;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 8.533vw;
+}
+
+.month-list .month-item .inner.data-v-6163ed86::before {
+    left: -.533vw;
+}
+
+.month-list .month-item .inner.data-v-6163ed86::after,.month-list .month-item .inner.data-v-6163ed86::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.067vw;
+    height: .8vw;
+    border-radius: .533vw;
+    background: #fff;
+}
+
+.month-list .month-item .inner.data-v-6163ed86::after {
+    right: -.533vw;
+}
+
+.month-list .month-item .inner .num.data-v-6163ed86 {
+    font-family: HelveticaNeue-CondensedBold;
+    font-weight: 700;
+    font-size: 5.333vw;
+    color: #aab;
+}
+
+.month-list .month-item .inner .yue.data-v-6163ed86 {
+    font-family: PingFangSC-Regular;
+    font-weight: 700;
+    font-size: 3.2vw;
+    color: #aab;
+}

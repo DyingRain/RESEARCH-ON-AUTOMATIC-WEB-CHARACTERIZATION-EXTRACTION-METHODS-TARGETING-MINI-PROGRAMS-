@@ -1,0 +1,3 @@
+<view class="data-v-eae46b3e">
+    <slot></slot>
+</view>
