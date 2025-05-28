@@ -1,0 +1,16 @@
+.pot-badge.data-v-3f3ecca2 {
+    min-width: 3.2vw;
+    height: 3.2vw;
+    padding: 0 .8vw;
+    border-radius: 1.6vw;
+    background: #ff4657;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.amount.data-v-3f3ecca2 {
+    line-height: 3.2vw;
+    font-size: 2.4vw;
+    color: #fff;
+    text-align: center;
+}

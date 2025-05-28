@@ -1,0 +1,92 @@
+.main.data-v-6f275286 {
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    padding: 2.133vw;
+    background-color: #f8f8f9;
+    border-radius: 1px;
+}
+
+.content.data-v-6f275286 {
+    background-color: #fff;
+    height: 58.4vw;
+    width: 100%;
+}
+
+.top .large.data-v-6f275286 {
+    width: 33.067vw;
+    height: 21.067vw;
+    margin-top: 6.133vw;
+    margin-bottom: 3.733vw;
+}
+
+.top .small.data-v-6f275286 {
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin: 0 3.733vw;
+    border-bottom: 1px dashed #ebebf0;
+    padding-bottom: 4.8vw;
+}
+
+.top .small .box.data-v-6f275286,.top .small .box .img.data-v-6f275286 {
+    width: 10.933vw;
+    height: 6.933vw;
+}
+
+.top .small .box+.box.data-v-6f275286 {
+    margin-left: 2.4vw;
+}
+
+.bottom.data-v-6f275286 {
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 3.2vw;
+    margin-right: 3.2vw;
+}
+
+.bottom .title.data-v-6f275286 {
+    padding-top: 4.533vw;
+    padding-bottom: 4.533vw;
+    line-height: 5.867vw;
+    font-size: 4.267vw;
+    font-weight: 500;
+    font-family: PingFang SC;
+}
+
+.bottom .date.data-v-6f275286 {
+    width: 6.667vw;
+    height: 8.8vw;
+    background-color: #ebebf0;
+    color: #14151a;
+    position: relative;
+}
+
+.bottom .date .modal.data-v-6f275286 {
+    position: absolute;
+    top: 0;
+    height: 4.267vw;
+    width: 100%;
+    background-color: #fff;
+    opacity: .5;
+}
+
+.bottom .date .day.data-v-6f275286 {
+    font-size: 4.267vw;
+    font-family: HelveticaNeue;
+    text-shadow: 0 1px 0 #fff;
+}
+
+.bottom .date .month.data-v-6f275286 {
+    font-size: 2.133vw;
+    font-family: PingFang SC;
+    font-weight: 500;
+}

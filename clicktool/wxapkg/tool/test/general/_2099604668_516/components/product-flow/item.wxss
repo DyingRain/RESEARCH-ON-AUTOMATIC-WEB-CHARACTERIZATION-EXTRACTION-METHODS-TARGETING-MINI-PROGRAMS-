@@ -1,0 +1,71 @@
+.product-item.data-v-0f92bd16 {
+    padding: 2vw 0;
+    background-color: #fff;
+}
+
+.cover.data-v-0f92bd16,.product-item.data-v-0f92bd16 {
+    box-sizing: border-box;
+}
+
+.cover .product-image.data-v-0f92bd16 {
+    display: block;
+    margin: 0 auto;
+    width: 34.667vw;
+    height: 34.667vw;
+}
+
+.title.data-v-0f92bd16 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    height: 11.2vw;
+    padding: 0 4vw;
+    margin-bottom: 2.667vw;
+    line-height: 5.6vw;
+    color: #000;
+    font-size: 4vw;
+    font-family: PingFangSC-Thin;
+    box-sizing: border-box;
+}
+
+.info.data-v-0f92bd16 {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 4vw;
+}
+
+.info.data-v-0f92bd16,.info .price.data-v-0f92bd16 {
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.info .price.data-v-0f92bd16 {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    font-weight: 700;
+    font-family: HelveticaNeue-CondensedBold;
+    font-size: 4.267vw;
+}
+
+.info .rmb.data-v-0f92bd16 {
+    font-size: 2.933vw;
+}
+
+.info .sold-num.data-v-0f92bd16 {
+    font-family: PingFangSC-Light;
+    font-size: 2.933vw;
+    color: #7f7f8e;
+}

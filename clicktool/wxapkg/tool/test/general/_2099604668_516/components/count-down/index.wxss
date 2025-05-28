@@ -1,0 +1,36 @@
+.wukongcountdown.data-v-1540f19a {
+    text-align: center;
+    color: #2b2c3c;
+    font-weight: 600;
+    font-size: 3.733vw;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.wukongcountdown ._span.data-v-1540f19a {
+    font-family: HelveticaNeue-CondensedBold;
+    margin-right: 1.067vw;
+}
+
+.wukongcountdown .wukongcountdownText.data-v-1540f19a {
+    margin-right: 1.333vw;
+}
+
+.wukongcountdown .count-down-number-wrapper.data-v-1540f19a {
+    display: inline-block;
+    color: #fff;
+    background-color: #2b2c3b;
+    width: 3.2vw;
+    height: 5.067vw;
+    line-height: 5.067vw;
+    text-align: center;
+    font-size: 3.733vw;
+    border-radius: .533vw;
+    margin: 0 .667vw;
+}

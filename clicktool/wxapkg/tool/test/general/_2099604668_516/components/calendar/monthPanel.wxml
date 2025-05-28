@@ -1,0 +1,7 @@
+<view class="month-panel data-v-0dac9675">
+    <view class="date-wrapper data-v-0dac9675">
+        <view bindtap="__e" class="{{['date-item data-v-0dac9675',day[$orig].currentMonth?'currentMonth':'',day[$orig].lastMonth?'lastMonth':'',day[$orig].nextMonth?'nextMonth':'',day.m0?'activeBg':'',day.m1?'activeBgStart':'',day.m2?'activeBgEnd':'',(index+1)%7===1?'columnFirst':'',(index+1)%7===0?'columnEnd':'',day.m3?'select':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'handleDateClick',['$0',index,true],[ [ ['dayArray','',index] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:for-item="day" wx:key="index">
+            <view class="date-inner data-v-0dac9675">{{''+(day[$orig]&&day[$orig].date)+''}}</view>
+        </view>
+    </view>
+</view>

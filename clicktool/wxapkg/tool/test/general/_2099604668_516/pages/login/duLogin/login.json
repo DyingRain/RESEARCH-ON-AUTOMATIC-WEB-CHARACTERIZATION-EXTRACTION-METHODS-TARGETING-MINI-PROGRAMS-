@@ -1,0 +1,11 @@
+{
+    "navigationBarTitleText": "登录",
+    "usingComponents": {
+        "protocol-agreed": "/pages/login/components/protocol-agreed-component",
+        "protocol-pop-up": "/pages/login/components/protocol-popup",
+        "painter": "/wxcomponents/painter/painter",
+        "zan-badge": "/components/badge/badge/index",
+        "uni-popup": "/components/uni-popup/uni-popup",
+        "dev-panel": "/components/devPanel/index"
+    }
+}

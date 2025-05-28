@@ -1,0 +1,12 @@
+<view class="data-v-16c7a96f">
+    <view class="inaver data-v-16c7a96f" style="{{'background:'+background+';'+'height:'+navHeight+'px'+';'+'padding-top:'+navTop+'px'+';'}}">
+        <view class="left data-v-16c7a96f">
+            <image capture-bind:tap="__e" class="icon data-v-16c7a96f" data-event-opts="{{[ [ 'tap',[ [ 'goBack',['$event'] ] ] ] ]}}" src="https://h5static.dewucdn.com/node-common/YmFja0AzeDE1OTM3NTU3NDQ4NDk=.png" wx:if="{{show.showBack}}"></image>
+            <view class="line data-v-16c7a96f"></view>
+            <image capture-bind:tap="__e" class="icon data-v-16c7a96f" data-event-opts="{{[ [ 'tap',[ [ 'goHome',['$event'] ] ] ] ]}}" src="https://h5static.dewucdn.com/node-common/aG9tZUAzeDE1OTM3NTU3MDU5MjM=.png" wx:if="{{show.showHome}}"></image>
+        </view>
+        <view class="center data-v-16c7a96f">{{''+title+''}}</view>
+        <view class="right data-v-16c7a96f"></view>
+    </view>
+    <view class="protect-inaver data-v-16c7a96f" style="{{'background:'+background+';'+'height:'+navHeight+'px'+';'+'padding-top:'+navTop+'px'+';'}}"></view>
+</view>

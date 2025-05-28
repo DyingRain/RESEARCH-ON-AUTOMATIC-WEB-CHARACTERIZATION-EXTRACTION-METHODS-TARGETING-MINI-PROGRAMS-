@@ -1,0 +1,5 @@
+<view class="zan-badge data-v-1f795bcc" style="{{styles}}">
+    <view class="zan-badge__text data-v-1f795bcc" style="{{'color:'+color+';'+'background-color:'+backgroundColor+';'+'font-size:'+fontSize*2+'px'+';'+'box-shadow:'+boxShadow+';'}}">
+        <slot></slot>
+    </view>
+</view>

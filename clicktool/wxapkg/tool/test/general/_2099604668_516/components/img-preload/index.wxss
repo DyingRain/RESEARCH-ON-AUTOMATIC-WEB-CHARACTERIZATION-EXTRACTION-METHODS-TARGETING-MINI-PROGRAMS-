@@ -1,0 +1,18 @@
+.wrapper.data-v-79bf903c {
+    position: fixed;
+    z-index: -9999;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.wrapper .img_preload.data-v-79bf903c {
+    height: 0rpx;
+    width: auto;
+    overflow: hidden;
+    opacity: 0;
+}

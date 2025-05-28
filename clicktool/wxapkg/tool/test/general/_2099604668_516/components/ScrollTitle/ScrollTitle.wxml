@@ -1,0 +1,3 @@
+<scroll-view scrollWithAnimation scrollX class="header-scroll data-v-07ffa967" hidden="{{!isShow}}" scrollLeft="{{scrollPosition}}">
+    <view bindtap="__e" class="{{['header-scroll-item data-v-07ffa967',index===activeItemIndex?'header-scroll-item__active':'',useScale&&index===activeItemIndex?scale:'']}}" data-event-opts="{{[ [ 'tap',[ [ 'onItemClick',['$0',index,'$event'],[ [ ['tabs','',index] ] ] ] ] ] ]}}" data-id="{{index}}" id="{{'header-scroll-item'+index}}" wx:for="{{tabs}}" wx:key="index">{{''+item.title+''}}</view>
+</scroll-view>

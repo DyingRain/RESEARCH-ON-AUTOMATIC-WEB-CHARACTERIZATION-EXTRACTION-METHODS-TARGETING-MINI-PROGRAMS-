@@ -1,0 +1,26 @@
+.popup-layer {
+    z-index: 100;
+    background: rgba(0,0,0,.3);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.popup-content,.popup-layer {
+    position: fixed;
+    overflow: hidden;
+}
+
+.popup-content {
+    box-sizing: border-box;
+    transform: translateY(100%);
+    z-index: 101;
+    background: #fff;
+    transition: transform .3s ease;
+    transition: transform .3s ease,-webkit-transform .3s ease;
+}
+
+.popup-content.borderRadius {
+    border-radius: 3.2vw 3.2vw 0 0;
+}

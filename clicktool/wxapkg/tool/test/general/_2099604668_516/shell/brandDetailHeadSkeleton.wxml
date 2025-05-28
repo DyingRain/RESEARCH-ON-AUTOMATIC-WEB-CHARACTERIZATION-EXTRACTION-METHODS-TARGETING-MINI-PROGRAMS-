@@ -1,0 +1,20 @@
+<view class="brand-header-wrap data-v-14f9de3d">
+    <view class="brand-header-logo data-v-14f9de3d">
+        <view class="brand-header-logo_left data-v-14f9de3d">
+            <view class="img-container data-v-14f9de3d">
+                <image alt class="img-main _img data-v-14f9de3d" src="https://h5static.dewucdn.com/node-common/7eccc2fbe70bad59309bb58f414d6d0d.png"></image>
+            </view>
+            <view class="logo-left_info data-v-14f9de3d">
+                <view class="logo-left_info_title data-v-14f9de3d"></view>
+                <view class="logo-left_info_desc data-v-14f9de3d">
+                    <label class="_span data-v-14f9de3d">-人关注</label>
+                    <label class="_span data-v-14f9de3d">-款商品</label>
+                </view>
+            </view>
+        </view>
+        <view class="brand-header-logo_right data-v-14f9de3d"></view>
+    </view>
+    <view class="brand-header-content data-v-14f9de3d">
+        <view class="every-line data-v-14f9de3d"></view>
+    </view>
+</view>

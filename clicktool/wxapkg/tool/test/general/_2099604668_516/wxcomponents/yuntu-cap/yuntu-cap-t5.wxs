@@ -1,0 +1,145 @@
+var xys;
+var startTime;
+var bgWidth;
+var index;
+var startX;
+var startY;
+var rectObj;
+var startLeft;
+var startTop;
+var flag;
+var target;
+var initLeft;
+var initTop;
+var pointTarget;
+var endLeft;
+var endTop;
+var rate;
+
+function reset() {
+    if (target) {
+        target.setStyle(({
+            'left': initLeft + 'px',
+            'top': initTop + 'px',
+            'z-index': 5,
+        }))
+    }
+};
+
+function checkPoint2(x, y, element, rate) {
+    var xIndex;
+    var yIndex;
+    var X;
+    var Y;
+    if (Math.abs(x - 45 * rate) <= (40 * rate)) {
+        xIndex = 1;
+        X = element.x + 45 * rate
+    } else if (Math.abs(x - 130 * rate) <= (40 * rate)) {
+        xIndex = 2;
+        X = element.x + 130 * rate
+    } else if (Math.abs(x - 215 * rate) <= (40 * rate)) {
+        xIndex = 3;
+        X = element.x + 215 * rate
+    };
+    if (Math.abs(y - 45 * rate) <= (40 * rate)) {
+        yIndex = 1;
+        Y = element.y + 45 * rate
+    } else if (Math.abs(y - 130 * rate) <= (40 * rate)) {
+        yIndex = 2;
+        Y = element.y + 130 * rate
+    };
+    return (({
+        point: (yIndex || 0) + '' + (xIndex || 0),
+        centerPoint: (X || '0.00') + ',' + (Y || '0.00'),
+    }))
+};
+
+function touchStart(e, ownerInstance) {
+    if (flag) {
+        return
+    };
+    if (e.instance.hasClass('moveImg')) {
+        return
+    };
+    index = e.currentTarget.dataset.index;
+    initLeft = e.currentTarget.dataset.left;
+    initTop = e.currentTarget.dataset.top;
+    startLeft = e.currentTarget.offsetLeft;
+    startTop = e.currentTarget.offsetTop;
+    rate = e.currentTarget.dataset.rate;
+    pointTarget = ownerInstance.selectComponent('.moveImg');
+    target = e.instance;
+    rectObj = ownerInstance.selectComponent('.moveBg').getBoundingClientRect();
+    startX = e.touches[(0)].pageX.toFixed(2);
+    startY = e.touches[(0)].pageY.toFixed(2);
+    startTime = getDate().valueOf();
+    var str = startY + ',' + startX + ',' + startTime;
+    xys = [str];
+    ownerInstance.callMethod('createData')
+};
+
+function touchMove(e, ownerInstance) {
+    if (e.instance.hasClass('moveImg')) {
+        return
+    };
+    var x = parseFloat(e.touches[(0)].pageX.toFixed(2));
+    var y = parseFloat(e.touches[(0)].pageY.toFixed(2));
+    endLeft = x - startX + startLeft;
+    endTop = y - startY + startTop;
+    target.setStyle(({
+        'left': endLeft + 'px',
+        'top': endTop + 'px',
+        'z-index': 11,
+    }));
+    var time = getDate().valueOf() - startTime;
+    var str = y + ',' + x + ',' + time;
+    xys.push(str)
+};
+
+function touchEnd(e, ownerInstance) {
+    if (e.instance.hasClass('moveImg')) {
+        return
+    };
+    if (xys.length === 1) {
+        return
+    };
+    flag = true;
+    var x = parseInt(e.changedTouches[(0)].pageX.toFixed(2));
+    var y = parseInt(e.changedTouches[(0)].pageY.toFixed(2));
+    var startPoint = parseInt(parseInt(startY) - rectObj.y) + ',' + parseInt(parseInt(startX) - rectObj.x) + ',' + startTime;
+    var endPoint = parseInt(y - rectObj.y) + ',' + parseInt(x - rectObj.x) + ',' + (getDate().valueOf() - startTime);
+    var realWidth = 80 * rate;
+    var realLeft = Math.abs(parseInt(pointTarget.getDataset().left) - endLeft);
+    var realTop = Math.abs(parseInt(pointTarget.getDataset().top) - endTop);
+    var areaRate = ((realWidth - realLeft) * (realWidth - realTop)) / (realWidth * realWidth);
+    var sp = checkPoint2(parseInt(startX) - rectObj.x, parseInt(startY) - rectObj.y, rectObj, rate);
+    var ep = checkPoint2(x - rectObj.x, y - rectObj.y, rectObj, rate);
+    var postData = ({
+        pts: startPoint + '|' + endPoint,
+        xys: xys.join('|'),
+        sp: sp,
+        ep: ep,
+    });
+    if (areaRate * 100 > 80 && realLeft < realWidth && realTop < realWidth) {
+        target.setStyle(({
+            'left': pointTarget.getDataset().left + 'px',
+            'top': pointTarget.getDataset().top + 'px',
+            'z-index': 4,
+            'transition': 'all 0.2s ease',
+        }));
+        e.instance.setTimeout((function() {
+            ownerInstance.callMethod('t5Update', postData)
+        }), 200)
+    } else {
+        ownerInstance.callMethod('t5Update', postData)
+    };
+    e.instance.setTimeout((function() {
+        flag = false
+    }), 800)
+};
+module.exports = ({
+    touchMove: touchMove,
+    touchEnd: touchEnd,
+    touchStart: touchStart,
+    reset: reset,
+});

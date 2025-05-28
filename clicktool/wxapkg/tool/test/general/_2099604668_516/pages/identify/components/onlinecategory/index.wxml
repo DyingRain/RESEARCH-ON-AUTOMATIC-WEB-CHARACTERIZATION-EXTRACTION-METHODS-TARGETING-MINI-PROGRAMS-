@@ -1,0 +1,16 @@
+<view bindtap="__e" class="category data-v-6cc91f6e" data-event-opts="{{[ [ 'tap',[ [ 'identifyTrack',['$event'] ] ] ] ]}}" wx:if="{{showCategory&&isready}}">
+    <uni-popup radius bind:__l="__l" class="data-v-6cc91f6e vue-ref" data-ref="popup" maskClick="{{true}}" position="bottom" show="{{show}}" vueId="1" vueSlots="{{['default']}}">
+        <view class="container data-v-6cc91f6e">
+            <view class="title data-v-6cc91f6e">选择鉴别品类<text bindtap="__e" class="close data-v-6cc91f6e" data-event-opts="{{[ [ 'tap',[ [ 'close',['$event'] ] ] ] ]}}"></text>
+            </view>
+            <view class="classList data-v-6cc91f6e">
+                <scroll-view class="itemList data-v-6cc91f6e" scrollY="true">
+                    <view bindtap="__e" class="item data-v-6cc91f6e" data-event-opts="{{[ [ 'tap',[ [ 'nextStep',['$0'],[ [ ['category','identifyFirstClassId',item[$orig].identifyFirstClassId] ] ] ] ] ] ]}}" mark:track="{{item.g0}}" wx:for="{{$root.l0}}" wx:for-index="__i0__" wx:key="identifyFirstClassId">
+                        <image class="imgIcon data-v-6cc91f6e" mode="aspectFit" src="{{item[$orig].icon}}"></image>
+                        <view class="itemTitle data-v-6cc91f6e">{{item[$orig].name}}</view>
+                    </view>
+                </scroll-view>
+            </view>
+        </view>
+    </uni-popup>
+</view>

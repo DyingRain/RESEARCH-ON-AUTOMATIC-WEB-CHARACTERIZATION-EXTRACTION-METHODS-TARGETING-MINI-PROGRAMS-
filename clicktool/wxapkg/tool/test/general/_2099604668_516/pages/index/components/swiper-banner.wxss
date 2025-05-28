@@ -1,0 +1,59 @@
+.swiper-banner.data-v-3c1c5e89 {
+    position: relative;
+}
+
+.swiper-container.data-v-3c1c5e89 {
+    height: 33.333vw;
+}
+
+.indicator-view.data-v-3c1c5e89 {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 2.667vw;
+    bottom: 1.333vw;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.dots-current-view.data-v-3c1c5e89 {
+    width: 1.6vw;
+    height: 1.6vw;
+}
+
+.dots-current-view.data-v-3c1c5e89,.dots-view.data-v-3c1c5e89 {
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #fff;
+    margin-right: 2.667vw;
+    border-radius: 50%;
+}
+
+.dots-view.data-v-3c1c5e89 {
+    opacity: .5;
+    width: 1.067vw;
+    height: 1.067vw;
+}
+
+.slide-image.data-v-3c1c5e89 {
+    width: 100%;
+    height: 33.333vw;
+}

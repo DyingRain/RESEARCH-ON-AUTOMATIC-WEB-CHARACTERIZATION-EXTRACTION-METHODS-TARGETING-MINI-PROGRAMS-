@@ -1,0 +1,220 @@
+.image-container.data-v-4504cd66 {
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+
+.image-container.data-v-4504cd66,.image-container .productImage.data-v-4504cd66 {
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.image-container .productImage.data-v-4504cd66 {
+    height: 41.333vw;
+    width: 41.333vw;
+}
+
+.hot-list.data-v-4504cd66 {
+    margin-top: 2.133vw;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background-color: #f5f5f9;
+}
+
+.hot-list.data-v-4504cd66,.item.data-v-4504cd66 {
+    display: -ms-flexbox;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.item.data-v-4504cd66 {
+    position: relative;
+    text-align: center;
+    width: 50%;
+    height: 62.667vw;
+    background-color: #fff;
+    border-top: .267vw solid #f5f5f9;
+}
+
+.item .item-container.data-v-4504cd66 {
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    flex: 1;
+    width: 100%;
+}
+
+.item.data-v-4504cd66:nth-child(odd) {
+    border-right: .267vw solid #f5f5f9;
+}
+
+.product-gather.data-v-4504cd66 {
+    width: 100%;
+    height: 100%;
+    background: #f7f7f7;
+}
+
+.image-gather.data-v-4504cd66 {
+    box-sizing: border-box;
+    margin: 3.467vw 2.667vw 4vw;
+    padding: 4.533vw 2.933vw;
+    background: #fff;
+    height: 37.333vw;
+    border-radius: .533vw;
+}
+
+.image0.data-v-4504cd66 {
+    float: right;
+    width: 21.333vw;
+    height: 13.333vw;
+    margin-top: 2vw;
+    margin-left: 3.733vw;
+}
+
+.image.data-v-4504cd66 {
+    width: 10.667vw;
+    display: inline-block;
+    height: 6.667vw;
+    margin-bottom: 3.467vw;
+}
+
+.image.data-v-4504cd66:nth-child(5),.image.data-v-4504cd66:nth-child(6) {
+    margin-left: 1.867vw;
+}
+
+.desc-gather.data-v-4504cd66 {
+    width: 100%;
+    padding: 0 2.667vw;
+    box-sizing: border-box;
+}
+
+.desc-title.data-v-4504cd66 {
+    margin-top: 1.333vw;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-family: PingFangSC-Semibold;
+    font-size: 4vw;
+    color: #000;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.desc-title.data-v-4504cd66:before {
+    margin-right: 2.667vw;
+    content: "";
+    width: 5.333vw;
+    border-top: 1px solid #dfdfe7;
+}
+
+.desc-title.data-v-4504cd66:after {
+    margin-left: 2.667vw;
+    content: "";
+    width: 5.333vw;
+    border-top: 1px solid #dfdfe7;
+}
+
+.desc-content.data-v-4504cd66 {
+    margin-top: 1.333vw;
+    font-family: PingFangSC-Light;
+    font-size: 2.667vw;
+    color: #292929;
+    letter-spacing: 0.2rpx;
+    line-height: 4.133vw;
+}
+
+.productTitle.data-v-4504cd66 {
+    font-size: 3.733vw;
+    text-align: left;
+    font-family: PingFangSC-Thin;
+    letter-spacing: 0.22rpx;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    line-height: 1.2em;
+    height: 2.4em;
+    overflow: hidden;
+    color: #000;
+}
+
+.priceInfo.data-v-4504cd66 {
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 2.667vw 4vw 5.333vw;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.priceInfo .soldNum.data-v-4504cd66 {
+    font-family: PingFangSC-Light;
+    color: #7f7f8e;
+    font-size: 2.933vw;
+    letter-spacing: 0;
+}
+
+.unit-price-view.data-v-4504cd66 {
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+}
+
+.unit.data-v-4504cd66 {
+    font-size: 2.933vw;
+    letter-spacing: 0;
+}
+
+.price.data-v-4504cd66,.unit.data-v-4504cd66 {
+    font-family: HelveticaNeue-CondensedBold;
+    color: #14151a;
+}
+
+.price.data-v-4504cd66 {
+    font-size: 4vw;
+    line-height: 4vw;
+    margin-left: .667vw;
+}
+
+.deposit-title.data-v-4504cd66 {
+    color: #14151a;
+    font-size: 2.4vw;
+    font-family: PingFangSC-Semibold;
+    font-weight: 600;
+    margin-left: .533vw;
+    position: relative;
+    top: -.267vw;
+}
+
+.deposit-image.data-v-4504cd66 {
+    position: absolute;
+    top: 0rpx;
+    left: 0rpx;
+    width: 14.667vw;
+    height: 14.667vw;
+    z-index: 99;
+}

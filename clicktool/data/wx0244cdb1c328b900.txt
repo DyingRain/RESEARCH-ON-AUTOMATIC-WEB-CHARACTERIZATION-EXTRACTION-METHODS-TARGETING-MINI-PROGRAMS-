@@ -1,0 +1,1484 @@
+--- Request ---
+URL: https://api.yjhhr.cn/api/page/config?page=index
+Method: GET
+Headers: {'Host': 'api.yjhhr.cn', 'Connection': 'keep-alive', 'api-version': 'release', 'charset': 'utf-8', 'client-platform': 'mp-weixin', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'client-version': '3.1.372', 'Accept-Encoding': 'gzip,compress,br,deflate', 'request-id': '20250117153903920946', 'accept': 'application/json', 'client-name': 'yunjiuhong', 'client-platform-version': 'version:8.0.42; sdk_version:3.1.5;', 'content-type': 'application/json', 'client-id': '2DA2-83C0-23BC-875B-AF28', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://api.yjhhr.cn/api/page/config?page=index
+Status Code: 200
+Headers: {'Server': 'nginx', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-cache, private', 'Date': 'Fri, 17 Jan 2025 07:39:06 GMT', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin, Content-Type, Cookie, X-CSRF-TOKEN, x-requested-with, Accept, Authorization, X-XSRF-TOKEN,Platform, Version,authorization,token,Client-ID,Client-Platform,Client-Name,Client-Version,Request-ID,Api-Version', 'Access-Control-Expose-Headers': 'Content-Disposition'}
+Body: {'code': 0, 'data': {'title': '首页', 'config': {'share': {'image': 'https://yjh-jiupin.oss-cn-beijing.aliyuncs.com/banner/recommend-share.png', 'title': '快来云久鸿找工作，高工价等你来挑'}, 'supply_share': {'image': 'https://yjh-jiupin.oss-cn-beijing.aliyuncs.com/banner/recommend-share.png', 'title': '快来云久鸿找工作，高工价等你来挑'}, 'position_share': {'image': 'https://yjh-jiupin.oss-cn-beijing.aliyuncs.com/banner/recommend-share.png'}, 'wechat_group_code': {'image': 'https://cdn.yjhhr.cn/storage/page/202401/Q4rUQw7CgHnHnFkIg9mBu4rqPAhgw7qX7r7H4fYR.jpg'}, 'supply_position_share': {'image': 'https://yjh-jiupin.oss-cn-beijing.aliyuncs.com/banner/recommend-share.png'}}, 'style': None, 'share': None, 'navigation': None, 'event': None, 'frame': {'main': [{'type': 'search-slider', 'config': {'mode': 'aspectFill', 'radius': 0, 'padding': 0}, 'style': None, 'items': [{'id': 114, 'config': {'src': 'https://cdn.yjhhr.cn/storage/page/202501/thLzxb1aGm4G2nzJMoXscJoVcsqd6ugljPjaxsLT.png'}, 'event': {'url': 'https://mp.weixin.qq.com/s/b10e3G-hb7S31_NQfAyYyw', 'type': 'webviewExternal', 'video_id': None, 'video_sph_id': None}}, {'id': 115, 'config': {'src': 'https://cdn.yjhhr.cn/storage/page/202501/UBFsCY4QC0hPfBtRVJkgNpK8MttaXtRq2vSZpMyF.png'}, 'event': {'url': None, 'type': 'null', 'video_id': None, 'video_sph_id': None}}, {'id': 116, 'config': {'src': 'https://cdn.yjhhr.cn/storage/page/202501/vhMTqR2A94KVMmyp6uiQxn8j7wZegHJuZ3uoAc4Z.png'}, 'event': {'url': None, 'type': 'null', 'video_id': None, 'video_sph_id': None}}, {'id': 118, 'config': {'src': 'https://cdn.yjhhr.cn/storage/page/202501/QHtwJz6WhFfgcTYRUCZpqAHjTcC5iqLwTcdGn09x.png'}, 'event': {'url': None, 'type': 'null', 'video_id': None, 'video_sph_id': None}}, {'id': 119, 'config': {'src': 'https://cdn.yjhhr.cn/storage/page/202501/tex2C3DVG22xvMfFM9ng6DakwGtuzDtGKSxjoEnE.png'}, 'event': {'url': None, 'type': 'null', 'video_id': None, 'video_sph_id': None}}, {'id': 120, 'config': {'src': 'https://cdn.yjhhr.cn/storage/page/202501/UohKQsTmzFo1213wKud2CVZWsWxBw4F0FwARp4bT.png'}, 'event': {'url': None, 'type': 'null', 'video_id': None, 'video_sph_id': None}}]}, {'type': 'notice', 'config': {'speed': 100}, 'style': None, 'items': None}, {'type': 'x-scroll-view', 'config': {'limit': 5, 'title': '重点推荐', 'moreUrl': '/inside-recommend/recommend/index', 'isShowMore': True}, 'style': None, 'items': None}, {'type': 'division-line', 'config': None, 'style': None, 'items': None}, {'type': 'tab-position', 'config': {'fixed': False}, 'style': None, 'items': [{'id': 40, 'config': {'title': '优质企业', 'params': {'filter': {'type': 'HIGH_QUALITY'}}}, 'event': None}, {'id': 41, 'config': {'title': '高工价一栏表', 'params': {'filter': {'type': 'HIGH_COST'}}}, 'event': None}]}]}}}
+
+
+--- Request ---
+URL: https://api.yjhhr.cn/api/notice/list
+Method: POST
+Headers: {'Host': 'api.yjhhr.cn', 'Connection': 'keep-alive', 'Content-Length': '0', 'api-version': 'release', 'charset': 'utf-8', 'client-platform': 'mp-weixin', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'client-version': '3.1.372', 'Accept-Encoding': 'gzip,compress,br,deflate', 'request-id': '20250117153905130445', 'accept': 'application/json', 'client-name': 'yunjiuhong', 'client-platform-version': 'version:8.0.42; sdk_version:3.1.5;', 'content-type': 'application/json', 'client-id': '2DA2-83C0-23BC-875B-AF28', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://api.yjhhr.cn/api/notice/list
+Status Code: 200
+Headers: {'Server': 'nginx', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-cache, private', 'Date': 'Fri, 17 Jan 2025 07:39:07 GMT', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin, Content-Type, Cookie, X-CSRF-TOKEN, x-requested-with, Accept, Authorization, X-XSRF-TOKEN,Platform, Version,authorization,token,Client-ID,Client-Platform,Client-Name,Client-Version,Request-ID,Api-Version', 'Access-Control-Expose-Headers': 'Content-Disposition'}
+Body: {'code': 0, 'data': {'list': []}}
+
+
+--- Request ---
+URL: https://lhp.map.qq.com/?desc_c
+Method: POST
+Headers: {'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '364', 'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 9; 2203121C Build/PQ3A.190605.10141057)', 'Host': 'lhp.map.qq.com', 'Connection': 'Keep-Alive', 'Accept-Encoding': 'gzip'}
+Body: {"length": 364, "type": "text"}
+
+
+--- Response ---
+URL: https://lhp.map.qq.com/?desc_c
+Status Code: 200
+Headers: {'Date': 'Fri, 17 Jan 2025 07:39:08 GMT', 'Content-Type': 'application/octet-stream;charset=gbk', 'Content-Length': '24', 'Connection': 'keep-alive', 'Server': 'Trpc httpd', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept, Connection, User-Agent, Cookie'}
+Body: {"type": "application/octet-stream;charset=gbk", "length": 24}
+
+
+--- Request ---
+URL: https://lbs.map.qq.com/loc?c=1&mars=0&obs=1
+Method: POST
+Headers: {'User-Agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4; Nexus 5 Build/KRT16M)', 'Content-Type': 'application/octet-stream', 'tmap-traceid': '8f66762d49233009', 'Connection': 'close', 'Content-Length': '417', 'Host': 'lbs.map.qq.com', 'Accept-Encoding': 'gzip'}
+Body: {"type": "application/octet-stream", "length": 417}
+
+
+--- Response ---
+URL: https://lbs.map.qq.com/loc?c=1&mars=0&obs=1
+Status Code: 200
+Headers: {'Date': 'Fri, 17 Jan 2025 07:39:09 GMT', 'Content-Type': 'application/octet-stream;charset=gbk', 'Content-Length': '10', 'Connection': 'close', 'Server': 'Trpc httpd'}
+Body: {"type": "application/octet-stream;charset=gbk", "length": 10}
+
+
+--- Request ---
+URL: https://api.yjhhr.cn/api/position/indexNew
+Method: POST
+Headers: {'Host': 'api.yjhhr.cn', 'Connection': 'keep-alive', 'Content-Length': '69', 'api-version': 'release', 'charset': 'utf-8', 'client-platform': 'mp-weixin', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'client-version': '3.1.372', 'Accept-Encoding': 'gzip,compress,br,deflate', 'request-id': '20250117153906914175', 'accept': 'application/json', 'client-name': 'yunjiuhong', 'client-platform-version': 'version:8.0.42; sdk_version:3.1.5;', 'content-type': 'application/json', 'client-id': '2DA2-83C0-23BC-875B-AF28', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html'}
+Body: {'filter': {'type': 'today'}, 'sort': 'all', 'size': 20, 'tags': [], 'page': 1}
+
+
+--- Response ---
+URL: https://api.yjhhr.cn/api/position/indexNew
+Status Code: 200
+Headers: {'Server': 'nginx', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-cache, private', 'Date': 'Fri, 17 Jan 2025 07:39:09 GMT', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin, Content-Type, Cookie, X-CSRF-TOKEN, x-requested-with, Accept, Authorization, X-XSRF-TOKEN,Platform, Version,authorization,token,Client-ID,Client-Platform,Client-Name,Client-Version,Request-ID,Api-Version', 'Access-Control-Expose-Headers': 'Content-Disposition'}
+Body: {'code': 0, 'data': {'items': [{'id': 55906, 'name': '东莞中诺 -小时工', 'company_id': 343, 'salary_title': '26元/小时', 'work_type': 'HOUR', 'province_short_name': '广东', 'city_short_name': '东莞', 'district_short_name': '大朗', 'latitude': '22.883833000000', 'longitude': '113.913765000000', 'is_show': 1, 'display_type': 'RECOMMENDED', 'tags': [], 'distance': None, 'education': '学历不限', 'desc': '推荐', 'work_type_text': '派遣工'}, {'id': 55893, 'name': 'S-惠州高新国内线-小时工', 'company_id': 49, 'salary_title': '24元/小时', 'work_type': 'HOUR', 'province_short_name': '广东', 'city_short_name': '惠州', 'district_short_name': '惠阳', 'latitude': '22.862797000000', 'longitude': '114.476760000000', 'is_show': 1, 'display_type': None, 'tags': ['多劳多得', '提供住宿', '待遇好'], 'distance': None, 'education': '学历不限', 'desc': '热门', 'work_type_text': '派遣工'}, {'id': 55894, 'name': '观澜组装- 小时工', 'company_id': 13, 'salary_title': '23元/小时', 'work_type': 'HOUR', 'province_short_name': '广东', 'city_short_name': '深圳', 'district_short_name': '龙华', 'latitude': '22.648568000000', 'longitude': '114.051898000000', 'is_show': 1, 'display_type': None, 'tags': ['提供住宿', '空调车间', '待遇好'], 'distance': None, 'education': '学历不限', 'desc': '热门', 'work_type_text': '派遣工'}, {'id': 55896, 'name': 'Y-惠州高新国内线-小时工', 'company_id': 48, 'salary_title': '25元/小时', 'work_type': 'HOUR', 'province_short_name': '广东', 'city_short_name': '惠州', 'district_short_name': '惠阳', 'latitude': '22.935537000000', 'longitude': '114.415500000000', 'is_show': 1, 'display_type': None, 'tags': ['多劳多得', '提供住宿', '待遇好'], 'distance': None, 'education': '学历不限', 'desc': '热门', 'work_type_text': '派遣工'}, {'id': 55914, 'name': '东莞伟创力-小时工', 'company_id': 497, 'salary_title': '23元/小时', 'work_type': 'HOUR', 'province_short_name': '广东', 'city_short_name': '东莞', 'district_short_name': '大岭山', 'latitude': '22.886964000000', 'longitude': '113.846674000000', 'is_show': 1, 'display_type': None, 'tags': [], 'distance': None, 'education': '学历不限', 'desc': '热门', 'work_type_text': '派遣工'}], 'page': 1, 'size': 20, 'total': 5, 'last_page': 1, 'next_page': 1, 'from': 1, 'to': 5, 'summary': {}}}
+
+
+--- Request ---
+URL: https://api.yjhhr.cn/api/page/config?page=mine
+Method: GET
+Headers: {'Host': 'api.yjhhr.cn', 'Connection': 'keep-alive', 'api-version': 'release', 'charset': 'utf-8', 'client-platform': 'mp-weixin', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'client-version': '3.1.372', 'Accept-Encoding': 'gzip,compress,br,deflate', 'request-id': '20250117153911408659', 'accept': 'application/json', 'client-name': 'yunjiuhong', 'client-platform-version': 'version:8.0.42; sdk_version:3.1.5;', 'content-type': 'application/json', 'client-id': '2DA2-83C0-23BC-875B-AF28', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://api.yjhhr.cn/api/page/config?page=mine
+Status Code: 200
+Headers: {'Server': 'nginx', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-cache, private', 'Date': 'Fri, 17 Jan 2025 07:39:14 GMT', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin, Content-Type, Cookie, X-CSRF-TOKEN, x-requested-with, Accept, Authorization, X-XSRF-TOKEN,Platform, Version,authorization,token,Client-ID,Client-Platform,Client-Name,Client-Version,Request-ID,Api-Version', 'Access-Control-Expose-Headers': 'Content-Disposition'}
+Body: {'code': 0, 'data': {'title': '个人中心', 'config': None, 'style': None, 'share': None, 'navigation': None, 'event': None, 'frame': {'main': [{'type': 'division-line', 'config': None, 'style': None, 'items': None}, {'type': 'division-line', 'config': None, 'style': None, 'items': None}, {'type': 'division-line', 'config': None, 'style': None, 'items': None}]}}}
+
+
+--- Request ---
+URL: https://api.yjhhr.cn/api/wechat/miniprogram/codeUnionid
+Method: POST
+Headers: {'Host': 'api.yjhhr.cn', 'Connection': 'keep-alive', 'Content-Length': '43', 'api-version': 'release', 'charset': 'utf-8', 'client-platform': 'mp-weixin', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'client-version': '3.1.372', 'Accept-Encoding': 'gzip,compress,br,deflate', 'request-id': '20250117153925794252', 'accept': 'application/json', 'client-name': 'yunjiuhong', 'client-platform-version': 'version:8.0.42; sdk_version:3.1.5;', 'content-type': 'application/json', 'client-id': '2DA2-83C0-23BC-875B-AF28', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html'}
+Body: {'code': '0f3yai100NYYzT1RMP200d2K3V3yai1S'}
+
+
+--- Response ---
+URL: https://api.yjhhr.cn/api/wechat/miniprogram/codeUnionid
+Status Code: 200
+Headers: {'Server': 'nginx', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-cache, private', 'Date': 'Fri, 17 Jan 2025 07:39:28 GMT', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin, Content-Type, Cookie, X-CSRF-TOKEN, x-requested-with, Accept, Authorization, X-XSRF-TOKEN,Platform, Version,authorization,token,Client-ID,Client-Platform,Client-Name,Client-Version,Request-ID,Api-Version', 'Access-Control-Expose-Headers': 'Content-Disposition'}
+Body: {'code': 0, 'data': {'is_unionid_login': 0}}
+
+
+--- Request ---
+URL: https://api.yjhhr.cn/api/wechat/miniprogram/codeUnionid
+Method: POST
+Headers: {'Host': 'api.yjhhr.cn', 'Connection': 'keep-alive', 'Content-Length': '43', 'api-version': 'release', 'charset': 'utf-8', 'client-platform': 'mp-weixin', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'client-version': '3.1.372', 'Accept-Encoding': 'gzip,compress,br,deflate', 'request-id': '2025011715394877879', 'accept': 'application/json', 'client-name': 'yunjiuhong', 'client-platform-version': 'version:8.0.42; sdk_version:3.1.5;', 'content-type': 'application/json', 'client-id': '2DA2-83C0-23BC-875B-AF28', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html'}
+Body: {'code': '0b3UAOkl2eyvTe4z9vol2hReWn0UAOke'}
+
+
+--- Response ---
+URL: https://api.yjhhr.cn/api/wechat/miniprogram/codeUnionid
+Status Code: 200
+Headers: {'Server': 'nginx', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-cache, private', 'Date': 'Fri, 17 Jan 2025 07:39:51 GMT', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin, Content-Type, Cookie, X-CSRF-TOKEN, x-requested-with, Accept, Authorization, X-XSRF-TOKEN,Platform, Version,authorization,token,Client-ID,Client-Platform,Client-Name,Client-Version,Request-ID,Api-Version', 'Access-Control-Expose-Headers': 'Content-Disposition'}
+Body: {'code': 0, 'data': {'is_unionid_login': 0}}
+
+
+--- Request ---
+URL: https://dldir1v6.qq.com/weixin/android/wxweb/updateConfig.xml
+Method: GET
+Headers: {'User-Agent': 'XWebSdk/20230805 XWebApk/-1 XWebGrayValue/4270 XWebTodayGrayValue/1458 XWebGrayValue2/-1692739330 ABI/x86 APPINFO/dump () ProcessName/com.tencent.mm:support', 'Host': 'dldir1v6.qq.com', 'Connection': 'Keep-Alive', 'Accept-Encoding': 'gzip'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://dldir1v6.qq.com/weixin/android/wxweb/updateConfig.xml
+Status Code: 200
+Headers: {'Last-Modified': 'Fri, 17 Jan 2025 03:06:48 GMT', 'Server': 'NWSs', 'Date': 'Fri, 17 Jan 2025 04:34:05 GMT', 'Content-Type': 'text/xml', 'x-cos-storage-class': 'STANDARD_IA', 'x-cos-version-id': 'MTg0NDUwMDY5OTA1MDExMjA5ODQ', 'x-cos-hash-crc64ecma': '375228885987356809', 'X-COS-META-MD5': '7cb0ea8f9814260a9598f4c30236739e', 'X-COS-META-MTIME': 'Fri, 17 Jan 2025 03:06:47 GMT', 'x-cos-replication-status': 'Complete', 'x-cos-object-type': 'normal', 'Content-Length': '46641', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '13252553419449232780', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit'}
+Body: {"length": 46641, "type": "text"}
+
+
+--- Request ---
+URL: https://a15b0d0ab-wx21b0356ef664d0ca.preview.wxcloudrun.com/__wx__/keepalive?devtools_ignore=true
+Method: GET
+Headers: {'Host': 'a15b0d0ab-wx21b0356ef664d0ca.preview.wxcloudrun.com', 'Connection': 'keep-alive', 'charset': 'utf-8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'content-type': 'application/json', 'Accept-Encoding': 'gzip,compress,br,deflate', 'Referer': 'https://servicewechat.com/wxb6d22f922f37b35a/390/page-frame.html'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://a15b0d0ab-wx21b0356ef664d0ca.preview.wxcloudrun.com/__wx__/keepalive?devtools_ignore=true
+Status Code: 200
+Headers: {'Server': 'stgw', 'Date': 'Fri, 17 Jan 2025 07:55:37 GMT', 'Content-Type': 'text/plain', 'Content-Length': '0', 'Alt-Svc': 'h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-27=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, h3-Q039=":443"; ma=2592000, quic=":443"; ma=2592000; v="39,43,46"', 'Connection': 'keep-alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Request ---
+URL: https://lhp.map.qq.com/?desc_c
+Method: POST
+Headers: {'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '364', 'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 9; 2203121C Build/PQ3A.190605.10141057)', 'Host': 'lhp.map.qq.com', 'Connection': 'Keep-Alive', 'Accept-Encoding': 'gzip'}
+Body: {"length": 364, "type": "text"}
+
+
+--- Response ---
+URL: https://lhp.map.qq.com/?desc_c
+Status Code: 200
+Headers: {'Date': 'Fri, 17 Jan 2025 07:55:39 GMT', 'Content-Type': 'application/octet-stream;charset=gbk', 'Content-Length': '24', 'Connection': 'keep-alive', 'Server': 'Trpc httpd', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept, Connection, User-Agent, Cookie'}
+Body: {"type": "application/octet-stream;charset=gbk", "length": 24}
+
+
+--- Request ---
+URL: https://lbs.map.qq.com/loc?c=1&mars=0&obs=1
+Method: POST
+Headers: {'User-Agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4; Nexus 5 Build/KRT16M)', 'Content-Type': 'application/octet-stream', 'tmap-traceid': 'eafc89ff3adf2ced', 'Connection': 'close', 'Content-Length': '417', 'Host': 'lbs.map.qq.com', 'Accept-Encoding': 'gzip'}
+Body: {"type": "application/octet-stream", "length": 417}
+
+
+--- Response ---
+URL: https://lbs.map.qq.com/loc?c=1&mars=0&obs=1
+Status Code: 200
+Headers: {'Date': 'Fri, 17 Jan 2025 07:55:42 GMT', 'Content-Type': 'application/octet-stream;charset=gbk', 'Content-Length': '10', 'Connection': 'close', 'Server': 'Trpc httpd'}
+Body: {"type": "application/octet-stream;charset=gbk", "length": 10}
+
+
+--- Request ---
+URL: https://servicewechat.com/ob/sdkmonitor?devtools_ignore=true
+Method: POST
+Headers: {'Host': 'servicewechat.com', 'Connection': 'keep-alive', 'Content-Length': '163', 'charset': 'utf-8', 'x-wx-ob-sdkversion': '[object Undefined]', 'x-wx-ob-pack-version': '0', 'x-wx-ob-project-key': 'wxb6d22f922f37b35a', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'content-type': 'application/json', 'Accept-Encoding': 'gzip,compress,br,deflate', 'x-wx-ob-env': 'appservice', 'Referer': 'https://servicewechat.com/wxb6d22f922f37b35a/390/page-frame.html'}
+Body: {'report_items': [{'session_id': 'none', 'sdk_version': '3.1.5 (2024.10.15 17:07:41)', 'metric_type': 45, 'metric_value': 1, 'os_name': 'Android 9', 'os_version': 'release'}]}
+
+
+--- Response ---
+URL: https://servicewechat.com/ob/sdkmonitor?devtools_ignore=true
+Status Code: 200
+Headers: {'Content-Type': 'application/json; charset=UTF-8', 'Cache-Control': 'no-cache, must-revalidate', 'RetKey': '14', 'LogicRet': '0', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET,HEAD,PUT,PATCH,POST,DELETE', 'Access-Control-Allow-Headers': 'content-type, x-wx-ob-source, x-wx-ob-env, x-wx-ob-sdkversion, x-wx-ob-pack-version, x-wx-ob-project-key, x-wx-ob-object-prefix', 'Access-Control-Max-Age': '600', 'Connection': 'keep-alive', 'Content-Length': '23'}
+Body: {'base_resp': {'ret': 0}}
+
+
+--- Request ---
+URL: https://cube.weixinbridge.com/cube/report/reportbizdata?f=json
+Method: POST
+Headers: {'Host': 'cube.weixinbridge.com', 'Connection': 'keep-alive', 'Content-Length': '1613', 'charset': 'utf-8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'content-type': 'application/x-www-form-urlencoded', 'Accept-Encoding': 'gzip,compress,br,deflate', 'Referer': 'https://servicewechat.com/wxb6d22f922f37b35a/390/page-frame.html'}
+Body: {"length": 1613, "type": "text"}
+
+
+--- Response ---
+URL: https://cube.weixinbridge.com/cube/report/reportbizdata?f=json
+Status Code: 200
+Headers: {'Date': 'Fri, 17 Jan 2025 07:55:44 GMT', 'Content-Type': 'application/json', 'Content-Length': '57', 'Connection': 'keep-alive', 'Content-Encoding': 'deflate', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin,X-Requested-With,Content-Type,Accept', 'Access-Control-Allow-Methods': 'GET,POST'}
+Body: {'code': 0, 'message': 'total: 2, push to shm queue succ: 2'}
+
+
+--- Request ---
+URL: https://cube.weixinbridge.com/cube/report/reportbizdata?f=json
+Method: POST
+Headers: {'Host': 'cube.weixinbridge.com', 'Connection': 'keep-alive', 'Content-Length': '1482', 'charset': 'utf-8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'content-type': 'application/x-www-form-urlencoded', 'Accept-Encoding': 'gzip,compress,br,deflate', 'Referer': 'https://servicewechat.com/wxb6d22f922f37b35a/390/page-frame.html'}
+Body: {"length": 1482, "type": "text"}
+
+
+--- Response ---
+URL: https://cube.weixinbridge.com/cube/report/reportbizdata?f=json
+Status Code: 200
+Headers: {'Date': 'Fri, 17 Jan 2025 07:55:44 GMT', 'Content-Type': 'application/json', 'Content-Length': '57', 'Connection': 'keep-alive', 'Content-Encoding': 'deflate', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin,X-Requested-With,Content-Type,Accept', 'Access-Control-Allow-Methods': 'GET,POST'}
+Body: {'code': 0, 'message': 'total: 2, push to shm queue succ: 2'}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/index.m3u8?t=678a2513&us=678a08f34c313c7f4116b0d4s3&sign=4643976df70f9ecdd1348c6bceb91cd1
+Method: GET
+Headers: {'Range': 'bytes=0-1023', 'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/index.m3u8?t=678a2513&us=678a08f34c313c7f4116b0d4s3&sign=4643976df70f9ecdd1348c6bceb91cd1
+Status Code: 200
+Headers: {'Last-Modified': 'Mon, 13 Jan 2025 17:36:05 GMT', 'Etag': '"ab406041fdbc97f84bdf488b567acd28"', 'Eo-Request-Id': '77f5aa21-901f-495c-b817-5ee6d981fdea', 'Cache-Control': 'max-age=86400', 'Age': '88027', 'X-NWS-LOG-UUID': '658498184487053885', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Content-Type': 'application/vnd.apple.mpegurl', 'Date': 'Fri, 17 Jan 2025 07:55:45 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash', 'Content-Length': '4730'}
+Body: {"length": 4730, "type": "text"}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/index.m3u8?t=678a2513&us=678a08f35dde64792ba34727s3&sign=7103d52e27d87f6c31e61f45bd592840
+Method: GET
+Headers: {'Range': 'bytes=0-1023', 'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/index.m3u8?t=678a2513&us=678a08f35dde64792ba34727s3&sign=7103d52e27d87f6c31e61f45bd592840
+Status Code: 200
+Headers: {'Last-Modified': 'Sun, 12 Jan 2025 17:57:14 GMT', 'Etag': '"2a924fa236fdc0437b550cae06ca56ef"', 'Eo-Request-Id': '754e6fa6-e836-4377-82ee-0cf64bfb127d', 'Cache-Control': 'max-age=86400', 'Age': '81783', 'X-NWS-LOG-UUID': '10357496036707068344', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Content-Type': 'application/vnd.apple.mpegurl', 'Date': 'Fri, 17 Jan 2025 07:55:45 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash', 'Content-Length': '3565'}
+Body: {"length": 3565, "type": "text"}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/index.m3u8?t=678a2513&us=678a08f34c313c7f4116b0d4s3&sign=4643976df70f9ecdd1348c6bceb91cd1
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive', 'Accept-Encoding': 'gzip'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/index.m3u8?t=678a2513&us=678a08f34c313c7f4116b0d4s3&sign=4643976df70f9ecdd1348c6bceb91cd1
+Status Code: 200
+Headers: {'Last-Modified': 'Mon, 13 Jan 2025 17:36:05 GMT', 'Etag': '"ab406041fdbc97f84bdf488b567acd28"', 'Eo-Request-Id': '77f5aa21-901f-495c-b817-5ee6d981fdea', 'Cache-Control': 'max-age=86400', 'Age': '88028', 'X-NWS-LOG-UUID': '14214395588399173785', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Content-Type': 'application/vnd.apple.mpegurl', 'Date': 'Fri, 17 Jan 2025 07:55:46 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash', 'Content-Length': '4730'}
+Body: {"length": 4730, "type": "text"}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/index.m3u8?t=678a2513&us=678a08f35dde64792ba34727s3&sign=7103d52e27d87f6c31e61f45bd592840
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive', 'Accept-Encoding': 'gzip'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/index.m3u8?t=678a2513&us=678a08f35dde64792ba34727s3&sign=7103d52e27d87f6c31e61f45bd592840
+Status Code: 200
+Headers: {'Last-Modified': 'Sun, 12 Jan 2025 17:57:14 GMT', 'Etag': '"2a924fa236fdc0437b550cae06ca56ef"', 'Eo-Request-Id': '754e6fa6-e836-4377-82ee-0cf64bfb127d', 'Cache-Control': 'max-age=86400', 'Age': '81784', 'X-NWS-LOG-UUID': '13680623662618438278', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Content-Type': 'application/vnd.apple.mpegurl', 'Date': 'Fri, 17 Jan 2025 07:55:46 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash', 'Content-Length': '3565'}
+Body: {"length": 3565, "type": "text"}
+
+
+--- Request ---
+URL: https://cube.weixinbridge.com/cube/report/reportbizdata?f=json
+Method: POST
+Headers: {'Host': 'cube.weixinbridge.com', 'Connection': 'keep-alive', 'Content-Length': '2625', 'charset': 'utf-8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'content-type': 'application/x-www-form-urlencoded', 'Accept-Encoding': 'gzip,compress,br,deflate', 'Referer': 'https://servicewechat.com/wxb6d22f922f37b35a/390/page-frame.html'}
+Body: {"length": 2625, "type": "text"}
+
+
+--- Response ---
+URL: https://cube.weixinbridge.com/cube/report/reportbizdata?f=json
+Status Code: 200
+Headers: {'Date': 'Fri, 17 Jan 2025 07:55:46 GMT', 'Content-Type': 'application/json', 'Content-Length': '57', 'Connection': 'keep-alive', 'Content-Encoding': 'deflate', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin,X-Requested-With,Content-Type,Accept', 'Access-Control-Allow-Methods': 'GET,POST'}
+Body: {'code': 0, 'message': 'total: 2, push to shm queue succ: 2'}
+
+
+--- Request ---
+URL: https://mini-prog-drm.vodplayvideo.net/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/get_jitp_enc_key?kver=1&kidx=1&exp=1737106707&sign=bc2eba848f238846adeb5f550d781cef
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Host': 'mini-prog-drm.vodplayvideo.net', 'Connection': 'Keep-Alive', 'Accept-Encoding': 'gzip'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://mini-prog-drm.vodplayvideo.net/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/get_jitp_enc_key?kver=1&kidx=1&exp=1737106707&sign=bc2eba848f238846adeb5f550d781cef
+Status Code: 200
+Headers: {'Content-Length': '16', 'X-NWS-LOG-UUID': '12173730195990681434', 'Connection': 'keep-alive', 'Server': 'lego_vod', 'X-Cache-Lookup': 'Return Directly', 'Date': 'Fri, 17 Jan 2025 07:55:46 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"length": 16, "type": "text"}
+
+
+--- Request ---
+URL: https://mini-prog-drm.vodplayvideo.net/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/get_jitp_enc_key?kver=1&kidx=1&exp=1737106707&sign=68e09eb880408b48f42112a6e30220bf
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Host': 'mini-prog-drm.vodplayvideo.net', 'Connection': 'Keep-Alive', 'Accept-Encoding': 'gzip'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://mini-prog-drm.vodplayvideo.net/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/get_jitp_enc_key?kver=1&kidx=1&exp=1737106707&sign=68e09eb880408b48f42112a6e30220bf
+Status Code: 200
+Headers: {'Content-Length': '16', 'X-NWS-LOG-UUID': '4193904993518527647', 'Connection': 'keep-alive', 'Server': 'lego_vod', 'X-Cache-Lookup': 'Return Directly', 'Date': 'Fri, 17 Jan 2025 07:55:46 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"length": 16, "type": "text"}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMgHWYhHSkgHiMmHSAdIB4gIB0iHiAg.ts?sign=7103d52e27d87f6c31e61f45bd592840&t=678a2513&us=678a08f35dde64792ba34727s3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMgHWYhHSkgHiMmHSAdIB4gIB0iHiAg.ts?sign=7103d52e27d87f6c31e61f45bd592840&t=678a2513&us=678a08f35dde64792ba34727s3
+Status Code: 200
+Headers: {'Last-Modified': 'Tue, 07 Jan 2025 01:47:31 GMT', 'Etag': '"91ba36ab5080637ed5a359209fe6cc4c"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'x-cosindex-replication-status': 'Complete', 'Content-Length': '183120', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '7234475948475757640', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:46 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 183120}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMgHWYhHSEkIB4iJB0gHSAeICAdIh4gIA.ts?sign=4643976df70f9ecdd1348c6bceb91cd1&t=678a2513&us=678a08f34c313c7f4116b0d4s3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMgHWYhHSEkIB4iJB0gHSAeICAdIh4gIA.ts?sign=4643976df70f9ecdd1348c6bceb91cd1&t=678a2513&us=678a08f34c313c7f4116b0d4s3
+Status Code: 200
+Headers: {'Last-Modified': 'Wed, 08 Jan 2025 02:00:05 GMT', 'Etag': '"6ff97256362669e85fa0c943455bfaf3"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'Content-Length': '353824', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '7703758685241452278', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:46 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 353824}
+
+
+--- Request ---
+URL: https://mp.weixin.qq.com/intp/hotdrama?action=getuserlastedwatchedlist&is_new_ticket=1&source=1&busi_data=&reddot_id=&appversion=2.8.1&popular_type=2&popular_type_fallback=1&device=2&device_version=Android%209&weapp_version=2.8.1&f=json&codetype=wxadiscoverpage&code=0d3Z0u000HdbzT1Jxo200Y3zGR3Z0u0o
+Method: GET
+Headers: {'Host': 'mp.weixin.qq.com', 'Connection': 'keep-alive', 'charset': 'utf-8', 'cookie': '', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'content-type': 'application/json', 'Accept-Encoding': 'gzip,compress,br,deflate', 'x-weapp-biz-version': '2.8.1', 'Referer': 'https://servicewechat.com/wxb6d22f922f37b35a/390/page-frame.html'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://mp.weixin.qq.com/intp/hotdrama?action=getuserlastedwatchedlist&is_new_ticket=1&source=1&busi_data=&reddot_id=&appversion=2.8.1&popular_type=2&popular_type_fallback=1&device=2&device_version=Android%209&weapp_version=2.8.1&f=json&codetype=wxadiscoverpage&code=0d3Z0u000HdbzT1Jxo200Y3zGR3Z0u0o
+Status Code: 200
+Headers: {'Access-Control-Allow-Origin': '', 'Access-Control-Allow-Credentials': 'true', 'Content-Type': 'application/json; charset=UTF-8', 'Cache-Control': 'no-cache, must-revalidate', 'RetKey': '14', 'LogicRet': '0', 'Connection': 'keep-alive', 'Content-Encoding': 'gzip', 'Content-Length': '1609'}
+Body: {'base_resp': {'ret': 0, 'err_msg': '', 'wxa_session': 'Png8otBaX3Jl4iUUsCKiPxICv3ohnVqAJJW9-4JRAA9HrRW32ge9p-LxGHMyAhXQwVweEFRpG80-IsvxE5eH4Q', 'wxa_session_expire': 1737107746, 'open_id': 'o4YEg5Zuzr1KkFpvcGnQMtTQoOB4', 'dye_flag': 0, 'timestamp': 1737100547, 'is_test_env': False}, 'list': [{'drama_name': '天降锦鲤救全家', 'drama_id': '875796', 'full_path': '__plugin__/wx94a6522b1d640c3b/pages/playlet/playlet?wxSourceType=finderSelfOperated&dramaId=875796&srcAppid=wx3a34dee464ed9c4b', 'media_id': '874832', 'coverurl': 'https://wxaintpcos.wxqcloud.qq.com.cn/public/wx539e0b4872f196d1/WxaComm/IMG_dfe6a599ffda9a7b57dc5e83dce24de5_842651736992907661', 'appid': 'wx3013500c1539fce3', 'src_appid': 'wx3a34dee464ed9c4b', 'unique_drama_id': '', 'playback_link': 'https://1500022465.vodpreview.wxamedia.com/a29a30cavodtranssh1500022465/40c408461397757902643117225/v.f1458118.m3u8$JM!Transcode!Template=miniprog_enc_v1/index.m3u8?t=678a2923&us=678a0d0388c9c54f6ffc03eas3&sign=2b02c1380f3822245b771ca4b89a6aa1'}, {'drama_name': '尊老爱幼', 'drama_id': '1139688', 'full_path': '__plugin__/wx94a6522b1d640c3b/pages/playlet/playlet?srcAppid=wx4f3ca6d4c2407ccc&bookId=41000110288&dramaId=1139688', 'media_id': '1139014', 'coverurl': 'https://wxaintpcos.wxqcloud.qq.com.cn/public/wx539e0b4872f196d1/WxaComm/IMG_4ba7b3e44cb4e3b55b9e00586715c1db_685971736305235567', 'appid': 'wx36e6778df3eb90bf', 'src_appid': 'wx4f3ca6d4c2407ccc', 'unique_drama_id': '', 'playback_link': 'https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/index.m3u8?t=678a2923&us=678a0d03bae62029ff7a7af9s3&sign=62313dc1d22901b5e4a35366d4e73e94', 'list_ranking': 2}, {'drama_name': '八零追妻已太迟', 'drama_id': '1120448', 'full_path': '__plugin__/wx94a6522b1d640c3b/pages/playlet/playlet?bookId=41000109865&dramaId=1120448&srcAppid=wx4f3ca6d4c2407ccc', 'media_id': '1119991', 'coverurl': 'https://wxaintpcos.wxqcloud.qq.com.cn/public/wx539e0b4872f196d1/WxaComm/IMG_9ce3f3a87c50e2a5222eeff5a3c59278_318591736280183476', 'appid': 'wx517dce3e9ac180b7', 'src_appid': 'wx4f3ca6d4c2407ccc', 'unique_drama_id': '', 'playback_link': 'https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/index.m3u8?t=678a2923&us=678a0d0329ddd09e3b1552fes3&sign=34fdae4ac43e33340224d82f4bd967da', 'list_ranking': 3}, {'drama_name': '我本将心向明月，奈何明月照沟渠', 'drama_id': '1124460', 'full_path': '__plugin__/wx94a6522b1d640c3b/pages/playlet/playlet?srcAppid=wx4f3ca6d4c2407ccc&serialNo=1&bookId=41000110015&dramaId=1124460', 'media_id': '1124427', 'coverurl': 'https://wxaintpcos.wxqcloud.qq.com.cn/public/wx539e0b4872f196d1/WxaComm/IMG_e36ba603126d7cb8343b72287ecc43db_815891735523114505', 'appid': 'wx36e6778df3eb90bf', 'src_appid': 'wx4f3ca6d4c2407ccc', 'unique_drama_id': ''}, {'drama_name': '明月曾照彩云归', 'drama_id': '367592', 'full_path': '__plugin__/wx94a6522b1d640c3b/pages/playlet/playlet?dramaId=367592&srcAppid=wxa8b273584884d68a', 'media_id': '367588', 'coverurl': 'https://wxaintpcos.wxqcloud.qq.com.cn/public/wx539e0b4872f196d1/WxaComm/IMG_8b39c5e08ccbd38614b94bedda10b7e8_458521736873813924', 'appid': 'wx74c5faf0e5c25b01', 'src_appid': 'wxa8b273584884d68a', 'unique_drama_id': ''}, {'drama_name': '离婚后，裴总哭红眼', 'drama_id': '1100815', 'full_path': '__plugin__/wx94a6522b1d640c3b/pages/playlet/playlet?dramaId=1100815&srcAppid=wx4f3ca6d4c2407ccc', 'media_id': '1100719', 'coverurl': 'https://wxaintpcos.wxqcloud.qq.com.cn/public/wx539e0b4872f196d1/WxaComm/IMG_c4b57901e62ebb89e9ed5bc043882bb9_282681735609564722', 'appid': 'wxa1b12d71ae8a52e0', 'src_appid': 'wx4f3ca6d4c2407ccc', 'unique_drama_id': ''}, {'drama_name': '卿若垂泪，与我何干', 'drama_id': '1135764', 'full_path': '__plugin__/wx94a6522b1d640c3b/pages/playlet/playlet?bookId=41000110244&dramaId=1135764&srcAppid=wx4f3ca6d4c2407ccc', 'media_id': '1135637', 'coverurl': 'https://wxaintpcos.wxqcloud.qq.com.cn/public/wx539e0b4872f196d1/WxaComm/IMG_d8d97a6539074efbc7d4b4d2a890a40d_730771736126699748', 'appid': 'wxf686c98fc7ad356b', 'src_appid': 'wx4f3ca6d4c2407ccc', 'unique_drama_id': ''}], 'status': 0, 'expt_value': '1', 'list_recmd': [], 'list_op': [], 'style_expt_value': 3, 'entry_expt_value': 2}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMhHWYhHSkgHiMmHSEdIh4gIB0iHiAg.ts?sign=7103d52e27d87f6c31e61f45bd592840&t=678a2513&us=678a08f35dde64792ba34727s3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMhHWYhHSkgHiMmHSEdIh4gIB0iHiAg.ts?sign=7103d52e27d87f6c31e61f45bd592840&t=678a2513&us=678a08f35dde64792ba34727s3
+Status Code: 200
+Headers: {'Last-Modified': 'Tue, 07 Jan 2025 01:47:31 GMT', 'Etag': '"691a8e31934d6ed7837e9d13879617ad"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'x-cosindex-replication-status': 'Complete', 'Content-Length': '192704', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '18123029339820401628', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:47 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 192704}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMhHWYhHSEkIB4iJB0hHSIeICAdIh4gIA.ts?sign=4643976df70f9ecdd1348c6bceb91cd1&t=678a2513&us=678a08f34c313c7f4116b0d4s3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMhHWYhHSEkIB4iJB0hHSIeICAdIh4gIA.ts?sign=4643976df70f9ecdd1348c6bceb91cd1&t=678a2513&us=678a08f34c313c7f4116b0d4s3
+Status Code: 200
+Headers: {'Last-Modified': 'Wed, 08 Jan 2025 02:00:05 GMT', 'Etag': '"c6e558ad76008a1d0dfd8b1f91170855"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'x-cosindex-replication-status': 'Complete', 'Content-Length': '399504', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '14775340080191118013', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:47 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 399504}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMiHWYhHSkgHiMmHSIdJB4gIB0iHiAg.ts?sign=7103d52e27d87f6c31e61f45bd592840&t=678a2513&us=678a08f35dde64792ba34727s3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMiHWYhHSkgHiMmHSIdJB4gIB0iHiAg.ts?sign=7103d52e27d87f6c31e61f45bd592840&t=678a2513&us=678a08f35dde64792ba34727s3
+Status Code: 200
+Headers: {'Last-Modified': 'Tue, 07 Jan 2025 01:47:32 GMT', 'Etag': '"e55b8ef75b592c1dd31703d644c372d2"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'x-cosindex-replication-status': 'Complete', 'Content-Length': '130288', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '17287445720321665568', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:47 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 130288}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMiHWYhHSEkIB4iJB0iHSQeICAdIh4gIA.ts?sign=4643976df70f9ecdd1348c6bceb91cd1&t=678a2513&us=678a08f34c313c7f4116b0d4s3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMiHWYhHSEkIB4iJB0iHSQeICAdIh4gIA.ts?sign=4643976df70f9ecdd1348c6bceb91cd1&t=678a2513&us=678a08f34c313c7f4116b0d4s3
+Status Code: 200
+Headers: {'Last-Modified': 'Wed, 08 Jan 2025 02:00:06 GMT', 'Etag': '"3f3eae12a94b482748d278fc1452b8b1"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'Content-Length': '344608', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '10004978449803260894', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:47 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 344608}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMjHWYhHSkgHiMmHSMdJh4gIB0iHiAg.ts?sign=7103d52e27d87f6c31e61f45bd592840&t=678a2513&us=678a08f35dde64792ba34727s3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMjHWYhHSkgHiMmHSMdJh4gIB0iHiAg.ts?sign=7103d52e27d87f6c31e61f45bd592840&t=678a2513&us=678a08f35dde64792ba34727s3
+Status Code: 200
+Headers: {'Last-Modified': 'Tue, 07 Jan 2025 01:47:32 GMT', 'Etag': '"97e4ecc1773959ae4744817e9d33db93"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'x-cosindex-replication-status': 'Complete', 'Content-Length': '160192', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '4355075411487169129', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:47 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 160192}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMjHWYhHSEkIB4iJB0jHSYeICAdIh4gIA.ts?sign=4643976df70f9ecdd1348c6bceb91cd1&t=678a2513&us=678a08f34c313c7f4116b0d4s3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMjHWYhHSEkIB4iJB0jHSYeICAdIh4gIA.ts?sign=4643976df70f9ecdd1348c6bceb91cd1&t=678a2513&us=678a08f34c313c7f4116b0d4s3
+Status Code: 200
+Headers: {'Last-Modified': 'Wed, 08 Jan 2025 02:00:06 GMT', 'Etag': '"719b3dfe1930c7f891df9f5c2750baf4"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'Content-Length': '232944', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '2146006528854504613', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:47 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 232944}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMkHWYhHSkgHiMmHSQdKB4gIB0iHiAg.ts?sign=7103d52e27d87f6c31e61f45bd592840&t=678a2513&us=678a08f35dde64792ba34727s3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMkHWYhHSkgHiMmHSQdKB4gIB0iHiAg.ts?sign=7103d52e27d87f6c31e61f45bd592840&t=678a2513&us=678a08f35dde64792ba34727s3
+Status Code: 200
+Headers: {'Last-Modified': 'Tue, 07 Jan 2025 01:47:33 GMT', 'Etag': '"77912917918e0484216042e2ac39cabf"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'x-cosindex-replication-status': 'Complete', 'Content-Length': '150224', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '2544172919184177942', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:47 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 150224}
+
+
+--- Request ---
+URL: https://mini-prog-drm.vodplayvideo.net/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/get_jitp_enc_key?kver=1&kidx=2&exp=1737106707&sign=f88b5ca29c24ecfb2b98cc16f3d8a980
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Host': 'mini-prog-drm.vodplayvideo.net', 'Connection': 'Keep-Alive', 'Accept-Encoding': 'gzip'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://mini-prog-drm.vodplayvideo.net/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/get_jitp_enc_key?kver=1&kidx=2&exp=1737106707&sign=f88b5ca29c24ecfb2b98cc16f3d8a980
+Status Code: 200
+Headers: {'Content-Length': '16', 'X-NWS-LOG-UUID': '4075338753195952368', 'Connection': 'keep-alive', 'Server': 'lego_vod', 'X-Cache-Lookup': 'Return Directly', 'Date': 'Fri, 17 Jan 2025 07:55:48 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"length": 16, "type": "text"}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMkHWYhHSEkIB4iJB0kHSgeICAdIh4gIA.ts?sign=4643976df70f9ecdd1348c6bceb91cd1&t=678a2513&us=678a08f34c313c7f4116b0d4s3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMkHWYhHSEkIB4iJB0kHSgeICAdIh4gIA.ts?sign=4643976df70f9ecdd1348c6bceb91cd1&t=678a2513&us=678a08f34c313c7f4116b0d4s3
+Status Code: 200
+Headers: {'Last-Modified': 'Wed, 08 Jan 2025 02:00:07 GMT', 'Etag': '"bff49def26d7cff77a25d4332ccd7a28"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'Content-Length': '336912', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '4701337493107890455', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:48 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 336912}
+
+
+--- Request ---
+URL: https://mini-prog-drm.vodplayvideo.net/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/get_jitp_enc_key?kver=1&kidx=2&exp=1737106707&sign=0bbc2e8b819372c40475577e0515ecf6
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Host': 'mini-prog-drm.vodplayvideo.net', 'Connection': 'Keep-Alive', 'Accept-Encoding': 'gzip'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://mini-prog-drm.vodplayvideo.net/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/get_jitp_enc_key?kver=1&kidx=2&exp=1737106707&sign=0bbc2e8b819372c40475577e0515ecf6
+Status Code: 200
+Headers: {'Content-Length': '16', 'X-NWS-LOG-UUID': '2425733239296424777', 'Connection': 'keep-alive', 'Server': 'lego_vod', 'X-Cache-Lookup': 'Return Directly', 'Date': 'Fri, 17 Jan 2025 07:55:48 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"length": 16, "type": "text"}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMlHWYhHSkgHiMmHSUdISAeICAdIh4gIA.ts?sign=7103d52e27d87f6c31e61f45bd592840&t=678a2513&us=678a08f35dde64792ba34727s3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMlHWYhHSkgHiMmHSUdISAeICAdIh4gIA.ts?sign=7103d52e27d87f6c31e61f45bd592840&t=678a2513&us=678a08f35dde64792ba34727s3
+Status Code: 200
+Headers: {'Last-Modified': 'Tue, 07 Jan 2025 01:47:33 GMT', 'Etag': '"2683218850cf09e7c0ef0533f9d5cb65"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'Content-Length': '174096', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '5548859216932283461', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:48 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 174096}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMlHWYhHSEkIB4iJB0lHSEgHiAgHSIeICA.ts?sign=4643976df70f9ecdd1348c6bceb91cd1&t=678a2513&us=678a08f34c313c7f4116b0d4s3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMlHWYhHSEkIB4iJB0lHSEgHiAgHSIeICA.ts?sign=4643976df70f9ecdd1348c6bceb91cd1&t=678a2513&us=678a08f34c313c7f4116b0d4s3
+Status Code: 200
+Headers: {'Last-Modified': 'Wed, 08 Jan 2025 02:00:08 GMT', 'Etag': '"65008093e674a5f42e1595867b1540ee"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'x-cosindex-replication-status': 'Complete', 'Content-Length': '313408', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '5962613968085645367', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:48 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 313408}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/index.m3u8?t=678a2923&us=678a0d0329ddd09e3b1552fes3&sign=34fdae4ac43e33340224d82f4bd967da
+Method: GET
+Headers: {'Range': 'bytes=0-1023', 'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/index.m3u8?t=678a2923&us=678a0d0329ddd09e3b1552fes3&sign=34fdae4ac43e33340224d82f4bd967da
+Status Code: 200
+Headers: {'Last-Modified': 'Mon, 13 Jan 2025 17:36:05 GMT', 'Etag': '"ab406041fdbc97f84bdf488b567acd28"', 'Eo-Request-Id': '77f5aa21-901f-495c-b817-5ee6d981fdea', 'Cache-Control': 'max-age=86400', 'Age': '88030', 'X-NWS-LOG-UUID': '6759648249356486402', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Content-Type': 'application/vnd.apple.mpegurl', 'Date': 'Fri, 17 Jan 2025 07:55:48 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash', 'Content-Length': '4730'}
+Body: {"length": 4730, "type": "text"}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMmHWYhHSkgHiMmHSYdISIeICAdISAeICA.ts?sign=7103d52e27d87f6c31e61f45bd592840&t=678a2513&us=678a08f35dde64792ba34727s3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMmHWYhHSkgHiMmHSYdISIeICAdISAeICA.ts?sign=7103d52e27d87f6c31e61f45bd592840&t=678a2513&us=678a08f35dde64792ba34727s3
+Status Code: 200
+Headers: {'Last-Modified': 'Tue, 07 Jan 2025 01:47:34 GMT', 'Etag': '"34fcd2413e93a3da59e3ed67801c14b4"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'x-cosindex-replication-status': 'Complete', 'Content-Length': '859168', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '1532193409585366460', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:48 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 859168}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/index.m3u8?t=678a2923&us=678a0d0329ddd09e3b1552fes3&sign=34fdae4ac43e33340224d82f4bd967da
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive', 'Accept-Encoding': 'gzip'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/index.m3u8?t=678a2923&us=678a0d0329ddd09e3b1552fes3&sign=34fdae4ac43e33340224d82f4bd967da
+Status Code: 200
+Headers: {'Last-Modified': 'Mon, 13 Jan 2025 17:36:05 GMT', 'Etag': '"ab406041fdbc97f84bdf488b567acd28"', 'Eo-Request-Id': '77f5aa21-901f-495c-b817-5ee6d981fdea', 'Cache-Control': 'max-age=86400', 'Age': '88030', 'X-NWS-LOG-UUID': '14163464948214949264', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Content-Type': 'application/vnd.apple.mpegurl', 'Date': 'Fri, 17 Jan 2025 07:55:48 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash', 'Content-Length': '4730'}
+Body: {"length": 4730, "type": "text"}
+
+
+--- Request ---
+URL: https://cube.weixinbridge.com/cube/report/reportbizdata?f=json
+Method: POST
+Headers: {'Host': 'cube.weixinbridge.com', 'Connection': 'keep-alive', 'Content-Length': '9490', 'charset': 'utf-8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'content-type': 'application/x-www-form-urlencoded', 'Accept-Encoding': 'gzip,compress,br,deflate', 'Referer': 'https://servicewechat.com/wxb6d22f922f37b35a/390/page-frame.html'}
+Body: {"length": 9490, "type": "text"}
+
+
+--- Response ---
+URL: https://cube.weixinbridge.com/cube/report/reportbizdata?f=json
+Status Code: 200
+Headers: {'Date': 'Fri, 17 Jan 2025 07:55:48 GMT', 'Content-Type': 'application/json', 'Content-Length': '57', 'Connection': 'keep-alive', 'Content-Encoding': 'deflate', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin,X-Requested-With,Content-Type,Accept', 'Access-Control-Allow-Methods': 'GET,POST'}
+Body: {'code': 0, 'message': 'total: 4, push to shm queue succ: 4'}
+
+
+--- Request ---
+URL: https://mini-prog-drm.vodplayvideo.net/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/get_jitp_enc_key?kver=1&kidx=1&exp=1737107747&sign=6f54c59606cfeb4de349dee58b14cc54
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Host': 'mini-prog-drm.vodplayvideo.net', 'Connection': 'Keep-Alive', 'Accept-Encoding': 'gzip'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://mini-prog-drm.vodplayvideo.net/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/get_jitp_enc_key?kver=1&kidx=1&exp=1737107747&sign=6f54c59606cfeb4de349dee58b14cc54
+Status Code: 200
+Headers: {'Content-Length': '16', 'X-NWS-LOG-UUID': '10133487439479268184', 'Connection': 'keep-alive', 'Server': 'lego_vod', 'X-Cache-Lookup': 'Return Directly', 'Date': 'Fri, 17 Jan 2025 07:55:48 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"length": 16, "type": "text"}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/index.m3u8?t=678a2923&us=678a0d03bae62029ff7a7af9s3&sign=62313dc1d22901b5e4a35366d4e73e94
+Method: GET
+Headers: {'Range': 'bytes=0-1023', 'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/index.m3u8?t=678a2923&us=678a0d03bae62029ff7a7af9s3&sign=62313dc1d22901b5e4a35366d4e73e94
+Status Code: 200
+Headers: {'Last-Modified': 'Sun, 12 Jan 2025 17:57:14 GMT', 'Etag': '"2a924fa236fdc0437b550cae06ca56ef"', 'Eo-Request-Id': '754e6fa6-e836-4377-82ee-0cf64bfb127d', 'Cache-Control': 'max-age=86400', 'Age': '81786', 'X-NWS-LOG-UUID': '1004559691917921155', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Content-Type': 'application/vnd.apple.mpegurl', 'Date': 'Fri, 17 Jan 2025 07:55:48 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash', 'Content-Length': '3565'}
+Body: {"length": 3565, "type": "text"}
+
+
+--- Request ---
+URL: https://cube.weixinbridge.com/cube/report/reportbizdata?f=json
+Method: POST
+Headers: {'Host': 'cube.weixinbridge.com', 'Connection': 'keep-alive', 'Content-Length': '611', 'charset': 'utf-8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'content-type': 'application/x-www-form-urlencoded', 'Accept-Encoding': 'gzip,compress,br,deflate', 'Referer': 'https://servicewechat.com/wxb6d22f922f37b35a/390/page-frame.html'}
+Body: {"length": 611, "type": "text"}
+
+
+--- Response ---
+URL: https://cube.weixinbridge.com/cube/report/reportbizdata?f=json
+Status Code: 200
+Headers: {'Date': 'Fri, 17 Jan 2025 07:55:48 GMT', 'Content-Type': 'application/json', 'Content-Length': '57', 'Connection': 'keep-alive', 'Content-Encoding': 'deflate', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin,X-Requested-With,Content-Type,Accept', 'Access-Control-Allow-Methods': 'GET,POST'}
+Body: {'code': 0, 'message': 'total: 1, push to shm queue succ: 1'}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMgHWYhHSEkIB4iJB0gHSAeICAdIh4gIA.ts?sign=34fdae4ac43e33340224d82f4bd967da&t=678a2923&us=678a0d0329ddd09e3b1552fes3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMgHWYhHSEkIB4iJB0gHSAeICAdIh4gIA.ts?sign=34fdae4ac43e33340224d82f4bd967da&t=678a2923&us=678a0d0329ddd09e3b1552fes3
+Status Code: 200
+Headers: {'Last-Modified': 'Wed, 08 Jan 2025 02:00:05 GMT', 'Etag': '"6ff97256362669e85fa0c943455bfaf3"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'Content-Length': '353824', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '15085300573722483127', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:48 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 353824}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/index.m3u8?t=678a2923&us=678a0d03bae62029ff7a7af9s3&sign=62313dc1d22901b5e4a35366d4e73e94
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive', 'Accept-Encoding': 'gzip'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/index.m3u8?t=678a2923&us=678a0d03bae62029ff7a7af9s3&sign=62313dc1d22901b5e4a35366d4e73e94
+Status Code: 200
+Headers: {'Last-Modified': 'Sun, 12 Jan 2025 17:57:14 GMT', 'Etag': '"2a924fa236fdc0437b550cae06ca56ef"', 'Eo-Request-Id': '754e6fa6-e836-4377-82ee-0cf64bfb127d', 'Cache-Control': 'max-age=86400', 'Age': '81786', 'X-NWS-LOG-UUID': '2066307127482875759', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Content-Type': 'application/vnd.apple.mpegurl', 'Date': 'Fri, 17 Jan 2025 07:55:48 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash', 'Content-Length': '3565'}
+Body: {"length": 3565, "type": "text"}
+
+
+--- Request ---
+URL: https://mini-prog-drm.vodplayvideo.net/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/get_jitp_enc_key?kver=1&kidx=1&exp=1737107747&sign=b34ea1c952aa297a59be1d78d1b887c4
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Host': 'mini-prog-drm.vodplayvideo.net', 'Connection': 'Keep-Alive', 'Accept-Encoding': 'gzip'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://mini-prog-drm.vodplayvideo.net/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/get_jitp_enc_key?kver=1&kidx=1&exp=1737107747&sign=b34ea1c952aa297a59be1d78d1b887c4
+Status Code: 200
+Headers: {'Content-Length': '16', 'X-NWS-LOG-UUID': '2607070514946054598', 'Connection': 'keep-alive', 'Server': 'lego_vod', 'X-Cache-Lookup': 'Return Directly', 'Date': 'Fri, 17 Jan 2025 07:55:48 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"length": 16, "type": "text"}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMhHWYhHSEkIB4iJB0hHSIeICAdIh4gIA.ts?sign=34fdae4ac43e33340224d82f4bd967da&t=678a2923&us=678a0d0329ddd09e3b1552fes3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMhHWYhHSEkIB4iJB0hHSIeICAdIh4gIA.ts?sign=34fdae4ac43e33340224d82f4bd967da&t=678a2923&us=678a0d0329ddd09e3b1552fes3
+Status Code: 200
+Headers: {'Last-Modified': 'Wed, 08 Jan 2025 02:00:05 GMT', 'Etag': '"c6e558ad76008a1d0dfd8b1f91170855"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'x-cosindex-replication-status': 'Complete', 'Content-Length': '399504', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '13958257209724486270', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:48 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 399504}
+
+
+--- Request ---
+URL: https://mp.weixin.qq.com/intp/hotdrama?action=getdramalabel&is_new_ticket=1&source=2&device=2&device_version=Android%209&weapp_version=2.8.1&f=json&wxa_session=Png8otBaX3Jl4iUUsCKiPxICv3ohnVqAJJW9-4JRAA9HrRW32ge9p-LxGHMyAhXQwVweEFRpG80-IsvxE5eH4Q
+Method: GET
+Headers: {'Host': 'mp.weixin.qq.com', 'Connection': 'keep-alive', 'charset': 'utf-8', 'cookie': '', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'content-type': 'application/json', 'Accept-Encoding': 'gzip,compress,br,deflate', 'x-weapp-biz-version': '2.8.1', 'Referer': 'https://servicewechat.com/wxb6d22f922f37b35a/390/page-frame.html'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://mp.weixin.qq.com/intp/hotdrama?action=getdramalabel&is_new_ticket=1&source=2&device=2&device_version=Android%209&weapp_version=2.8.1&f=json&wxa_session=Png8otBaX3Jl4iUUsCKiPxICv3ohnVqAJJW9-4JRAA9HrRW32ge9p-LxGHMyAhXQwVweEFRpG80-IsvxE5eH4Q
+Status Code: 200
+Headers: {'Access-Control-Allow-Origin': '', 'Access-Control-Allow-Credentials': 'true', 'Content-Type': 'application/json; charset=UTF-8', 'Cache-Control': 'no-cache, must-revalidate', 'RetKey': '14', 'LogicRet': '0', 'Connection': 'keep-alive', 'Content-Length': '639'}
+Body: {'base_resp': {'ret': 0, 'err_msg': '', 'wxa_session': 'Png8otBaX3Jl4iUUsCKiPxICv3ohnVqAJJW9-4JRAA9HrRW32ge9p-LxGHMyAhXQwVweEFRpG80-IsvxE5eH4Q', 'wxa_session_expire': 1737107746, 'open_id': 'o4YEg5Zuzr1KkFpvcGnQMtTQoOB4', 'dye_flag': 0, 'timestamp': 1737100548, 'is_test_env': False}, 'list': [{'id': 15, 'type': 8, 'name': '男频'}, {'id': 16, 'type': 8, 'name': '女频'}, {'id': 12, 'type': 7, 'name': '虐恋'}, {'id': 14, 'type': 7, 'name': '异能'}, {'id': 13, 'type': 7, 'name': '古装'}, {'id': 11, 'type': 7, 'name': '玄幻'}, {'id': 9, 'type': 7, 'name': '甜宠'}, {'id': 10, 'type': 7, 'name': '热血'}, {'id': 17, 'type': 7, 'name': '温馨'}, {'id': 6, 'type': 3, 'name': '推荐'}], 'recmd_loc': 1}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMgHWYhHSkgHiMmHSAdIB4gIB0iHiAg.ts?sign=62313dc1d22901b5e4a35366d4e73e94&t=678a2923&us=678a0d03bae62029ff7a7af9s3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMgHWYhHSkgHiMmHSAdIB4gIB0iHiAg.ts?sign=62313dc1d22901b5e4a35366d4e73e94&t=678a2923&us=678a0d03bae62029ff7a7af9s3
+Status Code: 200
+Headers: {'Last-Modified': 'Tue, 07 Jan 2025 01:47:31 GMT', 'Etag': '"91ba36ab5080637ed5a359209fe6cc4c"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'x-cosindex-replication-status': 'Complete', 'Content-Length': '183120', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '5976543522610877890', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:48 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 183120}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMiHWYhHSEkIB4iJB0iHSQeICAdIh4gIA.ts?sign=34fdae4ac43e33340224d82f4bd967da&t=678a2923&us=678a0d0329ddd09e3b1552fes3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMiHWYhHSEkIB4iJB0iHSQeICAdIh4gIA.ts?sign=34fdae4ac43e33340224d82f4bd967da&t=678a2923&us=678a0d0329ddd09e3b1552fes3
+Status Code: 200
+Headers: {'Last-Modified': 'Wed, 08 Jan 2025 02:00:06 GMT', 'Etag': '"3f3eae12a94b482748d278fc1452b8b1"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'Content-Length': '344608', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '15748484847317326930', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:48 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 344608}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMhHWYhHSkgHiMmHSEdIh4gIB0iHiAg.ts?sign=62313dc1d22901b5e4a35366d4e73e94&t=678a2923&us=678a0d03bae62029ff7a7af9s3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMhHWYhHSkgHiMmHSEdIh4gIB0iHiAg.ts?sign=62313dc1d22901b5e4a35366d4e73e94&t=678a2923&us=678a0d03bae62029ff7a7af9s3
+Status Code: 200
+Headers: {'Last-Modified': 'Tue, 07 Jan 2025 01:47:31 GMT', 'Etag': '"691a8e31934d6ed7837e9d13879617ad"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'x-cosindex-replication-status': 'Complete', 'Content-Length': '192704', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '1590476362436056857', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:49 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 192704}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMjHWYhHSEkIB4iJB0jHSYeICAdIh4gIA.ts?sign=34fdae4ac43e33340224d82f4bd967da&t=678a2923&us=678a0d0329ddd09e3b1552fes3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMjHWYhHSEkIB4iJB0jHSYeICAdIh4gIA.ts?sign=34fdae4ac43e33340224d82f4bd967da&t=678a2923&us=678a0d0329ddd09e3b1552fes3
+Status Code: 200
+Headers: {'Last-Modified': 'Wed, 08 Jan 2025 02:00:06 GMT', 'Etag': '"719b3dfe1930c7f891df9f5c2750baf4"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'Content-Length': '232944', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '9174201167015638410', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:49 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 232944}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMiHWYhHSkgHiMmHSIdJB4gIB0iHiAg.ts?sign=62313dc1d22901b5e4a35366d4e73e94&t=678a2923&us=678a0d03bae62029ff7a7af9s3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMiHWYhHSkgHiMmHSIdJB4gIB0iHiAg.ts?sign=62313dc1d22901b5e4a35366d4e73e94&t=678a2923&us=678a0d03bae62029ff7a7af9s3
+Status Code: 200
+Headers: {'Last-Modified': 'Tue, 07 Jan 2025 01:47:32 GMT', 'Etag': '"e55b8ef75b592c1dd31703d644c372d2"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'x-cosindex-replication-status': 'Complete', 'Content-Length': '130288', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '9905181682893184488', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:49 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 130288}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMkHWYhHSEkIB4iJB0kHSgeICAdIh4gIA.ts?sign=34fdae4ac43e33340224d82f4bd967da&t=678a2923&us=678a0d0329ddd09e3b1552fes3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMkHWYhHSEkIB4iJB0kHSgeICAdIh4gIA.ts?sign=34fdae4ac43e33340224d82f4bd967da&t=678a2923&us=678a0d0329ddd09e3b1552fes3
+Status Code: 200
+Headers: {'Last-Modified': 'Wed, 08 Jan 2025 02:00:07 GMT', 'Etag': '"bff49def26d7cff77a25d4332ccd7a28"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'Content-Length': '336912', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '2741445097459611407', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:49 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 336912}
+
+
+--- Request ---
+URL: https://mini-prog-drm.vodplayvideo.net/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/get_jitp_enc_key?kver=1&kidx=2&exp=1737107747&sign=348696ae91f3762b53079ed376d17dd4
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Host': 'mini-prog-drm.vodplayvideo.net', 'Connection': 'Keep-Alive', 'Accept-Encoding': 'gzip'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://mini-prog-drm.vodplayvideo.net/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/get_jitp_enc_key?kver=1&kidx=2&exp=1737107747&sign=348696ae91f3762b53079ed376d17dd4
+Status Code: 200
+Headers: {'Content-Length': '16', 'X-NWS-LOG-UUID': '6875458147556002838', 'Connection': 'keep-alive', 'Server': 'lego_vod', 'X-Cache-Lookup': 'Return Directly', 'Date': 'Fri, 17 Jan 2025 07:55:49 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"length": 16, "type": "text"}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMjHWYhHSkgHiMmHSMdJh4gIB0iHiAg.ts?sign=62313dc1d22901b5e4a35366d4e73e94&t=678a2923&us=678a0d03bae62029ff7a7af9s3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMjHWYhHSkgHiMmHSMdJh4gIB0iHiAg.ts?sign=62313dc1d22901b5e4a35366d4e73e94&t=678a2923&us=678a0d03bae62029ff7a7af9s3
+Status Code: 200
+Headers: {'Last-Modified': 'Tue, 07 Jan 2025 01:47:32 GMT', 'Etag': '"97e4ecc1773959ae4744817e9d33db93"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'x-cosindex-replication-status': 'Complete', 'Content-Length': '160192', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '14063513687390746558', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:49 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 160192}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMlHWYhHSEkIB4iJB0lHSEgHiAgHSIeICA.ts?sign=34fdae4ac43e33340224d82f4bd967da&t=678a2923&us=678a0d0329ddd09e3b1552fes3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMlHWYhHSEkIB4iJB0lHSEgHiAgHSIeICA.ts?sign=34fdae4ac43e33340224d82f4bd967da&t=678a2923&us=678a0d0329ddd09e3b1552fes3
+Status Code: 200
+Headers: {'Last-Modified': 'Wed, 08 Jan 2025 02:00:08 GMT', 'Etag': '"65008093e674a5f42e1595867b1540ee"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'x-cosindex-replication-status': 'Complete', 'Content-Length': '313408', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '3625207147695715457', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:49 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 313408}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMkHWYhHSkgHiMmHSQdKB4gIB0iHiAg.ts?sign=62313dc1d22901b5e4a35366d4e73e94&t=678a2923&us=678a0d03bae62029ff7a7af9s3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMkHWYhHSkgHiMmHSQdKB4gIB0iHiAg.ts?sign=62313dc1d22901b5e4a35366d4e73e94&t=678a2923&us=678a0d03bae62029ff7a7af9s3
+Status Code: 200
+Headers: {'Last-Modified': 'Tue, 07 Jan 2025 01:47:33 GMT', 'Etag': '"77912917918e0484216042e2ac39cabf"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'x-cosindex-replication-status': 'Complete', 'Content-Length': '150224', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '2830268449854083312', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:49 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 150224}
+
+
+--- Request ---
+URL: https://mini-prog-drm.vodplayvideo.net/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/get_jitp_enc_key?kver=1&kidx=2&exp=1737107747&sign=cde382477e3eea9aefa62757ef613272
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Host': 'mini-prog-drm.vodplayvideo.net', 'Connection': 'Keep-Alive', 'Accept-Encoding': 'gzip'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://mini-prog-drm.vodplayvideo.net/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/get_jitp_enc_key?kver=1&kidx=2&exp=1737107747&sign=cde382477e3eea9aefa62757ef613272
+Status Code: 200
+Headers: {'Content-Length': '16', 'X-NWS-LOG-UUID': '10315356201564391487', 'Connection': 'keep-alive', 'Server': 'lego_vod', 'X-Cache-Lookup': 'Return Directly', 'Date': 'Fri, 17 Jan 2025 07:55:49 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"length": 16, "type": "text"}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMlHWYhHSkgHiMmHSUdISAeICAdIh4gIA.ts?sign=62313dc1d22901b5e4a35366d4e73e94&t=678a2923&us=678a0d03bae62029ff7a7af9s3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMlHWYhHSkgHiMmHSUdISAeICAdIh4gIA.ts?sign=62313dc1d22901b5e4a35366d4e73e94&t=678a2923&us=678a0d03bae62029ff7a7af9s3
+Status Code: 200
+Headers: {'Last-Modified': 'Tue, 07 Jan 2025 01:47:33 GMT', 'Etag': '"2683218850cf09e7c0ef0533f9d5cb65"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'Content-Length': '174096', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '5530924729383176055', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:49 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 174096}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMmHWYhHSEkIB4iJB0mHSEiHiAgHSEgHiAg.ts?sign=34fdae4ac43e33340224d82f4bd967da&t=678a2923&us=678a0d0329ddd09e3b1552fes3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMmHWYhHSEkIB4iJB0mHSEiHiAgHSEgHiAg.ts?sign=34fdae4ac43e33340224d82f4bd967da&t=678a2923&us=678a0d0329ddd09e3b1552fes3
+Status Code: 200
+Headers: {'Last-Modified': 'Wed, 08 Jan 2025 02:00:08 GMT', 'Etag': '"d776420036c96f8e9aa9897245860c04"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'Content-Length': '1372416', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '9529744701156019221', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:49 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 1372416}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMmHWYhHSkgHiMmHSYdISIeICAdISAeICA.ts?sign=62313dc1d22901b5e4a35366d4e73e94&t=678a2923&us=678a0d03bae62029ff7a7af9s3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMmHWYhHSkgHiMmHSYdISIeICAdISAeICA.ts?sign=62313dc1d22901b5e4a35366d4e73e94&t=678a2923&us=678a0d03bae62029ff7a7af9s3
+Status Code: 200
+Headers: {'Last-Modified': 'Tue, 07 Jan 2025 01:47:34 GMT', 'Etag': '"34fcd2413e93a3da59e3ed67801c14b4"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'x-cosindex-replication-status': 'Complete', 'Content-Length': '859168', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '5560066865239531424', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:50 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 859168}
+
+
+--- Request ---
+URL: https://mp.weixin.qq.com/intp/wxaoversea?action=getrecommapplist&lat=&lng=&labelid=0&offset=0&limit=10&scene=1112&business_source=0&f=json&codetype=wxadiscoverpage&code=0a3CUp0w3jwue43hMF3w3nrJ9o3CUp03
+Method: GET
+Headers: {'Host': 'mp.weixin.qq.com', 'Connection': 'keep-alive', 'charset': 'utf-8', 'cookie': '', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'content-type': 'application/json', 'Accept-Encoding': 'gzip,compress,br,deflate', 'x-weapp-biz-version': '2.8.1', 'Referer': 'https://servicewechat.com/wxb6d22f922f37b35a/390/page-frame.html'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://mp.weixin.qq.com/intp/wxaoversea?action=getrecommapplist&lat=&lng=&labelid=0&offset=0&limit=10&scene=1112&business_source=0&f=json&codetype=wxadiscoverpage&code=0a3CUp0w3jwue43hMF3w3nrJ9o3CUp03
+Status Code: 200
+Headers: {'Content-Type': 'application/json; charset=UTF-8', 'Cache-Control': 'no-cache, must-revalidate', 'RetKey': '11', 'LogicRet': '2', 'Connection': 'keep-alive', 'Content-Length': '313'}
+Body: {'ret': 2, 'err_msg': '参数错误', 'base_resp': {'ret': 2, 'err_msg': '参数错误', 'wxa_session': 'Png8otBaX3Jl4iUUsCKiPwETdwNmuni4mJXv9vY7xHBHrRW32ge9p-LxGHMyAhXQFiiWqigg6Vk0WnJoDiDDdw', 'wxa_session_expire': 1737107750, 'open_id': 'o4YEg5Zuzr1KkFpvcGnQMtTQoOB4', 'dye_flag': 0, 'timestamp': 1737100550, 'is_test_env': False}}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMnHWYhHSEkIB4iJB0nHSIiHiAgHSEgHiAg.ts?sign=34fdae4ac43e33340224d82f4bd967da&t=678a2923&us=678a0d0329ddd09e3b1552fes3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMnHWYhHSEkIB4iJB0nHSIiHiAgHSEgHiAg.ts?sign=34fdae4ac43e33340224d82f4bd967da&t=678a2923&us=678a0d0329ddd09e3b1552fes3
+Status Code: 200
+Headers: {'Last-Modified': 'Wed, 08 Jan 2025 02:00:18 GMT', 'Etag': '"c34db59399dc7c94bbb8312b0226bdb8"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'x-cosindex-replication-status': 'Complete', 'Content-Length': '1426560', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '15809704153159188045', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:50 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 1426560}
+
+
+--- Request ---
+URL: https://mp.weixin.qq.com/intp/mmdata?action=reportmultimon&wxa_session=Png8otBaX3Jl4iUUsCKiPxICv3ohnVqAJJW9-4JRAA9HrRW32ge9p-LxGHMyAhXQwVweEFRpG80-IsvxE5eH4Q
+Method: POST
+Headers: {'Host': 'mp.weixin.qq.com', 'Connection': 'keep-alive', 'Content-Length': '5905', 'charset': 'utf-8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'content-type': 'application/json', 'Accept-Encoding': 'gzip,compress,br,deflate', 'Referer': 'https://servicewechat.com/wxb6d22f922f37b35a/390/page-frame.html'}
+Body: {'multi_mon_list': [{'id': 10611, 'item': [{'key': 'wechat_version', 'value': '8.0.42'}, {'key': 'lib_version', 'value': '3.1.5'}, {'key': 'weapp_version', 'value': '2.8.1'}, {'key': 'system', 'value': 'android'}, {'key': 'system_version', 'value': '9'}, {'key': 'brand', 'value': 'Xiaomi'}, {'key': 'model', 'value': '2203121C'}, {'key': 'network', 'value': 'wifi'}, {'key': 'scene', 'value': 1112, 'valueType': 1}, {'key': 'bizuin', 'value': ''}, {'key': 'action', 'value': 'api success login'}]}, {'id': 10611, 'item': [{'key': 'wechat_version', 'value': '8.0.42'}, {'key': 'lib_version', 'value': '3.1.5'}, {'key': 'weapp_version', 'value': '2.8.1'}, {'key': 'system', 'value': 'android'}, {'key': 'system_version', 'value': '9'}, {'key': 'brand', 'value': 'Xiaomi'}, {'key': 'model', 'value': '2203121C'}, {'key': 'network', 'value': 'wifi'}, {'key': 'scene', 'value': 1112, 'valueType': 1}, {'key': 'bizuin', 'value': ''}, {'key': 'msg', 'value': '/intp/hotdrama?action=getuserlastedwatchedlist'}, {'key': 'cost_time', 'value': 4379, 'valueType': 1}, {'key': 'ret', 'value': '0'}, {'key': 'req', 'value': '{"source":1,"busi_data":"","reddot_id":"","appversion":"2.8.1","popular_type":2,"popular_type_fallback":1}'}, {'key': 'resp', 'value': '{"base_resp":"...","list":[{"drama_name":"天降锦鲤救全家","drama_id":"875796","full_path":"__plugin__/wx94a6522b1d640c3b/pages/playlet/playlet?wxSourceType=finderSelfOperated&dramaId=875796&srcAppid=wx3a34dee464ed9c4b","media_id":"874832","coverurl":"https://wxaintpcos.wxqcloud.qq.com.cn/public/wx539e0b4872f196d1/WxaComm/IMG_dfe6a599ffda9a7b57dc5e83dce24de5_842651736992907661","appid":"wx3013500c1539fce3","src_appid":"wx3a34dee464ed9c4b","unique_drama_id":"","playback_link":"https://1500022465.vodpreview.wxamedia.com/a29a30cavodtranssh1500022465/40c408461397757902643117225/v.f1458118.m3u8$JM!Transcode!Template=miniprog_enc_v1/index.m3u8?t=678a2923&us=678a0d0388c9c54f6ffc03eas3&sign=2b02c1380f3822245b771ca4b89a6aa1"},{"drama_name":"尊老爱幼","drama_id":"1139688","full_path":"__plugin__/wx94a6522b1d640c3b/pages/playlet/playlet?srcAppid=wx4f3ca6d4c2407ccc&bookId=41000110288&dramaId=1139688","media_id":"1139014","coverurl":"https://wxaintpcos.wxqcloud.qq.com.cn/public/wx539e0b4872f196d1/WxaComm/IMG_4ba7b3e44cb4e3b55b9e00586715c1db_685971736305235567","appid":"wx36e6778df3eb90bf","src_appid":"wx4f3ca6d4c2407ccc","unique_drama_id":"","playback_link":"https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/index.m3u8?t=678a2923&us=678a0d03bae62029ff7a7af9s3&sign=62313dc1d22901b5e4a35366d4e73e94","list_ranking":2},{"drama_name":"八零追妻已太迟","drama_id":"1120448","full_path":"__plugin__/wx94a6522b1d640c3b/pages/playlet/playlet?bookId=41000109865&dramaId=1120448&srcAppid=wx4f3ca6d4c2407ccc","media_id":"1119991","coverurl":"https://wxaintpcos.wxqcloud.qq.com.cn/public/wx539e0b4872f196d1/WxaComm/IMG_9ce3f3a87c50e2a5222eeff5a3c59278_318591736280183476","appid":"wx517dce3e9ac180b7","src_appid":"wx4f3ca6d4c2407ccc","unique_drama_id":"","playback_link":"https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/531650181397757900864654828/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/index.m3u8?t=678a2923&us=678a0d0329ddd09e3b1552fes3&sign=34fdae4ac43e33340224d82f4bd967da","list_ranking":3},{"drama_name":"我本将心向明月，奈何明月照沟渠","drama_id":"1124460","full_path":"__plugin__/wx94a6522b1d640c3b/pages/playlet/playlet?srcAppid=wx4f3ca6d4c2407ccc&serialNo=1&bookId=41000110015&dramaId=1124460","media_id":"1124427","coverurl":"https://wxaintpcos.wxqcloud.qq.com.cn/public/wx539e0b4872f196d1/WxaComm/IMG_e36ba603126d7cb8343b72287ecc43db_815891735523114505","appid":"wx36e6778df3eb90bf","src_appid":"wx4f3ca6d4c2407ccc","unique_drama_id":""},{"drama_name":"明月曾照彩云归","drama_id":"367592","full_path":"__plugin__/wx94a6522b1d640c3b/pages/playlet/playlet?dramaId=367592&srcAppid=wxa8b273584884d68a","media_id":"367588","coverurl":"https://wxaintpcos.wxqcloud.qq.com.cn/public/wx539e0b4872f196d1/WxaComm/IMG_8b39c5e08ccbd38614b94bedda10b7e8_458521736873813924","appid":"wx74c5faf0e5c25b01","src_appid":"wxa8b273584884d68a","unique_drama_id":""},{"drama_name":"离婚后，裴总哭红眼","drama_id":"1100815","full_path":"__plugin__/wx94a6522b1d640c3b/pages/playlet/playlet?dramaId=1100815&srcAppid=wx4f3ca6d4c2407ccc","media_id":"1100719","coverurl":"https://wxaintpcos.wxqcloud.qq.com.cn/public/wx539e0b4872f196d1/WxaComm/IMG_c4b57901e62ebb89e9ed5bc043882bb9_282681735609564722","appid":"wxa1b12d71ae8a52e0","src_appid":"wx4f3ca6d4c2407ccc","unique_drama_id":""},{"drama_name":"卿若垂泪，与我何干","drama_id":"1135764","full_path":"__plugin__/wx94a6522b1d640c3b/pages/playlet/playlet?bookId=41000110244&dramaId=1135764&srcAppid=wx4f3ca6d4c2407ccc","media_id":"1135637","coverurl":"https://wxaintpcos.wxqcloud.qq.com.cn/public/wx539e0b4872f196d1/WxaComm/IMG_d8d97a6539074efbc7d4b4d2a890a40d_730771736126699748","appid":"wxf686c98fc7ad356b","src_appid":"wx4f3ca6d4c2407ccc","unique_drama_id":""}],"status":0,"expt_value":"1","list_recmd":[],"list_op":[],"style_expt_value":3,"entry_expt_value":2,"baseResp":"...","ret":0}'}, {'key': 'action', 'value': 'request'}]}, {'id': 10611, 'item': [{'key': 'wechat_version', 'value': '8.0.42'}, {'key': 'lib_version', 'value': '3.1.5'}, {'key': 'weapp_version', 'value': '2.8.1'}, {'key': 'system', 'value': 'android'}, {'key': 'system_version', 'value': '9'}, {'key': 'brand', 'value': 'Xiaomi'}, {'key': 'model', 'value': '2203121C'}, {'key': 'network', 'value': 'wifi'}, {'key': 'scene', 'value': 1112, 'valueType': 1}, {'key': 'bizuin', 'value': ''}, {'key': 'action', 'value': 'api success login'}]}]}
+
+
+--- Response ---
+URL: https://mp.weixin.qq.com/intp/mmdata?action=reportmultimon&wxa_session=Png8otBaX3Jl4iUUsCKiPxICv3ohnVqAJJW9-4JRAA9HrRW32ge9p-LxGHMyAhXQwVweEFRpG80-IsvxE5eH4Q
+Status Code: 200
+Headers: {'Content-Type': 'application/json; charset=UTF-8', 'Cache-Control': 'no-cache, must-revalidate', 'RetKey': '14', 'LogicRet': '0', 'Connection': 'keep-alive', 'Content-Length': '291'}
+Body: {'ret': 0, 'err_msg': 'ok', 'base_resp': {'ret': 0, 'err_msg': '', 'wxa_session': 'Png8otBaX3Jl4iUUsCKiPxICv3ohnVqAJJW9-4JRAA9HrRW32ge9p-LxGHMyAhXQwVweEFRpG80-IsvxE5eH4Q', 'wxa_session_expire': 1737107750, 'open_id': 'o4YEg5Zuzr1KkFpvcGnQMtTQoOB4', 'dye_flag': 0, 'timestamp': 1737100550, 'is_test_env': False}}
+
+
+--- Request ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMnHWYhHSkgHiMmHScdIiIeICAdISAeICA.ts?sign=62313dc1d22901b5e4a35366d4e73e94&t=678a2923&us=678a0d03bae62029ff7a7af9s3
+Method: GET
+Headers: {'User-Agent': 'com.tencent.mm.app.Application', 'Accept-Encoding': 'identity', 'Host': '1500020991.vodpreview.wxamedia.com', 'Connection': 'Keep-Alive'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://1500020991.vodpreview.wxamedia.com/a2992dacvodtranssh1500020991/db06ad901397757901638561445/v.f1458341.m3u8$JM!Transcode!Template=miniprog_enc_v1/JyYiVSYmIyEjJCMlIygjIyMkIyElViMnHWYhHSkgHiMmHScdIiIeICAdISAeICA.ts?sign=62313dc1d22901b5e4a35366d4e73e94&t=678a2923&us=678a0d03bae62029ff7a7af9s3
+Status Code: 200
+Headers: {'Last-Modified': 'Tue, 07 Jan 2025 03:35:33 GMT', 'Etag': '"e57191810b10697fba6e7da10ddeb86b"', 'Content-Type': 'video/mp2t', 'x-cos-storage-class': 'MAZ_STANDARD', 'Content-Length': '807840', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '12730472235105120405', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit', 'Date': 'Fri, 17 Jan 2025 07:55:50 GMT', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,X_Requested_With,Range', 'Access-Control-Allow-Methods': 'GET,POST,HEAD,OPTIONS', 'Access-Control-Allow-Origin': '*', 'Access-Control-Expose-Headers': 'Content-Range,X-Meta-Hash'}
+Body: {"type": "video/mp2t", "length": 807840}
+
+
+--- Request ---
+URL: https://cube.weixinbridge.com/cube/report/reportbizdata?f=json
+Method: POST
+Headers: {'Host': 'cube.weixinbridge.com', 'Connection': 'keep-alive', 'Content-Length': '2300', 'charset': 'utf-8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'content-type': 'application/x-www-form-urlencoded', 'Accept-Encoding': 'gzip,compress,br,deflate', 'Referer': 'https://servicewechat.com/wxb6d22f922f37b35a/390/page-frame.html'}
+Body: {"length": 2300, "type": "text"}
+
+
+--- Response ---
+URL: https://cube.weixinbridge.com/cube/report/reportbizdata?f=json
+Status Code: 200
+Headers: {'Date': 'Fri, 17 Jan 2025 07:55:50 GMT', 'Content-Type': 'application/json', 'Content-Length': '57', 'Connection': 'keep-alive', 'Content-Encoding': 'deflate', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin,X-Requested-With,Content-Type,Accept', 'Access-Control-Allow-Methods': 'GET,POST'}
+Body: {'code': 0, 'message': 'total: 1, push to shm queue succ: 1'}
+
+
+--- Request ---
+URL: https://mp.weixin.qq.com/intp/mmdata?action=reportmultimon&wxa_session=Png8otBaX3Jl4iUUsCKiPxICv3ohnVqAJJW9-4JRAA9HrRW32ge9p-LxGHMyAhXQwVweEFRpG80-IsvxE5eH4Q
+Method: POST
+Headers: {'Host': 'mp.weixin.qq.com', 'Connection': 'keep-alive', 'Content-Length': '2709', 'charset': 'utf-8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'content-type': 'application/json', 'Accept-Encoding': 'gzip,compress,br,deflate', 'Referer': 'https://servicewechat.com/wxb6d22f922f37b35a/390/page-frame.html'}
+Body: {'multi_mon_list': [{'id': 10611, 'item': [{'key': 'wechat_version', 'value': '8.0.42'}, {'key': 'lib_version', 'value': '3.1.5'}, {'key': 'weapp_version', 'value': '2.8.1'}, {'key': 'system', 'value': 'android'}, {'key': 'system_version', 'value': '9'}, {'key': 'brand', 'value': 'Xiaomi'}, {'key': 'model', 'value': '2203121C'}, {'key': 'network', 'value': 'wifi'}, {'key': 'scene', 'value': 1112, 'valueType': 1}, {'key': 'bizuin', 'value': ''}, {'key': 'msg', 'value': '/intp/hotdrama?action=getdramalabel'}, {'key': 'cost_time', 'value': 2428, 'valueType': 1}, {'key': 'ret', 'value': '0'}, {'key': 'req', 'value': '{"source":2}'}, {'key': 'resp', 'value': '{"base_resp":"...","list":[{"id":15,"type":8,"name":"男频"},{"id":16,"type":8,"name":"女频"},{"id":12,"type":7,"name":"虐恋"},{"id":14,"type":7,"name":"异能"},{"id":13,"type":7,"name":"古装"},{"id":11,"type":7,"name":"玄幻"},{"id":9,"type":7,"name":"甜宠"},{"id":10,"type":7,"name":"热血"},{"id":17,"type":7,"name":"温馨"},{"id":6,"type":3,"name":"推荐"}],"recmd_loc":1,"baseResp":"...","ret":0}'}, {'key': 'action', 'value': 'request'}]}, {'id': 12402, 'item': [{'key': 'wechat_version', 'value': '8.0.42'}, {'key': 'lib_version', 'value': '3.1.5'}, {'key': 'weapp_version', 'value': '2.8.1'}, {'key': 'system', 'value': 'android'}, {'key': 'system_version', 'value': '9'}, {'key': 'brand', 'value': 'Xiaomi'}, {'key': 'model', 'value': '2203121C'}, {'key': 'network', 'value': 'wifi'}, {'key': 'scene', 'value': 1112, 'valueType': 1}, {'key': 'bizuin', 'value': ''}, {'key': 'cgi_name', 'value': '/intp/wxaoversea?action=getrecommapplist'}, {'key': 'msg', 'value': '{"lat":"","lng":"","labelid":0,"offset":0,"limit":10,"scene":1112,"businessSource":0,"f":"json"}%%%%%%%%%%{"ret":2,"errMsg":"参数错误","baseResp":{"ret":2,"errMsg":"参数错误","wxaSession":"Png8otBaX3Jl4iUUsCKiPwETdwNmuni4mJXv9vY7xHBHrRW32ge9p-LxGHMyAhXQFiiWqigg6Vk0WnJoDiDDdw","wxaSessionExpire":1737107750,"openId":"o4YEg5Zuzr1KkFpvcGnQMtTQoOB4","dyeFlag":0,"timestamp":1737100550,"isTestEnv":false}}'}, {'key': 'cost_time', 'value': 6233, 'valueType': 1}, {'key': 'ret', 'value': '2'}, {'key': 'action', 'value': 'cgi'}]}, {'id': 12402, 'item': [{'key': 'wechat_version', 'value': '8.0.42'}, {'key': 'lib_version', 'value': '3.1.5'}, {'key': 'weapp_version', 'value': '2.8.1'}, {'key': 'system', 'value': 'android'}, {'key': 'system_version', 'value': '9'}, {'key': 'brand', 'value': 'Xiaomi'}, {'key': 'model', 'value': '2203121C'}, {'key': 'network', 'value': 'wifi'}, {'key': 'scene', 'value': 1112, 'valueType': 1}, {'key': 'bizuin', 'value': ''}, {'key': 'msg', 'value': 'updateCardShow: applength:0, recomm:undefined, testuser: false'}, {'key': 'action', 'value': 'overseas-entry'}]}]}
+
+
+--- Response ---
+URL: https://mp.weixin.qq.com/intp/mmdata?action=reportmultimon&wxa_session=Png8otBaX3Jl4iUUsCKiPxICv3ohnVqAJJW9-4JRAA9HrRW32ge9p-LxGHMyAhXQwVweEFRpG80-IsvxE5eH4Q
+Status Code: 200
+Headers: {'Content-Type': 'application/json; charset=UTF-8', 'Cache-Control': 'no-cache, must-revalidate', 'RetKey': '14', 'LogicRet': '0', 'Connection': 'keep-alive', 'Content-Length': '291'}
+Body: {'ret': 0, 'err_msg': 'ok', 'base_resp': {'ret': 0, 'err_msg': '', 'wxa_session': 'Png8otBaX3Jl4iUUsCKiPxICv3ohnVqAJJW9-4JRAA9HrRW32ge9p-LxGHMyAhXQwVweEFRpG80-IsvxE5eH4Q', 'wxa_session_expire': 1737107750, 'open_id': 'o4YEg5Zuzr1KkFpvcGnQMtTQoOB4', 'dye_flag': 0, 'timestamp': 1737100553, 'is_test_env': False}}
+
+
+--- Request ---
+URL: https://res.wx.qq.com/t/fed_upload/0f3c9bc4-ea5d-47a7-8879-5d958f1cbd65/search.svg
+Method: GET
+Headers: {'origin': 'null', 'user-agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64', 'accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'x-requested-with': 'com.tencent.mm', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'image', 'accept-encoding': 'gzip, deflate', 'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7', 'if-none-match': '"e39d557e26a944d8f937b0c530aace64"'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://res.wx.qq.com/t/fed_upload/0f3c9bc4-ea5d-47a7-8879-5d958f1cbd65/search.svg
+Status Code: 304
+Headers: {'etag': '"e39d557e26a944d8f937b0c530aace64"', 'content-type': 'image/svg+xml', 'x-nws-log-uuid': '1441771976968815783', 'server': 'Lego Server', 'date': 'Fri, 17 Jan 2025 07:55:53 GMT', 'x-cache-lookup': 'Cache Hit', 'vary': 'Origin', 'cache-control': 'max-age=31536000', 'access-control-allow-origin': '*'}
+Body: {"type": "image/svg+xml", "length": 0}
+
+
+--- Request ---
+URL: https://res.wx.qq.com/t/fed_upload/0f3c9bc4-ea5d-47a7-8879-5d958f1cbd65/search.svg
+Method: GET
+Headers: {'origin': 'file://', 'user-agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64', 'accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'x-requested-with': 'com.tencent.mm', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'image', 'accept-encoding': 'gzip, deflate', 'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7', 'if-none-match': '"e39d557e26a944d8f937b0c530aace64"'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://res.wx.qq.com/t/fed_upload/0f3c9bc4-ea5d-47a7-8879-5d958f1cbd65/search.svg
+Status Code: 304
+Headers: {'etag': '"e39d557e26a944d8f937b0c530aace64"', 'content-type': 'image/svg+xml', 'x-nws-log-uuid': '86380667555108762', 'server': 'Lego Server', 'date': 'Fri, 17 Jan 2025 07:55:53 GMT', 'x-cache-lookup': 'Cache Hit', 'vary': 'Origin', 'cache-control': 'max-age=31536000', 'access-control-allow-origin': '*'}
+Body: {"type": "image/svg+xml", "length": 0}
+
+
+--- Request ---
+URL: https://res.wx.qq.com/t/fed_upload/eee56e91-85af-4aed-b626-800047c8866a/loading.svg
+Method: GET
+Headers: {'origin': 'null', 'user-agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64', 'accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'x-requested-with': 'com.tencent.mm', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'image', 'accept-encoding': 'gzip, deflate', 'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7', 'if-none-match': '"cad4e3c5796904abd7bc7ab28ff438a7"'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://res.wx.qq.com/t/fed_upload/eee56e91-85af-4aed-b626-800047c8866a/loading.svg
+Status Code: 304
+Headers: {'etag': '"cad4e3c5796904abd7bc7ab28ff438a7"', 'content-type': 'image/svg+xml', 'x-nws-log-uuid': '15247471668120156785', 'server': 'Lego Server', 'date': 'Fri, 17 Jan 2025 07:55:54 GMT', 'x-cache-lookup': 'Cache Hit', 'vary': 'Origin', 'cache-control': 'max-age=31536000', 'access-control-allow-origin': '*'}
+Body: {"type": "image/svg+xml", "length": 0}
+
+
+--- Request ---
+URL: https://res.wx.qq.com/t/fed_upload/eee56e91-85af-4aed-b626-800047c8866a/loading.svg
+Method: GET
+Headers: {'origin': 'file://', 'user-agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64', 'accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'x-requested-with': 'com.tencent.mm', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'image', 'accept-encoding': 'gzip, deflate', 'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7', 'if-none-match': '"cad4e3c5796904abd7bc7ab28ff438a7"'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://res.wx.qq.com/t/fed_upload/eee56e91-85af-4aed-b626-800047c8866a/loading.svg
+Status Code: 304
+Headers: {'etag': '"cad4e3c5796904abd7bc7ab28ff438a7"', 'content-type': 'image/svg+xml', 'x-nws-log-uuid': '15805402806124597506', 'server': 'Lego Server', 'date': 'Fri, 17 Jan 2025 07:55:54 GMT', 'x-cache-lookup': 'Cache Hit', 'vary': 'Origin', 'cache-control': 'max-age=31536000', 'access-control-allow-origin': '*'}
+Body: {"type": "image/svg+xml", "length": 0}
+
+
+--- Request ---
+URL: https://res.wx.qq.com/t/fed_upload/d8feea68-531f-4d13-8f54-3eaf832f53de/magnifying_glass_regular.svg
+Method: GET
+Headers: {'origin': 'null', 'user-agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64', 'accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'x-requested-with': 'com.tencent.mm', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'image', 'accept-encoding': 'gzip, deflate', 'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7', 'if-none-match': '"dce8a061083e9e76b557e617d3da950d"'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://res.wx.qq.com/t/fed_upload/d8feea68-531f-4d13-8f54-3eaf832f53de/magnifying_glass_regular.svg
+Status Code: 304
+Headers: {'etag': '"dce8a061083e9e76b557e617d3da950d"', 'content-type': 'image/svg+xml', 'x-nws-log-uuid': '7160218839090154612', 'server': 'Lego Server', 'date': 'Fri, 17 Jan 2025 07:55:54 GMT', 'x-cache-lookup': 'Cache Hit', 'vary': 'Origin', 'cache-control': 'max-age=31536000', 'access-control-allow-origin': '*'}
+Body: {"type": "image/svg+xml", "length": 0}
+
+
+--- Request ---
+URL: https://res.wx.qq.com/t/fed_upload/d8feea68-531f-4d13-8f54-3eaf832f53de/magnifying_glass_regular.svg
+Method: GET
+Headers: {'origin': 'file://', 'user-agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64', 'accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'x-requested-with': 'com.tencent.mm', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'image', 'accept-encoding': 'gzip, deflate', 'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7', 'if-none-match': '"dce8a061083e9e76b557e617d3da950d"'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://res.wx.qq.com/t/fed_upload/d8feea68-531f-4d13-8f54-3eaf832f53de/magnifying_glass_regular.svg
+Status Code: 304
+Headers: {'etag': '"dce8a061083e9e76b557e617d3da950d"', 'content-type': 'image/svg+xml', 'x-nws-log-uuid': '1474180206511167435', 'server': 'Lego Server', 'date': 'Fri, 17 Jan 2025 07:55:55 GMT', 'x-cache-lookup': 'Cache Hit', 'vary': 'Origin', 'cache-control': 'max-age=31536000', 'access-control-allow-origin': '*'}
+Body: {"type": "image/svg+xml", "length": 0}
+
+
+--- Request ---
+URL: https://lhp.map.qq.com/?desc_c
+Method: POST
+Headers: {'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '364', 'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 9; 2203121C Build/PQ3A.190605.10141057)', 'Host': 'lhp.map.qq.com', 'Connection': 'Keep-Alive', 'Accept-Encoding': 'gzip'}
+Body: {"length": 364, "type": "text"}
+
+
+--- Response ---
+URL: https://lhp.map.qq.com/?desc_c
+Status Code: 200
+Headers: {'Date': 'Fri, 17 Jan 2025 07:55:56 GMT', 'Content-Type': 'application/octet-stream;charset=gbk', 'Content-Length': '24', 'Connection': 'keep-alive', 'Server': 'Trpc httpd', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept, Connection, User-Agent, Cookie'}
+Body: {"type": "application/octet-stream;charset=gbk", "length": 24}
+
+
+--- Request ---
+URL: https://dldir1v6.qq.com/weixin/android/wxweb/updateConfig.xml
+Method: GET
+Headers: {'User-Agent': 'XWebSdk/20230805 XWebApk/-1 XWebGrayValue/4270 XWebTodayGrayValue/1458 XWebGrayValue2/-1692739330 ABI/x86 APPINFO/dump () ProcessName/com.tencent.mm:support', 'Host': 'dldir1v6.qq.com', 'Connection': 'Keep-Alive', 'Accept-Encoding': 'gzip'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://dldir1v6.qq.com/weixin/android/wxweb/updateConfig.xml
+Status Code: 200
+Headers: {'Last-Modified': 'Fri, 17 Jan 2025 03:06:48 GMT', 'Server': 'NWSs', 'Date': 'Fri, 17 Jan 2025 04:34:05 GMT', 'Content-Type': 'text/xml', 'x-cos-storage-class': 'STANDARD_IA', 'x-cos-version-id': 'MTg0NDUwMDY5OTA1MDExMjA5ODQ', 'x-cos-hash-crc64ecma': '375228885987356809', 'X-COS-META-MD5': '7cb0ea8f9814260a9598f4c30236739e', 'X-COS-META-MTIME': 'Fri, 17 Jan 2025 03:06:47 GMT', 'x-cos-replication-status': 'Complete', 'x-cos-object-type': 'normal', 'Content-Length': '46641', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '17100835363621659715', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit'}
+Body: {"length": 46641, "type": "text"}
+
+
+--- Request ---
+URL: https://dldir1v6.qq.com/weixin/android/wxweb/updateConfig.xml
+Method: GET
+Headers: {'User-Agent': 'XWebSdk/20230805 XWebApk/-1 XWebGrayValue/4270 XWebTodayGrayValue/1458 XWebGrayValue2/-1692739330 ABI/x86 APPINFO/dump () ProcessName/com.tencent.mm:support', 'Host': 'dldir1v6.qq.com', 'Connection': 'Keep-Alive', 'Accept-Encoding': 'gzip'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://dldir1v6.qq.com/weixin/android/wxweb/updateConfig.xml
+Status Code: 200
+Headers: {'Last-Modified': 'Fri, 17 Jan 2025 03:06:48 GMT', 'Server': 'NWSs', 'Date': 'Fri, 17 Jan 2025 04:34:05 GMT', 'Content-Type': 'text/xml', 'x-cos-storage-class': 'STANDARD_IA', 'x-cos-version-id': 'MTg0NDUwMDY5OTA1MDExMjA5ODQ', 'x-cos-hash-crc64ecma': '375228885987356809', 'X-COS-META-MD5': '7cb0ea8f9814260a9598f4c30236739e', 'X-COS-META-MTIME': 'Fri, 17 Jan 2025 03:06:47 GMT', 'x-cos-replication-status': 'Complete', 'x-cos-object-type': 'normal', 'Content-Length': '46641', 'Accept-Ranges': 'bytes', 'X-NWS-LOG-UUID': '13067276068517959609', 'Connection': 'keep-alive', 'X-Cache-Lookup': 'Cache Hit'}
+Body: {"length": 46641, "type": "text"}
+
+
+--- Request ---
+URL: https://lbs.map.qq.com/loc?c=1&mars=0&obs=1
+Method: POST
+Headers: {'User-Agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4; Nexus 5 Build/KRT16M)', 'Content-Type': 'application/octet-stream', 'tmap-traceid': 'ecc1451e984a4f0d', 'Connection': 'close', 'Content-Length': '388', 'Host': 'lbs.map.qq.com', 'Accept-Encoding': 'gzip'}
+Body: {"type": "application/octet-stream", "length": 388}
+
+
+--- Response ---
+URL: https://lbs.map.qq.com/loc?c=1&mars=0&obs=1
+Status Code: 200
+Headers: {'Date': 'Fri, 17 Jan 2025 07:55:57 GMT', 'Content-Type': 'application/octet-stream;charset=gbk', 'Content-Length': '10', 'Connection': 'close', 'Server': 'Trpc httpd'}
+Body: {"type": "application/octet-stream;charset=gbk", "length": 10}
+
+
+--- Request ---
+URL: https://support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb?rid=315696&rkey=45&rvalue=1
+Method: GET
+Headers: {'user-agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64', 'accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'x-requested-with': 'com.tencent.mm', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'no-cors', 'sec-fetch-dest': 'image', 'accept-encoding': 'gzip, deflate', 'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb?rid=315696&rkey=45&rvalue=1
+Status Code: 200
+Headers: {'content-length': '0'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Request ---
+URL: https://support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb?rid=315696&rkey=46&rvalue=1
+Method: GET
+Headers: {'user-agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64', 'accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'x-requested-with': 'com.tencent.mm', 'sec-fetch-site': 'cross-site', 'sec-fetch-mode': 'no-cors', 'sec-fetch-dest': 'image', 'accept-encoding': 'gzip, deflate', 'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb?rid=315696&rkey=46&rvalue=1
+Status Code: 200
+Headers: {'content-length': '0'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Request ---
+URL: https://api.yjhhr.cn/api/page/config?page=index
+Method: GET
+Headers: {'Host': 'api.yjhhr.cn', 'Connection': 'keep-alive', 'api-version': 'release', 'charset': 'utf-8', 'client-platform': 'mp-weixin', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'client-version': '3.1.372', 'Accept-Encoding': 'gzip,compress,br,deflate', 'request-id': '20250117155618251608', 'accept': 'application/json', 'client-name': 'yunjiuhong', 'client-platform-version': 'version:8.0.42; sdk_version:3.1.5;', 'content-type': 'application/json', 'client-id': '2DA2-83C0-23BC-875B-AF28', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://api.yjhhr.cn/api/page/config?page=index
+Status Code: 200
+Headers: {'Server': 'nginx', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-cache, private', 'Date': 'Fri, 17 Jan 2025 07:56:21 GMT', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin, Content-Type, Cookie, X-CSRF-TOKEN, x-requested-with, Accept, Authorization, X-XSRF-TOKEN,Platform, Version,authorization,token,Client-ID,Client-Platform,Client-Name,Client-Version,Request-ID,Api-Version', 'Access-Control-Expose-Headers': 'Content-Disposition'}
+Body: {'code': 0, 'data': {'title': '首页', 'config': {'share': {'image': 'https://yjh-jiupin.oss-cn-beijing.aliyuncs.com/banner/recommend-share.png', 'title': '快来云久鸿找工作，高工价等你来挑'}, 'supply_share': {'image': 'https://yjh-jiupin.oss-cn-beijing.aliyuncs.com/banner/recommend-share.png', 'title': '快来云久鸿找工作，高工价等你来挑'}, 'position_share': {'image': 'https://yjh-jiupin.oss-cn-beijing.aliyuncs.com/banner/recommend-share.png'}, 'wechat_group_code': {'image': 'https://cdn.yjhhr.cn/storage/page/202401/Q4rUQw7CgHnHnFkIg9mBu4rqPAhgw7qX7r7H4fYR.jpg'}, 'supply_position_share': {'image': 'https://yjh-jiupin.oss-cn-beijing.aliyuncs.com/banner/recommend-share.png'}}, 'style': None, 'share': None, 'navigation': None, 'event': None, 'frame': {'main': [{'type': 'search-slider', 'config': {'mode': 'aspectFill', 'radius': 0, 'padding': 0}, 'style': None, 'items': [{'id': 114, 'config': {'src': 'https://cdn.yjhhr.cn/storage/page/202501/thLzxb1aGm4G2nzJMoXscJoVcsqd6ugljPjaxsLT.png'}, 'event': {'url': 'https://mp.weixin.qq.com/s/b10e3G-hb7S31_NQfAyYyw', 'type': 'webviewExternal', 'video_id': None, 'video_sph_id': None}}, {'id': 115, 'config': {'src': 'https://cdn.yjhhr.cn/storage/page/202501/UBFsCY4QC0hPfBtRVJkgNpK8MttaXtRq2vSZpMyF.png'}, 'event': {'url': None, 'type': 'null', 'video_id': None, 'video_sph_id': None}}, {'id': 116, 'config': {'src': 'https://cdn.yjhhr.cn/storage/page/202501/vhMTqR2A94KVMmyp6uiQxn8j7wZegHJuZ3uoAc4Z.png'}, 'event': {'url': None, 'type': 'null', 'video_id': None, 'video_sph_id': None}}, {'id': 118, 'config': {'src': 'https://cdn.yjhhr.cn/storage/page/202501/QHtwJz6WhFfgcTYRUCZpqAHjTcC5iqLwTcdGn09x.png'}, 'event': {'url': None, 'type': 'null', 'video_id': None, 'video_sph_id': None}}, {'id': 119, 'config': {'src': 'https://cdn.yjhhr.cn/storage/page/202501/tex2C3DVG22xvMfFM9ng6DakwGtuzDtGKSxjoEnE.png'}, 'event': {'url': None, 'type': 'null', 'video_id': None, 'video_sph_id': None}}, {'id': 120, 'config': {'src': 'https://cdn.yjhhr.cn/storage/page/202501/UohKQsTmzFo1213wKud2CVZWsWxBw4F0FwARp4bT.png'}, 'event': {'url': None, 'type': 'null', 'video_id': None, 'video_sph_id': None}}]}, {'type': 'notice', 'config': {'speed': 100}, 'style': None, 'items': None}, {'type': 'x-scroll-view', 'config': {'limit': 5, 'title': '重点推荐', 'moreUrl': '/inside-recommend/recommend/index', 'isShowMore': True}, 'style': None, 'items': None}, {'type': 'division-line', 'config': None, 'style': None, 'items': None}, {'type': 'tab-position', 'config': {'fixed': False}, 'style': None, 'items': [{'id': 40, 'config': {'title': '优质企业', 'params': {'filter': {'type': 'HIGH_QUALITY'}}}, 'event': None}, {'id': 41, 'config': {'title': '高工价一栏表', 'params': {'filter': {'type': 'HIGH_COST'}}}, 'event': None}]}]}}}
+
+
+--- Request ---
+URL: https://api.yjhhr.cn/api/notice/list
+Method: POST
+Headers: {'Host': 'api.yjhhr.cn', 'Connection': 'keep-alive', 'Content-Length': '0', 'api-version': 'release', 'charset': 'utf-8', 'client-platform': 'mp-weixin', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'client-version': '3.1.372', 'Accept-Encoding': 'gzip,compress,br,deflate', 'request-id': '20250117155619700796', 'accept': 'application/json', 'client-name': 'yunjiuhong', 'client-platform-version': 'version:8.0.42; sdk_version:3.1.5;', 'content-type': 'application/json', 'client-id': '2DA2-83C0-23BC-875B-AF28', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://api.yjhhr.cn/api/notice/list
+Status Code: 200
+Headers: {'Server': 'nginx', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-cache, private', 'Date': 'Fri, 17 Jan 2025 07:56:22 GMT', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin, Content-Type, Cookie, X-CSRF-TOKEN, x-requested-with, Accept, Authorization, X-XSRF-TOKEN,Platform, Version,authorization,token,Client-ID,Client-Platform,Client-Name,Client-Version,Request-ID,Api-Version', 'Access-Control-Expose-Headers': 'Content-Disposition'}
+Body: {'code': 0, 'data': {'list': []}}
+
+
+--- Request ---
+URL: https://lhp.map.qq.com/?desc_c
+Method: POST
+Headers: {'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '364', 'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 9; 2203121C Build/PQ3A.190605.10141057)', 'Host': 'lhp.map.qq.com', 'Connection': 'Keep-Alive', 'Accept-Encoding': 'gzip'}
+Body: {"length": 364, "type": "text"}
+
+
+--- Response ---
+URL: https://lhp.map.qq.com/?desc_c
+Status Code: 200
+Headers: {'Date': 'Fri, 17 Jan 2025 07:56:23 GMT', 'Content-Type': 'application/octet-stream;charset=gbk', 'Content-Length': '24', 'Connection': 'keep-alive', 'Server': 'Trpc httpd', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept, Connection, User-Agent, Cookie'}
+Body: {"type": "application/octet-stream;charset=gbk", "length": 24}
+
+
+--- Request ---
+URL: https://lbs.map.qq.com/loc?c=1&mars=0&obs=1
+Method: POST
+Headers: {'User-Agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4; Nexus 5 Build/KRT16M)', 'Content-Type': 'application/octet-stream', 'tmap-traceid': 'b467a1769afa9a54', 'Connection': 'close', 'Content-Length': '417', 'Host': 'lbs.map.qq.com', 'Accept-Encoding': 'gzip'}
+Body: {"type": "application/octet-stream", "length": 417}
+
+
+--- Response ---
+URL: https://lbs.map.qq.com/loc?c=1&mars=0&obs=1
+Status Code: 200
+Headers: {'Date': 'Fri, 17 Jan 2025 07:56:24 GMT', 'Content-Type': 'application/octet-stream;charset=gbk', 'Content-Length': '10', 'Connection': 'close', 'Server': 'Trpc httpd'}
+Body: {"type": "application/octet-stream;charset=gbk", "length": 10}
+
+
+--- Request ---
+URL: https://api.yjhhr.cn/api/position/indexNew
+Method: POST
+Headers: {'Host': 'api.yjhhr.cn', 'Connection': 'keep-alive', 'Content-Length': '69', 'api-version': 'release', 'charset': 'utf-8', 'client-platform': 'mp-weixin', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'client-version': '3.1.372', 'Accept-Encoding': 'gzip,compress,br,deflate', 'request-id': '20250117155622613911', 'accept': 'application/json', 'client-name': 'yunjiuhong', 'client-platform-version': 'version:8.0.42; sdk_version:3.1.5;', 'content-type': 'application/json', 'client-id': '2DA2-83C0-23BC-875B-AF28', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html'}
+Body: {'filter': {'type': 'today'}, 'sort': 'all', 'size': 20, 'tags': [], 'page': 1}
+
+
+--- Response ---
+URL: https://api.yjhhr.cn/api/position/indexNew
+Status Code: 200
+Headers: {'Server': 'nginx', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-cache, private', 'Date': 'Fri, 17 Jan 2025 07:56:25 GMT', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin, Content-Type, Cookie, X-CSRF-TOKEN, x-requested-with, Accept, Authorization, X-XSRF-TOKEN,Platform, Version,authorization,token,Client-ID,Client-Platform,Client-Name,Client-Version,Request-ID,Api-Version', 'Access-Control-Expose-Headers': 'Content-Disposition'}
+Body: {'code': 0, 'data': {'items': [{'id': 55906, 'name': '东莞中诺 -小时工', 'company_id': 343, 'salary_title': '26元/小时', 'work_type': 'HOUR', 'province_short_name': '广东', 'city_short_name': '东莞', 'district_short_name': '大朗', 'latitude': '22.883833000000', 'longitude': '113.913765000000', 'is_show': 1, 'display_type': 'RECOMMENDED', 'tags': [], 'distance': None, 'education': '学历不限', 'desc': '推荐', 'work_type_text': '派遣工'}, {'id': 55893, 'name': 'S-惠州高新国内线-小时工', 'company_id': 49, 'salary_title': '24元/小时', 'work_type': 'HOUR', 'province_short_name': '广东', 'city_short_name': '惠州', 'district_short_name': '惠阳', 'latitude': '22.862797000000', 'longitude': '114.476760000000', 'is_show': 1, 'display_type': None, 'tags': ['多劳多得', '提供住宿', '待遇好'], 'distance': None, 'education': '学历不限', 'desc': '热门', 'work_type_text': '派遣工'}, {'id': 55894, 'name': '观澜组装- 小时工', 'company_id': 13, 'salary_title': '23元/小时', 'work_type': 'HOUR', 'province_short_name': '广东', 'city_short_name': '深圳', 'district_short_name': '龙华', 'latitude': '22.648568000000', 'longitude': '114.051898000000', 'is_show': 1, 'display_type': None, 'tags': ['提供住宿', '空调车间', '待遇好'], 'distance': None, 'education': '学历不限', 'desc': '热门', 'work_type_text': '派遣工'}, {'id': 55896, 'name': 'Y-惠州高新国内线-小时工', 'company_id': 48, 'salary_title': '25元/小时', 'work_type': 'HOUR', 'province_short_name': '广东', 'city_short_name': '惠州', 'district_short_name': '惠阳', 'latitude': '22.935537000000', 'longitude': '114.415500000000', 'is_show': 1, 'display_type': None, 'tags': ['多劳多得', '提供住宿', '待遇好'], 'distance': None, 'education': '学历不限', 'desc': '热门', 'work_type_text': '派遣工'}, {'id': 55914, 'name': '东莞伟创力-小时工', 'company_id': 497, 'salary_title': '23元/小时', 'work_type': 'HOUR', 'province_short_name': '广东', 'city_short_name': '东莞', 'district_short_name': '大岭山', 'latitude': '22.886964000000', 'longitude': '113.846674000000', 'is_show': 1, 'display_type': None, 'tags': [], 'distance': None, 'education': '学历不限', 'desc': '热门', 'work_type_text': '派遣工'}], 'page': 1, 'size': 20, 'total': 5, 'last_page': 1, 'next_page': 1, 'from': 1, 'to': 5, 'summary': {}}}
+
+
+--- Request ---
+URL: https://api.yjhhr.cn/api/page/config?page=mine
+Method: GET
+Headers: {'Host': 'api.yjhhr.cn', 'Connection': 'keep-alive', 'api-version': 'release', 'charset': 'utf-8', 'client-platform': 'mp-weixin', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'client-version': '3.1.372', 'Accept-Encoding': 'gzip,compress,br,deflate', 'request-id': '20250117155650555951', 'accept': 'application/json', 'client-name': 'yunjiuhong', 'client-platform-version': 'version:8.0.42; sdk_version:3.1.5;', 'content-type': 'application/json', 'client-id': '2DA2-83C0-23BC-875B-AF28', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://api.yjhhr.cn/api/page/config?page=mine
+Status Code: 200
+Headers: {'Server': 'nginx', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-cache, private', 'Date': 'Fri, 17 Jan 2025 07:56:53 GMT', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin, Content-Type, Cookie, X-CSRF-TOKEN, x-requested-with, Accept, Authorization, X-XSRF-TOKEN,Platform, Version,authorization,token,Client-ID,Client-Platform,Client-Name,Client-Version,Request-ID,Api-Version', 'Access-Control-Expose-Headers': 'Content-Disposition'}
+Body: {'code': 0, 'data': {'title': '个人中心', 'config': None, 'style': None, 'share': None, 'navigation': None, 'event': None, 'frame': {'main': [{'type': 'division-line', 'config': None, 'style': None, 'items': None}, {'type': 'division-line', 'config': None, 'style': None, 'items': None}, {'type': 'division-line', 'config': None, 'style': None, 'items': None}]}}}
+
+
+--- Request ---
+URL: https://api.yjhhr.cn/api/wechat/miniprogram/codeUnionid
+Method: POST
+Headers: {'Host': 'api.yjhhr.cn', 'Connection': 'keep-alive', 'Content-Length': '43', 'api-version': 'release', 'charset': 'utf-8', 'client-platform': 'mp-weixin', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'client-version': '3.1.372', 'Accept-Encoding': 'gzip,compress,br,deflate', 'request-id': '20250117155657137184', 'accept': 'application/json', 'client-name': 'yunjiuhong', 'client-platform-version': 'version:8.0.42; sdk_version:3.1.5;', 'content-type': 'application/json', 'client-id': '2DA2-83C0-23BC-875B-AF28', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html'}
+Body: {'code': '0f3F2d000Y5UyT199A100qcTI33F2d0J'}
+
+
+--- Response ---
+URL: https://api.yjhhr.cn/api/wechat/miniprogram/codeUnionid
+Status Code: 200
+Headers: {'Server': 'nginx', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-cache, private', 'Date': 'Fri, 17 Jan 2025 07:57:00 GMT', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin, Content-Type, Cookie, X-CSRF-TOKEN, x-requested-with, Accept, Authorization, X-XSRF-TOKEN,Platform, Version,authorization,token,Client-ID,Client-Platform,Client-Name,Client-Version,Request-ID,Api-Version', 'Access-Control-Expose-Headers': 'Content-Disposition'}
+Body: {'code': 0, 'data': {'is_unionid_login': 0}}
+
+
+--- Request ---
+URL: https://api.yjhhr.cn/api/wechat/miniprogram/codeUnionid
+Method: POST
+Headers: {'Host': 'api.yjhhr.cn', 'Connection': 'keep-alive', 'Content-Length': '43', 'api-version': 'release', 'charset': 'utf-8', 'client-platform': 'mp-weixin', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'client-version': '3.1.372', 'Accept-Encoding': 'gzip,compress,br,deflate', 'request-id': '20250117155703609967', 'accept': 'application/json', 'client-name': 'yunjiuhong', 'client-platform-version': 'version:8.0.42; sdk_version:3.1.5;', 'content-type': 'application/json', 'client-id': '2DA2-83C0-23BC-875B-AF28', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html'}
+Body: {'code': '0d366u000h9bzT1vX23007NuhJ266u0t'}
+
+
+--- Response ---
+URL: https://api.yjhhr.cn/api/wechat/miniprogram/codeUnionid
+Status Code: 200
+Headers: {'Server': 'nginx', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-cache, private', 'Date': 'Fri, 17 Jan 2025 07:57:06 GMT', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin, Content-Type, Cookie, X-CSRF-TOKEN, x-requested-with, Accept, Authorization, X-XSRF-TOKEN,Platform, Version,authorization,token,Client-ID,Client-Platform,Client-Name,Client-Version,Request-ID,Api-Version', 'Access-Control-Expose-Headers': 'Content-Disposition'}
+Body: {'code': 0, 'data': {'is_unionid_login': 0}}
+
+
+--- Request ---
+URL: https://api.yjhhr.cn/api/wechat/miniprogram/mobile_login
+Method: POST
+Headers: {'Host': 'api.yjhhr.cn', 'Connection': 'keep-alive', 'Content-Length': '306', 'api-version': 'release', 'charset': 'utf-8', 'client-platform': 'mp-weixin', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'client-version': '3.1.372', 'Accept-Encoding': 'gzip,compress,br,deflate', 'request-id': '20250117155708709210', 'accept': 'application/json', 'client-name': 'yunjiuhong', 'client-platform-version': 'version:8.0.42; sdk_version:3.1.5;', 'content-type': 'application/json', 'client-id': '2DA2-83C0-23BC-875B-AF28', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html'}
+Body: {'code': '0e3o3d000gKTyT1LWz300znf234o3d0S', 'iv': 'hvQe8DX/o+KpRefqB+R8/A==', 'encrypted': 'NtaioJM/S/+oTpgxGt9MYNnm1raCl8A+JZ0QTqdRLiE+/pK0jMvspJPkNrSv2+FigT7ER1gjWytT5yAesljB+ovUosxwde7eIg+hCnKyAU537HrdcbrD8DrzQ0E5zw/y0+t/3ZbA/TK4RQibpPm7FhYbCVO0Lkkm4WR+F0ElbP5QPe+devMtqVzxY9x8/eQngzbkDrAy7cyCq3G6nA+/YQ=='}
+
+
+--- Response ---
+URL: https://api.yjhhr.cn/api/wechat/miniprogram/mobile_login
+Status Code: 200
+Headers: {'Server': 'nginx', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-cache, private', 'Date': 'Fri, 17 Jan 2025 07:57:12 GMT', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin, Content-Type, Cookie, X-CSRF-TOKEN, x-requested-with, Accept, Authorization, X-XSRF-TOKEN,Platform, Version,authorization,token,Client-ID,Client-Platform,Client-Name,Client-Version,Request-ID,Api-Version', 'Access-Control-Expose-Headers': 'Content-Disposition'}
+Body: {'code': 0, 'data': {'token': '$2y$10$OPPBmgeZDhCJHM.nMW97geYmSkLcJLmVanfssWgHqQVdfKtEIJ9sq', 'expired': '2025-02-16 15:57:11', 'user': {'id': 1160332, 'name': None, 'mobile': '18845772163', 'nickname': None, 'avatar': None, 'staff_id': None, 'is_check': False, 'role': 'USER', 'sex': None, 'age': None, 'point': 0, 'id_no': None, 'exp': 0, 'level_id': 1, 'level_url': 'https://cdn.yjhhr.cn/storage/user_level/202208/CzIYbLnY3pVnlOVaRpTnsy1P5chdqipkPP9k3TCk.png', 'level_name': '初出茅庐', 'current_exp': 0, 'current_sn': 1, 'current_vip_name': 'VIP1', 'next_level_name': '闯荡江湖', 'next_exp': 200, 'next_vip_name': 'VIP2', 'next_sn': 2}}}
+
+
+--- Request ---
+URL: https://api.yjhhr.cn/api/page/config?page=mine
+Method: GET
+Headers: {'Host': 'api.yjhhr.cn', 'Connection': 'keep-alive', 'api-version': 'release', 'charset': 'utf-8', 'client-platform': 'mp-weixin', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'client-version': '3.1.372', 'Accept-Encoding': 'gzip,compress,br,deflate', 'request-id': '20250117155709917154', 'accept': 'application/json', 'client-name': 'yunjiuhong', 'token': '$2y$10$OPPBmgeZDhCJHM.nMW97geYmSkLcJLmVanfssWgHqQVdfKtEIJ9sq', 'client-platform-version': 'version:8.0.42; sdk_version:3.1.5;', 'content-type': 'application/json', 'client-id': '2DA2-83C0-23BC-875B-AF28', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://api.yjhhr.cn/api/page/config?page=mine
+Status Code: 200
+Headers: {'Server': 'nginx', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-cache, private', 'Date': 'Fri, 17 Jan 2025 07:57:12 GMT', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin, Content-Type, Cookie, X-CSRF-TOKEN, x-requested-with, Accept, Authorization, X-XSRF-TOKEN,Platform, Version,authorization,token,Client-ID,Client-Platform,Client-Name,Client-Version,Request-ID,Api-Version', 'Access-Control-Expose-Headers': 'Content-Disposition'}
+Body: {'code': 0, 'data': {'title': '个人中心', 'config': None, 'style': None, 'share': None, 'navigation': None, 'event': None, 'frame': {'main': [{'type': 'division-line', 'config': None, 'style': None, 'items': None}, {'type': 'division-line', 'config': None, 'style': None, 'items': None}, {'type': 'division-line', 'config': None, 'style': None, 'items': None}, {'type': 'card-navigation', 'config': {'title': '报名服务'}, 'style': None, 'items': [{'id': 70, 'config': {'icon': 'http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E6%88%91%E7%9A%84%E6%8A%A5%E5%90%8D.png', 'title': '我的报名'}, 'event': {'url': '/inside-recommend/mine/apply', 'auth': True, 'type': 'redirect', 'check': True, 'entry': False}}, {'id': 71, 'config': {'icon': 'http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%90%88%E5%90%8C%E7%AD%BE%E7%BD%B2.png', 'title': '合同签署'}, 'event': {'url': '/mini-services/dzht/index', 'auth': True, 'type': 'redirect', 'check': True, 'entry': False}}]}, {'type': 'card-navigation', 'config': {'title': '在职服务'}, 'style': None, 'items': [{'id': 72, 'config': {'icon': 'http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%B7%A5%E8%B5%84%E6%9D%A1.png', 'title': '工资条'}, 'event': {'url': '/mini-services/gzt/list', 'auth': True, 'type': 'redirect', 'check': True, 'entry': True}}, {'id': 74, 'config': {'icon': 'http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E9%A2%84%E6%94%AF%E7%94%B3%E8%AF%B7.png', 'title': '预支申请'}, 'event': {'url': '/mini-services/yzsq/index', 'auth': True, 'type': 'redirect', 'check': True, 'entry': True}}, {'id': 77, 'config': {'icon': 'http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E9%80%9A%E8%AE%AF%E5%BD%95.png', 'title': '通讯录'}, 'event': {'url': '/mini-services/address/index', 'auth': True, 'type': 'redirect', 'check': True, 'entry': True}}, {'id': 79, 'config': {'icon': 'http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%8F%91%E8%96%AA%E5%8D%A1.png', 'title': '发薪卡'}, 'event': {'url': '/mini-services/fxk2/index', 'auth': True, 'type': 'redirect', 'check': True, 'entry': True}}]}, {'type': 'card-navigation', 'config': {'title': '更多服务'}, 'style': None, 'items': [{'id': 88, 'config': {'icon': 'http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%AE%9E%E5%90%8D%E8%AE%A4%E8%AF%81.png', 'title': '实名认证'}, 'event': {'url': '/mini-services/smrz/newIndex', 'auth': True, 'type': 'redirect'}}, {'id': 84, 'config': {'icon': 'http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%B8%AE%E5%8A%A9%E4%B8%AD%E5%BF%83.png', 'title': '帮助中心'}, 'event': {'url': '/pages/help/index', 'auth': True, 'type': 'redirect', 'check': False}}, {'id': 85, 'config': {'icon': 'http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E6%8A%95%E8%AF%89%E5%BB%BA%E8%AE%AE.png', 'title': '投诉建议'}, 'event': {'url': '/pages/help/suggest', 'auth': True, 'type': 'redirect'}}, {'id': 86, 'config': {'icon': 'http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%8F%8D%E9%A6%88%E8%AE%B0%E5%BD%95.png', 'title': '反馈记录'}, 'event': {'url': '/pages/feedback/index', 'auth': True, 'type': 'redirect'}}, {'id': 97, 'config': {'icon': 'http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/icon/%E4%BB%BB%E5%8A%A1%E4%B8%AD%E5%BF%83.png', 'title': '任务中心'}, 'event': {'url': '/pages/member/index', 'auth': 'true', 'type': 'redirect'}}]}]}}}
+
+
+--- Request ---
+URL: https://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/vipLogo.png
+Method: GET
+Headers: {'Host': 'yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com', 'Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'X-Requested-With': 'com.tencent.mm', 'Sec-Fetch-Site': 'cross-site', 'Sec-Fetch-Mode': 'no-cors', 'Sec-Fetch-Dest': 'image', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/vipLogo.png
+Status Code: 200
+Headers: {'Server': 'AliyunOSS', 'Date': 'Fri, 17 Jan 2025 07:57:12 GMT', 'Content-Type': 'image/png', 'Content-Length': '6063', 'Connection': 'keep-alive', 'x-oss-request-id': '678A0D581A4B23353214C0DD', 'Accept-Ranges': 'bytes', 'ETag': '"D5159A884E718CB9F8F80A678EA1BBDC"', 'Last-Modified': 'Tue, 12 Dec 2023 08:29:01 GMT', 'x-oss-object-type': 'Normal', 'x-oss-hash-crc64ecma': '12712939595360276891', 'x-oss-storage-class': 'Standard', 'x-oss-ec': '0048-00000103', 'Content-Disposition': 'attachment', 'x-oss-force-download': 'true', 'Content-MD5': '1RWaiE5xjLn4+ApnjqG73A==', 'x-oss-server-time': '2'}
+Body: {"type": "image/png", "length": 6063}
+
+
+--- Request ---
+URL: http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E6%88%91%E7%9A%84%E6%8A%A5%E5%90%8D.png
+Method: GET
+Headers: {'Host': 'yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com', 'Proxy-Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'X-Requested-With': 'com.tencent.mm', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E6%88%91%E7%9A%84%E6%8A%A5%E5%90%8D.png
+Status Code: 200
+Headers: {'Server': 'AliyunOSS', 'Date': 'Fri, 17 Jan 2025 07:57:13 GMT', 'Content-Type': 'image/png', 'Content-Length': '3181', 'Connection': 'keep-alive', 'x-oss-request-id': '678A0D598A8E4035377C8C0B', 'Accept-Ranges': 'bytes', 'ETag': '"41333573C59D5BFE9891DA36A4414227"', 'Last-Modified': 'Wed, 13 Dec 2023 06:12:34 GMT', 'x-oss-object-type': 'Normal', 'x-oss-hash-crc64ecma': '7025866198752459963', 'x-oss-storage-class': 'Standard', 'x-oss-ec': '0048-00000103', 'Content-Disposition': 'attachment', 'x-oss-force-download': 'true', 'Content-MD5': 'QTM1c8WdW/6Ykdo2pEFCJw==', 'x-oss-server-time': '6'}
+Body: {"type": "image/png", "length": 3181}
+
+
+--- Request ---
+URL: http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%B7%A5%E8%B5%84%E6%9D%A1.png
+Method: GET
+Headers: {'Host': 'yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com', 'Proxy-Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'X-Requested-With': 'com.tencent.mm', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%B7%A5%E8%B5%84%E6%9D%A1.png
+Status Code: 200
+Headers: {'Server': 'AliyunOSS', 'Date': 'Fri, 17 Jan 2025 07:57:13 GMT', 'Content-Type': 'image/png', 'Content-Length': '3431', 'Connection': 'keep-alive', 'x-oss-request-id': '678A0D5981477F3138C9EAAB', 'Accept-Ranges': 'bytes', 'ETag': '"C0A8B4D24BED585DA055F8609F5C4068"', 'Last-Modified': 'Wed, 13 Dec 2023 06:12:33 GMT', 'x-oss-object-type': 'Normal', 'x-oss-hash-crc64ecma': '2934510470662504763', 'x-oss-storage-class': 'Standard', 'x-oss-ec': '0048-00000103', 'Content-Disposition': 'attachment', 'x-oss-force-download': 'true', 'Content-MD5': 'wKi00kvtWF2gVfhgn1xAaA==', 'x-oss-server-time': '1'}
+Body: {"type": "image/png", "length": 3431}
+
+
+--- Request ---
+URL: http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%90%88%E5%90%8C%E7%AD%BE%E7%BD%B2.png
+Method: GET
+Headers: {'Host': 'yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com', 'Proxy-Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'X-Requested-With': 'com.tencent.mm', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%90%88%E5%90%8C%E7%AD%BE%E7%BD%B2.png
+Status Code: 200
+Headers: {'Server': 'AliyunOSS', 'Date': 'Fri, 17 Jan 2025 07:57:13 GMT', 'Content-Type': 'image/png', 'Content-Length': '3608', 'Connection': 'keep-alive', 'x-oss-request-id': '678A0D591A4B2337330EC1DD', 'Accept-Ranges': 'bytes', 'ETag': '"CACA26EE75A056F96041564C2F4D8800"', 'Last-Modified': 'Wed, 13 Dec 2023 06:12:33 GMT', 'x-oss-object-type': 'Normal', 'x-oss-hash-crc64ecma': '15914967483978874322', 'x-oss-storage-class': 'Standard', 'x-oss-ec': '0048-00000103', 'Content-Disposition': 'attachment', 'x-oss-force-download': 'true', 'Content-MD5': 'ysom7nWgVvlgQVZML02IAA==', 'x-oss-server-time': '6'}
+Body: {"type": "image/png", "length": 3608}
+
+
+--- Request ---
+URL: http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E9%80%9A%E8%AE%AF%E5%BD%95.png
+Method: GET
+Headers: {'Host': 'yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com', 'Proxy-Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'X-Requested-With': 'com.tencent.mm', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E9%80%9A%E8%AE%AF%E5%BD%95.png
+Status Code: 200
+Headers: {'Server': 'AliyunOSS', 'Date': 'Fri, 17 Jan 2025 07:57:13 GMT', 'Content-Type': 'image/png', 'Content-Length': '2859', 'Connection': 'keep-alive', 'x-oss-request-id': '678A0D5981477F31380EEBAB', 'Accept-Ranges': 'bytes', 'ETag': '"3208EE054F11EC1B0CCD7696C24D8803"', 'Last-Modified': 'Wed, 13 Dec 2023 06:12:34 GMT', 'x-oss-object-type': 'Normal', 'x-oss-hash-crc64ecma': '17284311083409062284', 'x-oss-storage-class': 'Standard', 'x-oss-ec': '0048-00000103', 'Content-Disposition': 'attachment', 'x-oss-force-download': 'true', 'Content-MD5': 'MgjuBU8R7BsMzXaWwk2IAw==', 'x-oss-server-time': '2'}
+Body: {"type": "image/png", "length": 2859}
+
+
+--- Request ---
+URL: http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E9%A2%84%E6%94%AF%E7%94%B3%E8%AF%B7.png
+Method: GET
+Headers: {'Host': 'yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com', 'Proxy-Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'X-Requested-With': 'com.tencent.mm', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E9%A2%84%E6%94%AF%E7%94%B3%E8%AF%B7.png
+Status Code: 200
+Headers: {'Server': 'AliyunOSS', 'Date': 'Fri, 17 Jan 2025 07:57:13 GMT', 'Content-Type': 'image/png', 'Content-Length': '3448', 'Connection': 'keep-alive', 'x-oss-request-id': '678A0D598A8E403537A88C0B', 'Accept-Ranges': 'bytes', 'ETag': '"05AC7866D20C18FE5A49AE7B2AC23A60"', 'Last-Modified': 'Wed, 13 Dec 2023 06:12:35 GMT', 'x-oss-object-type': 'Normal', 'x-oss-hash-crc64ecma': '17655747438608406322', 'x-oss-storage-class': 'Standard', 'x-oss-ec': '0048-00000103', 'Content-Disposition': 'attachment', 'x-oss-force-download': 'true', 'Content-MD5': 'Bax4ZtIMGP5aSa57KsI6YA==', 'x-oss-server-time': '6'}
+Body: {"type": "image/png", "length": 3448}
+
+
+--- Request ---
+URL: http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%8F%91%E8%96%AA%E5%8D%A1.png
+Method: GET
+Headers: {'Host': 'yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com', 'Proxy-Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'X-Requested-With': 'com.tencent.mm', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%8F%91%E8%96%AA%E5%8D%A1.png
+Status Code: 200
+Headers: {'Server': 'AliyunOSS', 'Date': 'Fri, 17 Jan 2025 07:57:13 GMT', 'Content-Type': 'image/png', 'Content-Length': '2293', 'Connection': 'keep-alive', 'x-oss-request-id': '678A0D591A4B2337333EC1DD', 'Accept-Ranges': 'bytes', 'ETag': '"B8E6AE16BCF859520BE0F1B4D2F31DE9"', 'Last-Modified': 'Wed, 13 Dec 2023 06:12:32 GMT', 'x-oss-object-type': 'Normal', 'x-oss-hash-crc64ecma': '5255095355049549135', 'x-oss-storage-class': 'Standard', 'x-oss-ec': '0048-00000103', 'Content-Disposition': 'attachment', 'x-oss-force-download': 'true', 'Content-MD5': 'uOauFrz4WVIL4PG00vMd6Q==', 'x-oss-server-time': '7'}
+Body: {"type": "image/png", "length": 2293}
+
+
+--- Request ---
+URL: http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%AE%9E%E5%90%8D%E8%AE%A4%E8%AF%81.png
+Method: GET
+Headers: {'Host': 'yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com', 'Proxy-Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'X-Requested-With': 'com.tencent.mm', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%AE%9E%E5%90%8D%E8%AE%A4%E8%AF%81.png
+Status Code: 200
+Headers: {'Server': 'AliyunOSS', 'Date': 'Fri, 17 Jan 2025 07:57:13 GMT', 'Content-Type': 'image/png', 'Content-Length': '5439', 'Connection': 'keep-alive', 'x-oss-request-id': '678A0D5981477F313871EBAB', 'Accept-Ranges': 'bytes', 'ETag': '"F503EDB3DCBEA8B29E3F03E101202EDA"', 'Last-Modified': 'Wed, 13 Dec 2023 06:12:34 GMT', 'x-oss-object-type': 'Normal', 'x-oss-hash-crc64ecma': '14357356094834173756', 'x-oss-storage-class': 'Standard', 'x-oss-ec': '0048-00000103', 'Content-Disposition': 'attachment', 'x-oss-force-download': 'true', 'Content-MD5': '9QPts9y+qLKePwPhASAu2g==', 'x-oss-server-time': '1'}
+Body: {"type": "image/png", "length": 5439}
+
+
+--- Request ---
+URL: http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%B8%AE%E5%8A%A9%E4%B8%AD%E5%BF%83.png
+Method: GET
+Headers: {'Host': 'yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com', 'Proxy-Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'X-Requested-With': 'com.tencent.mm', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%B8%AE%E5%8A%A9%E4%B8%AD%E5%BF%83.png
+Status Code: 200
+Headers: {'Server': 'AliyunOSS', 'Date': 'Fri, 17 Jan 2025 07:57:13 GMT', 'Content-Type': 'image/png', 'Content-Length': '3770', 'Connection': 'keep-alive', 'x-oss-request-id': '678A0D598A8E403537D98C0B', 'Accept-Ranges': 'bytes', 'ETag': '"2B69E036CBF44CA19E65D79BE2CFA705"', 'Last-Modified': 'Wed, 13 Dec 2023 06:12:32 GMT', 'x-oss-object-type': 'Normal', 'x-oss-hash-crc64ecma': '7485796725804963777', 'x-oss-storage-class': 'Standard', 'x-oss-ec': '0048-00000103', 'Content-Disposition': 'attachment', 'x-oss-force-download': 'true', 'Content-MD5': 'K2ngNsv0TKGeZdeb4s+nBQ==', 'x-oss-server-time': '2'}
+Body: {"type": "image/png", "length": 3770}
+
+
+--- Request ---
+URL: http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E6%8A%95%E8%AF%89%E5%BB%BA%E8%AE%AE.png
+Method: GET
+Headers: {'Host': 'yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com', 'Proxy-Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'X-Requested-With': 'com.tencent.mm', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E6%8A%95%E8%AF%89%E5%BB%BA%E8%AE%AE.png
+Status Code: 200
+Headers: {'Server': 'AliyunOSS', 'Date': 'Fri, 17 Jan 2025 07:57:13 GMT', 'Content-Type': 'image/png', 'Content-Length': '2320', 'Connection': 'keep-alive', 'x-oss-request-id': '678A0D591A4B23373365C1DD', 'Accept-Ranges': 'bytes', 'ETag': '"ECBE13B37F1A82EE8ABD1911449BE78B"', 'Last-Modified': 'Wed, 13 Dec 2023 06:12:34 GMT', 'x-oss-object-type': 'Normal', 'x-oss-hash-crc64ecma': '363001967610858166', 'x-oss-storage-class': 'Standard', 'x-oss-ec': '0048-00000103', 'Content-Disposition': 'attachment', 'x-oss-force-download': 'true', 'Content-MD5': '7L4Ts38agu6KvRkRRJvniw==', 'x-oss-server-time': '3'}
+Body: {"type": "image/png", "length": 2320}
+
+
+--- Request ---
+URL: http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/icon/%E4%BB%BB%E5%8A%A1%E4%B8%AD%E5%BF%83.png
+Method: GET
+Headers: {'Host': 'yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com', 'Proxy-Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'X-Requested-With': 'com.tencent.mm', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/icon/%E4%BB%BB%E5%8A%A1%E4%B8%AD%E5%BF%83.png
+Status Code: 200
+Headers: {'Server': 'AliyunOSS', 'Date': 'Fri, 17 Jan 2025 07:57:13 GMT', 'Content-Type': 'image/png', 'Content-Length': '1406', 'Connection': 'keep-alive', 'x-oss-request-id': '678A0D591A4B233733A0C1DD', 'Accept-Ranges': 'bytes', 'ETag': '"202582EF1B8A5A5C84601FFDA800A774"', 'Last-Modified': 'Wed, 24 Jan 2024 07:01:44 GMT', 'x-oss-object-type': 'Normal', 'x-oss-hash-crc64ecma': '13386943504478976882', 'x-oss-storage-class': 'Standard', 'x-oss-ec': '0048-00000103', 'Content-Disposition': 'attachment', 'x-oss-force-download': 'true', 'Content-MD5': 'ICWC7xuKWlyEYB/9qACndA==', 'x-oss-server-time': '2'}
+Body: {"type": "image/png", "length": 1406}
+
+
+--- Request ---
+URL: http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%8F%8D%E9%A6%88%E8%AE%B0%E5%BD%95.png
+Method: GET
+Headers: {'Host': 'yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com', 'Proxy-Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'X-Requested-With': 'com.tencent.mm', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%8F%8D%E9%A6%88%E8%AE%B0%E5%BD%95.png
+Status Code: 200
+Headers: {'Server': 'AliyunOSS', 'Date': 'Fri, 17 Jan 2025 07:57:13 GMT', 'Content-Type': 'image/png', 'Content-Length': '1700', 'Connection': 'keep-alive', 'x-oss-request-id': '678A0D5981477F31388CECAB', 'Accept-Ranges': 'bytes', 'ETag': '"4E8935ED5E15A179DCABA8D307B9531B"', 'Last-Modified': 'Wed, 13 Dec 2023 06:12:32 GMT', 'x-oss-object-type': 'Normal', 'x-oss-hash-crc64ecma': '3872414788682835049', 'x-oss-storage-class': 'Standard', 'x-oss-ec': '0048-00000103', 'Content-Disposition': 'attachment', 'x-oss-force-download': 'true', 'Content-MD5': 'Tok17V4VoXncq6jTB7lTGw==', 'x-oss-server-time': '2'}
+Body: {"type": "image/png", "length": 1700}
+
+
+--- Request ---
+URL: https://api.yjhhr.cn/api/user/applyInfo
+Method: GET
+Headers: {'Host': 'api.yjhhr.cn', 'Connection': 'keep-alive', 'api-version': 'release', 'charset': 'utf-8', 'client-platform': 'mp-weixin', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'client-version': '3.1.372', 'Accept-Encoding': 'gzip,compress,br,deflate', 'request-id': '2025011715571136616', 'accept': 'application/json', 'client-name': 'yunjiuhong', 'token': '$2y$10$OPPBmgeZDhCJHM.nMW97geYmSkLcJLmVanfssWgHqQVdfKtEIJ9sq', 'client-platform-version': 'version:8.0.42; sdk_version:3.1.5;', 'content-type': 'application/json', 'client-id': '2DA2-83C0-23BC-875B-AF28', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://api.yjhhr.cn/api/user/applyInfo
+Status Code: 200
+Headers: {'Server': 'nginx', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-cache, private', 'Date': 'Fri, 17 Jan 2025 07:57:14 GMT', 'Token-Expired': '1739692634', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin, Content-Type, Cookie, X-CSRF-TOKEN, x-requested-with, Accept, Authorization, X-XSRF-TOKEN,Platform, Version,authorization,token,Client-ID,Client-Platform,Client-Name,Client-Version,Request-ID,Api-Version', 'Access-Control-Expose-Headers': 'Content-Disposition'}
+Body: {'code': 0, 'data': None}
+
+
+--- Request ---
+URL: https://api.yjhhr.cn/api/page/config?page=mine
+Method: GET
+Headers: {'Host': 'api.yjhhr.cn', 'Connection': 'keep-alive', 'api-version': 'release', 'charset': 'utf-8', 'client-platform': 'mp-weixin', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'client-version': '3.1.372', 'Accept-Encoding': 'gzip,compress,br,deflate', 'request-id': '20250117155711400181', 'accept': 'application/json', 'client-name': 'yunjiuhong', 'token': '$2y$10$OPPBmgeZDhCJHM.nMW97geYmSkLcJLmVanfssWgHqQVdfKtEIJ9sq', 'client-platform-version': 'version:8.0.42; sdk_version:3.1.5;', 'content-type': 'application/json', 'client-id': '2DA2-83C0-23BC-875B-AF28', 'Referer': 'https://servicewechat.com/wx022b8b887ff8acf0/212/page-frame.html'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://api.yjhhr.cn/api/page/config?page=mine
+Status Code: 200
+Headers: {'Server': 'nginx', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-cache, private', 'Date': 'Fri, 17 Jan 2025 07:57:14 GMT', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Origin, Content-Type, Cookie, X-CSRF-TOKEN, x-requested-with, Accept, Authorization, X-XSRF-TOKEN,Platform, Version,authorization,token,Client-ID,Client-Platform,Client-Name,Client-Version,Request-ID,Api-Version', 'Access-Control-Expose-Headers': 'Content-Disposition'}
+Body: {'code': 0, 'data': {'title': '个人中心', 'config': None, 'style': None, 'share': None, 'navigation': None, 'event': None, 'frame': {'main': [{'type': 'division-line', 'config': None, 'style': None, 'items': None}, {'type': 'division-line', 'config': None, 'style': None, 'items': None}, {'type': 'division-line', 'config': None, 'style': None, 'items': None}, {'type': 'card-navigation', 'config': {'title': '报名服务'}, 'style': None, 'items': [{'id': 70, 'config': {'icon': 'http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E6%88%91%E7%9A%84%E6%8A%A5%E5%90%8D.png', 'title': '我的报名'}, 'event': {'url': '/inside-recommend/mine/apply', 'auth': True, 'type': 'redirect', 'check': True, 'entry': False}}, {'id': 71, 'config': {'icon': 'http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%90%88%E5%90%8C%E7%AD%BE%E7%BD%B2.png', 'title': '合同签署'}, 'event': {'url': '/mini-services/dzht/index', 'auth': True, 'type': 'redirect', 'check': True, 'entry': False}}]}, {'type': 'card-navigation', 'config': {'title': '在职服务'}, 'style': None, 'items': [{'id': 72, 'config': {'icon': 'http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%B7%A5%E8%B5%84%E6%9D%A1.png', 'title': '工资条'}, 'event': {'url': '/mini-services/gzt/list', 'auth': True, 'type': 'redirect', 'check': True, 'entry': True}}, {'id': 74, 'config': {'icon': 'http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E9%A2%84%E6%94%AF%E7%94%B3%E8%AF%B7.png', 'title': '预支申请'}, 'event': {'url': '/mini-services/yzsq/index', 'auth': True, 'type': 'redirect', 'check': True, 'entry': True}}, {'id': 77, 'config': {'icon': 'http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E9%80%9A%E8%AE%AF%E5%BD%95.png', 'title': '通讯录'}, 'event': {'url': '/mini-services/address/index', 'auth': True, 'type': 'redirect', 'check': True, 'entry': True}}, {'id': 79, 'config': {'icon': 'http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%8F%91%E8%96%AA%E5%8D%A1.png', 'title': '发薪卡'}, 'event': {'url': '/mini-services/fxk2/index', 'auth': True, 'type': 'redirect', 'check': True, 'entry': True}}]}, {'type': 'card-navigation', 'config': {'title': '更多服务'}, 'style': None, 'items': [{'id': 88, 'config': {'icon': 'http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%AE%9E%E5%90%8D%E8%AE%A4%E8%AF%81.png', 'title': '实名认证'}, 'event': {'url': '/mini-services/smrz/newIndex', 'auth': True, 'type': 'redirect'}}, {'id': 84, 'config': {'icon': 'http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%B8%AE%E5%8A%A9%E4%B8%AD%E5%BF%83.png', 'title': '帮助中心'}, 'event': {'url': '/pages/help/index', 'auth': True, 'type': 'redirect', 'check': False}}, {'id': 85, 'config': {'icon': 'http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E6%8A%95%E8%AF%89%E5%BB%BA%E8%AE%AE.png', 'title': '投诉建议'}, 'event': {'url': '/pages/help/suggest', 'auth': True, 'type': 'redirect'}}, {'id': 86, 'config': {'icon': 'http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/%E5%8F%8D%E9%A6%88%E8%AE%B0%E5%BD%95.png', 'title': '反馈记录'}, 'event': {'url': '/pages/feedback/index', 'auth': True, 'type': 'redirect'}}, {'id': 97, 'config': {'icon': 'http://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/icon/%E4%BB%BB%E5%8A%A1%E4%B8%AD%E5%BF%83.png', 'title': '任务中心'}, 'event': {'url': '/pages/member/index', 'auth': 'true', 'type': 'redirect'}}]}]}}}
+
+
+--- Request ---
+URL: https://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/vipBackground.png
+Method: GET
+Headers: {'Host': 'yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com', 'Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Linux; Android 9; tencent_game_emulator Build/PQ3A.190605.10141057; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Mobile Safari/537.36 MMWEBID/4270 MicroMessenger/8.0.42.2460(0x28002A34) WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android', 'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'X-Requested-With': 'com.tencent.mm', 'Sec-Fetch-Site': 'cross-site', 'Sec-Fetch-Mode': 'no-cors', 'Sec-Fetch-Dest': 'image', 'Referer': 'https://servicewechat.com/', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'}
+Body: {"length": 0, "type": "text"}
+
+
+--- Response ---
+URL: https://yunjiuhong-starship.oss-cn-shenzhen.aliyuncs.com/miniprogram/yunjiuhong/%E6%88%91%E7%9A%84/vipBackground.png
+Status Code: 200
+Headers: {'Server': 'AliyunOSS', 'Date': 'Fri, 17 Jan 2025 07:57:14 GMT', 'Content-Type': 'image/png', 'Content-Length': '98326', 'Connection': 'keep-alive', 'x-oss-request-id': '678A0D5A1A4B2335327BC5DD', 'Accept-Ranges': 'bytes', 'ETag': '"C6F0F9243302F5A5559031F2FFC1CB1F"', 'Last-Modified': 'Tue, 12 Dec 2023 08:28:56 GMT', 'x-oss-object-type': 'Normal', 'x-oss-hash-crc64ecma': '7624623327773170475', 'x-oss-storage-class': 'Standard', 'x-oss-ec': '0048-00000103', 'Content-Disposition': 'attachment', 'x-oss-force-download': 'true', 'Content-MD5': 'xvD5JDMC9aVVkDHy/8HLHw==', 'x-oss-server-time': '3'}
+Body: {"type": "image/png", "length": 98326}
+
+
